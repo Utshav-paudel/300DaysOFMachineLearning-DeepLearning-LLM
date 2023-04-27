@@ -12,5 +12,5 @@ some algorithm used in unsupevised learning with it uses are:
 * Clustering : Grouping similar data points together e.g: grouping of customer , grouping of news,DNA microarray.
 * Anomlay detection: Finding unusal data points e.g: fraud detection , quality check.
 * Dimensionality reduction : Compress data using feweer numbers e.g : Image processing.
-* 📚Resources
+* 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
