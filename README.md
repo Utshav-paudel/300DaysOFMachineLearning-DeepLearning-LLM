@@ -1,3 +1,4 @@
+![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
@@ -12,5 +13,16 @@ some algorithm used in unsupevised learning with it uses are:
 * Clustering : Grouping similar data points together e.g: grouping of customer , grouping of news,DNA microarray.
 * Anomlay detection: Finding unusal data points e.g: fraud detection , quality check.
 * Dimensionality reduction : Compress data using feweer numbers e.g : Image processing.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day2
+### Univariate Linear regression  
+Univariate linear regression has one dependent variable and one independent variable. With the help of indendent variable also known as input,feature we predict the output. Firstly we provide training set to our model and later on we predict the output using training set.
+### Cost function   
+A cost function is a measure of how well a machine learning model performs by quantifying the difference between predicted and actual outputs.  
+`lower the value of cost function better the model`  
+![cost function](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/276707b43ff92bd2f822312e545e90d26c4358c9/images/day2%20costfunction.png)  
+* [linear regression model](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/276707b43ff92bd2f822312e545e90d26c4358c9/code/day2%20univariate%20linear%20regression%20model.ipynb)
+* [cost function](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/276707b43ff92bd2f822312e545e90d26c4358c9/code/day2%20cost%20function.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
