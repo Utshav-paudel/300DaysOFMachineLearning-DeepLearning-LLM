@@ -33,3 +33,11 @@ Gradient descent is an algorithm for finding values of parameters w and b that m
 ![gradient descent equation img](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1c0e9bd63ea4a5d41d8f417b4da9650b1dc3c567/images/day3%20gradinet%20descent%20equation.png)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day4
+### Learning rate
+Learning rate `alpha` in gradient descent should be optimal.
+* If learning rate is too small gradient descent may be too slow and take much time.  
+* If learning rate is too large gradient descent may overshoot and never reach minimum i.e fail to converge,diverge.  
+![learning rate](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/2fd63f02907afd95dfec81f13eb576065a5a0f29/images/day4%20learning%20rate.png)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
