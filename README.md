@@ -59,8 +59,8 @@ course:[Machine Learning Specialization](https://www.coursera.org/specialization
 When you data features has very large range,too small range gradient descent may take large time so data is rescaled to normal similar range called feature scaling.
 some popular feature scaling techniques are:  
 * mean normalization
-* Z score normalization
-![feature scaling type](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4291831060fcce086ac8677076c92803d42d9fb6/images/day6%20feature%20scaling%20techniques.png)
+* Z score normalization  
+![feature scaling type](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4291831060fcce086ac8677076c92803d42d9fb6/images/day6%20feature%20scaling%20techniques.png)   
 Feature scaling visual representation  
 ![feature scaling representation](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4291831060fcce086ac8677076c92803d42d9fb6/images/day6%20feature%20scaling%20representation.png)
 ### Choosing correct learning rate 
