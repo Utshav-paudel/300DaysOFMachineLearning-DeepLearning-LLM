@@ -111,7 +111,7 @@ This derivative is used in logistic regression to update the model coefficients 
 ### Decision boundary
 The decision boundary is the line that separates the area where y=0 and where y=1.It is create by our hypothesis function.
 In logistic regression, the decision boundary is the line (or hyperplane in higher dimensions) that separates the different classes of the target variable. The decision boundary is determined by the logistic regression model, which uses the input variables to predict the probability of belonging to a certain class.
-![decision boundary image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8030ab207dc51472a4ad8cc13fd211587132a4ee/code/day8%20decision%20boundary.ipynb)
+![decision boundary image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c8560c3e3a00a3037cda9b4b98d494017264cca3/images/day8%20logistic%20regression.png)
 
 * [decision boundary](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8030ab207dc51472a4ad8cc13fd211587132a4ee/code/day8%20decision%20boundary.ipynb)
 * 📚Resources  
