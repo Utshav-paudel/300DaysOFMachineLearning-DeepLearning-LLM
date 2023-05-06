@@ -115,6 +115,17 @@ In logistic regression, the decision boundary is the line (or hyperplane in high
 
 * [decision boundary](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8030ab207dc51472a4ad8cc13fd211587132a4ee/code/day8%20decision%20boundary.ipynb)
 * 📚Resources  
-course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)\
+# Day10
+### Gradient descent in Logistic regression  
+Logistic Regression Ŷi is a nonlinear function(Ŷ=1​/1+ e-z), if we put this in the above MSE equation it will give a non-convex function as shown:  
+![loss function image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a3e7cb1c6715f32f4f2744083b8eb6f69374f56c/images/day10%20cost%20function%20in%20logistic%20regression.jpg)
+* When we try to optimize values using gradient descent it will create complications to find global minima.
 
+* Another reason is in classification problems, we have target values like 0/1, So (Ŷ-Y)2 will always be in between 0-1 which can make it very difficult to keep track of the errors and it is difficult to store high precision floating numbers.
+
+The cost function used in Logistic Regression is Log Loss.
+![log loss image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a3e7cb1c6715f32f4f2744083b8eb6f69374f56c/images/day10%20logloss.png)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)\
 
