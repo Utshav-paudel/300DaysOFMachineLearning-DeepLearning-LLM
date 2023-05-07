@@ -129,5 +129,11 @@ The cost function used in Logistic Regression is Log Loss.
 Cost function for logistic regression  
 ![cost function image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c5b6cff9ce3fbe68c4fa6864ecb8787a9eb48516/images/day11cost%20function%20in%20logistic%20regression.png)
 * 📚Resources  
-course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)\
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day11
+### Gradient Descent in logistic regression 
+Gradient descent in logistic regression looks similar to gradient descent in linear regression but it has different value for function.  
+![gradient descent in logistic regression](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/15bcacd6e5d8f971d54629bbf414fe63aa17b0df/images/day11%20gradient%20descent%20for%20logistic%20regression.png)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
 
