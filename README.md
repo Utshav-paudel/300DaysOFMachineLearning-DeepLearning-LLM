@@ -138,4 +138,18 @@ Gradient descent in logistic regression looks similar to gradient descent in lin
 * [gradient descent in logistic regression](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/aecd0846a7e0f80efa23131e0eed695715df4c09/code/day11%20gradient%20descent.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
-
+# Day12
+### `Underfitting 
+It is a situtation when the training set doesnot fit well. It happen when data has high bias.  
+### Overfitting  
+It is a situation when the training set fit extremely well . It is also known as data with high variance.
+### Addressing overfitting 
+* Collecting more training example
+* Select features include/exclude
+* Reduce the size of parameters i.e "Regularization".
+* [overfitting](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/82251c369534b9dd1fa500b5e7c39ac8baeb0015/code/day12%20overfitting%20example.ipynb)
+### Regularization  
+Regularization is a technique to reduce the parameter and prevent overfitting of data. It has a term called lambda whose value if larger result underfitting and smaller result overfitting it also called penalty term.  
+![regularization term](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/367b379e09f12e6493fc91b24b7c617399eaacf4/images/day12%20regularization%20image.png)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
