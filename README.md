@@ -139,7 +139,7 @@ Gradient descent in logistic regression looks similar to gradient descent in lin
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
 # Day12
-### `Underfitting 
+### Underfitting 
 It is a situtation when the training set doesnot fit well. It happen when data has high bias.  
 ### Overfitting  
 It is a situation when the training set fit extremely well . It is also known as data with high variance.
