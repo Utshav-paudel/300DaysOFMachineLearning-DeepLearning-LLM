@@ -163,3 +163,14 @@ Neural network is necessary because it increase performance of machine learning 
 ![why neural network](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/86901d1f2b3b8017f98025ec7f4310ff38d602aa/images/day14%20why%20neural%20network.png)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day14
+### Neural network notation  
+In neural network.
+* neuron is represneted by subscript.
+* neural network layer is represented by superscript.
+### Forward propagation in neural network  
+Forward propagation refers to storage and calculation of input data which is fed in forward direction through the network to generate an output. Hidden layers in neural network accepts the data from the input layer, process it on the basis of activation function and pass it to the output layer or the successive layers. Data flows in forward direction so as to avoid circular shape flow of data which will not generate an output. The network configuration that helps in forward propagation is known as feed-forward network.  
+
+
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
