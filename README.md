@@ -202,3 +202,30 @@ In neural network vectorization helps to perform calculation simultaneously and 
 * [Neural network to identify handwritten binary](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/13c7fdd68ca420478aedbffee1d1f3ee2dba9bdf/code/day16%20handwritten%20digit%20recognition%20neural%20network.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day17
+### Model Training steps  
+Model training is simplified in 3 steps :  
+<ol>
+  <li>Specify how to compute output given input x and parameters w,b (define model)  
+  * linear regression (y = ax + b)
+  * logistic regression (y = 1/(1 + np.expt(-z)))</li>
+  <li>Specify loss and cost  
+  * Mean square error 
+  * Logistic loss (BinaryCrossentropy) (loss = -y*np.log(f_x) - (1-y)*np.log(1-f_x)</li>  
+  Note: Cost is the sum of loss for all training examples.
+  <li>Train on data to minimize cost(Gradient descent)  
+  w = w - alpha*dj_w  
+  b = b - alpha*dj_b  
+    </li>
+</ol>
+### Activation function
+There are different activation function for different purpose some of the most commonly used are :  
+* Linear acitvation function(activation='linear')  
+This is used for regression problem where result is negative/positive.
+* ReLU (activation = 'ReLU')  
+This is used for regression problem where result should be positive always and it is faster as compared to sigmoid function.
+* Sigmoid function(activation='sigmoid')   
+It is used for classification problems where result must be on/off and it is slowere as compared to ReLU.  
+NOTE:`For hidden layer we choose ReLU as activation and for output layer we choose activation according to our problems,because if we choose sigmoid in hidden layer than neural network becomes very slow so it better to choose Relu in hidden layer`  
+![activation function](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/87630d03f23299852372e56f49b5c4f5be8789c9/images/dasy17%20activationn%20function.webp)
+* [ReLU implementaion](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/87630d03f23299852372e56f49b5c4f5be8789c9/code/day17%20ReLU%20activation.ipynb)
