@@ -205,19 +205,17 @@ course:[Machine Learning Specialization](https://www.coursera.org/specialization
 # Day17
 ### Model Training steps  
 Model training is simplified in 3 steps :  
-<ol>
-  <li>Specify how to compute output given input x and parameters w,b (define model)  
-  * linear regression (y = ax + b)
-  * logistic regression (y = 1/(1 + np.expt(-z)))</li>
-  <li>Specify loss and cost  
+1. Specify how to compute output given input x and parameters w,b (define model)  
+  * linear regression (y = ax + b) 
+  * logistic regression (y = 1/(1 + np.expt(-z)))  
+2. Specify loss and cost  
   * Mean square error 
-  * Logistic loss (BinaryCrossentropy) (loss = -y*np.log(f_x) - (1-y)*np.log(1-f_x)</li>  
-  Note: Cost is the sum of loss for all training examples.
-  <li>Train on data to minimize cost(Gradient descent)  
+  * Logistic loss (BinaryCrossentropy) (loss = -y*np.log(f_x) - (1-y)*np.log(1-f_x)  
+  Note: Cost is the sum of loss for all training examples.  
+3. Train on data to minimize cost(Gradient descent)  
   w = w - alpha*dj_w  
-  b = b - alpha*dj_b  
-    </li>
-</ol>
+  b = b - alpha*dj_b   
+  
 ### Activation function
 There are different activation function for different purpose some of the most commonly used are :  
 * Linear acitvation function(activation='linear')  
