@@ -227,3 +227,15 @@ It is used for classification problems where result must be on/off and it is slo
 NOTE:`For hidden layer we choose ReLU as activation and for output layer we choose activation according to our problems,because if we choose sigmoid in hidden layer than neural network becomes very slow so it better to choose Relu in hidden layer`  
 ![activation function](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/87630d03f23299852372e56f49b5c4f5be8789c9/images/dasy17%20activationn%20function.webp)
 * [ReLU implementaion](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/87630d03f23299852372e56f49b5c4f5be8789c9/code/day17%20ReLU%20activation.ipynb)
+# Day18
+### Multiclass classification 
+Target y can take on more than two possible values. In this case of multiclass classification we use Softmax regression.
+### Softmax regression 
+Softmax regression is the generalization of logistic regression for multiple classs.   
+Its output is calculated as:  
+![Softmax regression](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a8bb8ecf939c1d1b76dc31d62b8367f34ab7e437/images/day18%20softmax%20regression%20.png)
+
+### Cost for softmax regression
+Cost for softmax regression is also known as cross-entropy loss. It is obtained as.
+![Cost for softmax regression](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a8bb8ecf939c1d1b76dc31d62b8367f34ab7e437/images/day18%20Crossentropy.png)
+
