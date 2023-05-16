@@ -273,3 +273,27 @@ Some of layer types of neural network are :
 Convaulational neural network are faster in computation and need less training data as compared to Dense Layer.  
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day20
+### Back Propagation  
+Backpropagation, or backward propagation of errors, is an algorithm used in machine learning to adjust the parameters of a neural network by calculating the gradients of a loss function with respect to the network's weights and biases. It propagates the error from the output layer to the input layer, allowing the network to learn and improve its predictions.
+* [Backward propagation](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/32905b341938026ab9db9af034a4e664f664e5c5/code/day20%20backward%20propagation.ipynb)
+### Debugging a learing algorithm
+When we have large error in prediction we can debugg or learning algorithm as follow:  
+* Get more training examples.
+* Try smaller set of features.
+* Try getting additional features.
+* Try adding polynomial features.
+* Try decreasing/increasing lamda regularizing parameter
+### Evaluating a choosen model: 
+You can evaluate a model by splitting data into trian/test and calculating cost for both training set and test set .
+### Model selection:
+The most effective way of model selection is by
+* splitting data into train/cross validation /test set
+* Calculating error for cross validation set and selecting model with less cross validation error .
+* Calculation error for test data of model with less cross validation error.
+* [Model selection using train/cv/test](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fae56941f9d55feccb10a03ef3fdce4625b56863/code/day20%20train_crossvalidation_test%20split%20for%20model%20selection.ipynb)
+### Machine learning diagnostic
+A test that you can run to gain insight into what is/isn't working with a learning algorithm to gain guidance into improving its performance .
+Let see of of ml learning diagnostic.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
