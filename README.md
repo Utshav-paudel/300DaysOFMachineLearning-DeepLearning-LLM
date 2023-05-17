@@ -294,6 +294,20 @@ The most effective way of model selection is by
 * [Model selection using train/cv/test](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fae56941f9d55feccb10a03ef3fdce4625b56863/code/day20%20train_crossvalidation_test%20split%20for%20model%20selection.ipynb)
 ### Machine learning diagnostic
 A test that you can run to gain insight into what is/isn't working with a learning algorithm to gain guidance into improving its performance .
-Let see of of ml learning diagnostic.
+Ml model can be diagonse by looking at bias and variance:   
+When model has high bias and variance it is not doing well.   
+![how to diagnose high bias and variance](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/346f73b367af2df6c84ca81a038b66d6ad7d22b0/images/day21%20diagonising%20high%20bias%20and%20variance.png)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day21
+### Bias/Variance
+* High bias: When model has large difference between baseline performance and Training error then it is called high bias and it also indicates underfitting.
+* High variance: When model has large difference between training error and cross validation error then it is called high variance and it also indicates overfitting.
+* High bias and variance: When model has large difference between training error , cross validation error and baseline performance then it is called both high bias and high variance.  
+![image show bias and variance](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/346f73b367af2df6c84ca81a038b66d6ad7d22b0/images/day21%20bias%20and%20variance.png)
+### Choosing regularization parameter
+To choose good regularization paramter.
+* First,Apply all regularization value and get different cross validation error and the smallest cross validation error indicated a good regularization term.
+* NOTE : Right model neither has high variance and neither has high bias
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
