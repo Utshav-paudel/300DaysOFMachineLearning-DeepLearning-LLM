@@ -311,3 +311,21 @@ To choose good regularization paramter.
 * NOTE : Right model neither has high variance and neither has high bias
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day22
+### Diagonising bias and variance
+#### If your algorithm has high bias:
+* Try getting additional features.
+* Try increase polynomial degree.
+* Try decreasing regularization term.
+#### If your algorithm has high variance:
+* Getting more training examples.
+* Trying decreasing set of features.
+* Try increasing regularization term.
+### Bias and Variance in neural network:
+* If your neural network has high bias try increasing size of neural network.
+* If your neural network has high variance try increasing training sets.
+Note : Most probably larger neural network perform well as long as appropriate regularization term is choosen.
+![bias and varince in neural net](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/123ae0650d91421c315b670aed72f4c7ec9c659b/images/day22%20bias%20and%20variance%20in%20neural%20network.png)
+* [Diagonising bias and variance](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/123ae0650d91421c315b670aed72f4c7ec9c659b/code/Day22%20diagonising%20bias%20and%20variance.ipynb)
+*  📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
