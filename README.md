@@ -329,3 +329,22 @@ Note : Most probably larger neural network perform well as long as appropriate r
 * [Diagonising bias and variance](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/123ae0650d91421c315b670aed72f4c7ec9c659b/code/Day22%20diagonising%20bias%20and%20variance.ipynb)
 *  📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day23
+### Iterative loop of ML Development
+Ml development revolve around following steps:
+* Choosing architecture(model,data,etc)
+* Training model
+* Diagnostics(bias,variance and error analysis)
+![iterative loop img](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/da0508acb47b6af85c845293f74e0dbc47b51ae7/images/day23%20iterative%20loop%20of%20%20ml%20development.png)
+### Error analysis
+It is the process to isolate,observe and diagnose erroneous ML predictions to understand pockets of high and low performance to the model.
+### Adding more data
+Adding more data is mostly useful to make better predictions and data can be added by following ways:  
+1. Data augmentation: Modifying an existing training example to create new training example. e.g: Data augmentation by adding distortion.  
+2. Data synthesis: Using artifical data inputs to create a new training example. It is mostly used for computer vision applications.
+### Transfer learning 
+Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task.  
+It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems.
+*  📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+
