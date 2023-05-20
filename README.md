@@ -349,4 +349,28 @@ It is a popular approach in deep learning where pre-trained models are used as t
 * Further train(fine tune) the network on your own data.
 *  📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day24
+### Full cycle of machine learning project 
+Machine learning project is iterative process which is as below:  
+![ml lifecycle](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfe65718b2b6c3b14e6fcf8c1e654b64afd4a713/images/day24.png)
+### Deployment 
+Mlops focuses on making ml model to be used in largescale and deployment is basically done by:
+![ml deployment](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfe65718b2b6c3b14e6fcf8c1e654b64afd4a713/images/day24%20deployment%20of%20ml%20model.png)
 
+### ethics,bias and faireness of machine learning
+While developing machine learning application we have to take care of biasness and negative case like :  
+1.Deepfake  
+2.Genrating fake content for commercial and political purposes  
+3.Ml model biasing in loan provider,job selection.
+
+### Precision/recall
+* precision : It tell of all positive prediction how many are actually positve.
+* recall : It tell of all real positive cases how many are actually predicted positive.
+![precsion recall img](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfe65718b2b6c3b14e6fcf8c1e654b64afd4a713/images/day24%20precision%20and%20recall.png)
+### Trading off precsion and recall 
+* When threshold is higher, precision become higher and recall lower down
+* When threshold is lower, precision become lower and recall become higher.
+NOTE : To select better precsion and recall value we use `F1 score` which is the harmonic mean of precision and recall.  
+* [Summary of Advance learning algorithm](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfe65718b2b6c3b14e6fcf8c1e654b64afd4a713/code/day24%20summary%20of%20advanced%20learning%20algorithm.ipynb)
+*  📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
