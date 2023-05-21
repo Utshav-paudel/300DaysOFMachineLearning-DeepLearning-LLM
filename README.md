@@ -377,7 +377,7 @@ course:[Machine Learning Specialization](https://www.coursera.org/specialization
 # Day25
 ### Decision Tree
 A decision tree is a type of supervised machine learning used to categorize or make predictions based on how a previous set of questions were answered. The model is a form of supervised learning, meaning that the model is trained and tested on a set of data that contains the desired categorization. 
-![decision tree image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/tree/b7a50ab3637603c07364824a372a81a2fe170650/images)
+![decision tree image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c47f3b6ac073db8e2d634ef749042dca8ad9eab2/images/day25%20decision%20tree.png)
 ### Decision tree learning 
 1. How to choose what feature to split at each node ?  
 * Maximize purity
