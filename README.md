@@ -374,3 +374,17 @@ NOTE : To select better precsion and recall value we use `F1 score` which is the
 * [Summary of Advance learning algorithm](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfe65718b2b6c3b14e6fcf8c1e654b64afd4a713/code/day24%20summary%20of%20advanced%20learning%20algorithm.ipynb)
 *  📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day25
+### Decision Tree
+A decision tree is a type of supervised machine learning used to categorize or make predictions based on how a previous set of questions were answered. The model is a form of supervised learning, meaning that the model is trained and tested on a set of data that contains the desired categorization. 
+![decision tree image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/tree/b7a50ab3637603c07364824a372a81a2fe170650/images)
+### Decision tree learning 
+1. How to choose what feature to split at each node ?  
+* Maximize purity
+2. When to stop splitting 
+* When a node is 100% one class
+* when splitting of node will exceed a maximum depth
+* when imporovements in purity score are below a threshold
+* when no. of examples in a node is below a threshold.
+*  📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
