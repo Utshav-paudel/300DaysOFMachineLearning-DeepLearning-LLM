@@ -388,3 +388,24 @@ A decision tree is a type of supervised machine learning used to categorize or m
 * when no. of examples in a node is below a threshold.
 *  📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day26
+### Measuring purity
+In decision tree entropy is the measure of level of impurity and helps to find purity of classes. lower impurity means higher purity.  
+![entropy](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/e3a817ab172d6abf9c552365c2842ed09621a314/images/day26%20entropy%20as%20impurity.png)
+### Information gain
+We can calculate the information gain by subtracting the weighted average entropy of the resulting subsets from the entropy of the original node. The formula for information gain is:  
+Information Gain = Entropy(node) - Σ((subset_size/total_size) * Entropy(subset))  
+* By maximizing information gain, decision trees aim to find the attribute that provides the most useful and informative splits, leading to more accurate classification.
+### Decision tree learning
+* Start with all examples at the root node
+* Calculate information gain for all possible features, and pick the one with the highest information gain
+* Split dataset according to selected feature, and create left and right branches of the tree
+Keep repeating splitting process until stopping criteria is met:
+1. When a node is 100% one class  
+2. 2. When splitting a node will result in the tree exceeding a maximum depth  
+3. 3. Information gain from additional splits is less than threshold When number of examples in a node is below a threshold  
+![dc tree](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/e3a817ab172d6abf9c552365c2842ed09621a314/images/day26%20decision%20tree%20splitting.png)
+# Recursive splitting
+Recursive splitting refers to the iterative process in decision tree construction where a dataset is divided into smaller subsets based on specific conditions. It involves recursively selecting attributes to split on and creating branches that further partition the data until a stopping criterion is met, resulting in a tree-like structure.
+*  📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
