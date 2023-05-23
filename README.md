@@ -409,3 +409,15 @@ Keep repeating splitting process until stopping criteria is met:
 Recursive splitting refers to the iterative process in decision tree construction where a dataset is divided into smaller subsets based on specific conditions. It involves recursively selecting attributes to split on and creating branches that further partition the data until a stopping criterion is met, resulting in a tree-like structure.
 *  📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day27
+### One hot encoding
+If a categorical features can take on k values, create k binary features(0 or 1 values) is call one hot encoding.
+### Spitting for continuous variable
+For continuous variable we have to choose threshold with higher information gain and split on the basis of that threshold.
+### Regression tree
+It is a decision based tree used to predict continous variables.
+* for selecting best split for regression tree we find variance reduction and the biggest variance reduction is considerd to be the best split.
+* Note: Variance reduction = variance of root node - average weighted variance of leaf node
+* [Regression tree](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/61a61fb8b16300dbe9cd84a5196a99f0def98ce3/code/day27%20decision%20tree.ipynb)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
