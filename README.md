@@ -425,5 +425,19 @@ course:[Machine Learning Specialization](https://www.coursera.org/specialization
 ### Tree ensemble 
 Single decision tree is very sensitive to data so the process of combining many decision tree to build more robust system is called tree ensemble.
 the prediciton of tree ensemble is obtained by majority result of tree.
+### Random forest algorithm
+A random forest algorithm is a machine learning technique that combines the predictions of multiple decision trees to make more accurate and robust predictions. It works by creating an ensemble of decision trees, where each tree is trained on a random subset of the data and uses a random subset of features. The final prediction is then made by averaging or voting the predictions of all the trees in the forest. The random forest algorithm is effective at handling complex datasets, handling missing values, and avoiding overfitting.
+* Random forest has two term that explain this algorithm they are Bootstrapping and aggregation and the combination of this is called Bagging
+* Boostrap : The selection of subset of training example (sampling with replacement) where the training example can be repeatded is called bootstrap
+* Aggregation : The selection of majority of result from ensembles tree is called aggregation.
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/e9f5ce59b23328fc72b9d06af34e1ba5c1ed6db3/images/day28%20random%20forest.png)
+### XG Boost
+In XG boost we basically pick the training examples that were misclassified previously instead of training all samples.
+It is implemented as :   
+![xg boost img](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/e2d84dfea2fc053bd1c6de84520adbc9713c4a93/images/day28%20Xg%20boost.png)
+### When to use decision tree 
+* Decision tree works pretty well on structured data but is not recommended for unstructured data like audio,video and images 
+* It is faster compared to neural network
+* Small decision trees may be human interpretable.
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
