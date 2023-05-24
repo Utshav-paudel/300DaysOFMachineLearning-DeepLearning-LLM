@@ -421,3 +421,9 @@ It is a decision based tree used to predict continous variables.
 * [Regression tree](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/61a61fb8b16300dbe9cd84a5196a99f0def98ce3/code/day27%20decision%20tree.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day28
+### Tree ensemble 
+Single decision tree is very sensitive to data so the process of combining many decision tree to build more robust system is called tree ensemble.
+the prediciton of tree ensemble is obtained by majority result of tree.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
