@@ -441,3 +441,31 @@ It is implemented as :
 * Small decision trees may be human interpretable.
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day29
+### Unsupervised learning
+Machine leanring algorithm that find patterns on unlabelled data.
+### K-means Clustering Algorithm
+K-means clustering is an unsupervised machine learning algorithm used for partitioning a dataset into K distinct non-overlapping clusters. Each data point in the dataset is assigned to the cluster with the nearest mean (centroid). The algorithm aims to minimize the within-cluster variance, also known as the "inertia."
+
+Here's a step-by-step overview of the k-means clustering algorithm:
+
+* Initialization: Randomly select K data points from the dataset as the initial cluster centroids.
+
+* Assignment: Assign each data point to the nearest centroid. This is done by calculating the Euclidean distance (or other distance metrics) between each data point and each centroid, and assigning the data point to the cluster with the closest centroid.
+
+* Update: Recalculate the centroids of each cluster by taking the mean of all the data points assigned to that cluster.
+
+* Repeat: Repeat steps 2 and 3 until convergence or a maximum number of iterations is reached. Convergence occurs when the centroids no longer move significantly between iterations or when the algorithm reaches the predefined maximum number of iterations.
+
+* Final Clusters: Once convergence is achieved, the algorithm outputs the final cluster assignments, where each data point belongs to one of the K clusters.  
+![k means cluster](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b42f7fba067ff92974b209532654e381edc8996/images/day29%20k%20means%20clustering.png)
+### Cost function for k-means clustering(distortion)
+The cost function for k-means clustering is commonly referred to as the "inertia" or "within-cluster sum of squares." It measures the sum of squared distances between each data point and its assigned centroid within each cluster. The goal of k-means clustering is to minimize this cost function.
+
+Mathematically, the cost function (J) for k-means clustering can be defined as:
+
+J = Σᵢ Σⱼ ||xᵢ - μⱼ||²
+
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+
