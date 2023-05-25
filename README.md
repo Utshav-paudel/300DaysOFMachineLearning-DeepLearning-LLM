@@ -464,8 +464,8 @@ The cost function for k-means clustering is commonly referred to as the "inertia
 
 Mathematically, the cost function (J) for k-means clustering can be defined as:
 
-J = Σᵢ Σⱼ ||xᵢ - μⱼ||²
-
+J = Σᵢ Σⱼ ||xᵢ - μⱼ||²  
+* [K-means clustering sample](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4957fca69c2b4e65b1964620f40eacf8895fb293/code/day29%20k%20means%20clustering.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
 
