@@ -468,4 +468,15 @@ J = Σᵢ Σⱼ ||xᵢ - μⱼ||²
 * [K-means clustering sample](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4957fca69c2b4e65b1964620f40eacf8895fb293/code/day29%20k%20means%20clustering.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
-
+# Day30
+### Anamoly detection
+Anomaly Detection is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations. Such “anomalous” behaviour typically translates to some kind of a problem like a credit card fraud, failing machine in a server, a cyber attack, etc.
+* To apply anamoly detection we use gassuian distribution/normal distribution
+### Anamoly detection vs Supervised learning
+### Anamoly detection
+We will use anamoly detection when there are very small number of example that are positive(anamoly) and large number of negative example .Since small number of positive examples it is hard to learn from training examples.e.g: fraud detection
+### Supervised learning
+We will use supervised learning when large number of positive and negative examples are present. Since there are enough positive examples to train model and predict supervised learning is effective. e.g Email spam detection
+* NOTE: Before using anamoly detection we have to make sure our data is normal.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
