@@ -480,3 +480,48 @@ We will use supervised learning when large number of positive and negative examp
 * NOTE: Before using anamoly detection we have to make sure our data is normal.
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day31
+### Recommender system
+Recommender systems are a type of machine learning algorithm used to suggest items to users based on their preferences or behavior. These systems are widely used in various applications like e-commerce, movie streaming platforms, music apps, and more.
+### 1.Content based Recommendation
+In content-based recommender systems, the algorithm recommends items based on the similarity between the content/features of the items and the user's preferences. The similarity is typically computed using techniques such as cosine similarity or Euclidean distance. Here's an overview of the mathematical steps involved:
+
+* a. Feature Representation: Each item and user is represented as a feature vector. Let's denote an item's feature vector as x and a user's preference vector as p. These vectors consist of numerical values that represent the attributes or characteristics of items or users.
+
+* b. Similarity Measure: The similarity between two feature vectors, x and p, can be computed using cosine similarity. The cosine similarity between x and p is defined as:
+
+similarity(x, p) = (x · p) / (||x|| * ||p||)
+
+where (x · p) represents the dot product of vectors x and p, and ||x|| and ||p|| denote their respective Euclidean norms.
+
+* c. Recommendation: To recommend items to a user, the system calculates the similarity between the user's preference vector and the feature vectors of all items. The system then ranks the items based on their similarity scores and recommends the top-rated or most similar items.
+
+### Collaborative Filtering Recommender Systems:
+Collaborative filtering recommender systems make recommendations based on the preferences or behavior of other similar users or items. Let's explore the two main approaches: user-based and item-based collaborative filtering.
+
+* a. User-based Collaborative Filtering:
+
+In user-based collaborative filtering, the algorithm finds similar users based on their past interactions or ratings and recommends items that the similar users have liked. Here are the mathematical steps involved:
+
+i. User Similarity: The similarity between two users, u and v, can be computed using techniques such as cosine similarity or Pearson correlation. The similarity score measures the likeness of their past interactions.
+
+ii. Prediction: To predict a user's preference for a particular item, the system combines the ratings of similar users. The predicted rating, denoted as r_hat(u, i), for user u and item i is calculated as a weighted average of the ratings of similar users:
+```python
+    r_hat(u, i) = ∑ (sim(u, v) * r(v, i)) / ∑ |sim(u, v)|
+#where sim(u, v) represents the similarity between users u and v, r(v, i) denotes the rating of user v for item i, and the summation is performed # over all similar users v.
+```
+where sim(u, v) represents the similarity between users u and v, r(v, i) denotes the rating of user v for item i, and the summation is performed over all similar users v.
+iii. Recommendation: The system recommends items with the highest predicted ratings to the active user.
+*  Item-based Collaborative Filtering:
+
+In item-based collaborative filtering, the algorithm identifies similar items based on the past interactions or ratings of users. It then recommends items that are similar to the ones the user has already liked. Here's a summary of the mathematical steps involved:
+
+i. Item Similarity: The similarity between two items, i and j, can be computed using techniques such as cosine similarity or Pearson correlation. The similarity score measures the likeness of user preferences for the items.
+
+ii. Prediction: To predict a user's preference for a particular item, the system considers the user's past ratings for similar items. The predicted rating, denoted as r_hat(u, i), for user u and item i is calculated as a weighted average of the user's ratings for similar items:
+```python
+  r_hat(u, i) = ∑ (sim(i, j) * r(u, j)) / ∑ |sim(i, j)|
+
+  #where sim(i, j) represents the similarity between items i and j, r(u,
+
+```
