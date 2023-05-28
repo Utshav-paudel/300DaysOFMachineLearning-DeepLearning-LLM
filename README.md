@@ -495,7 +495,8 @@ similarity(x, p) = (x · p) / (||x|| * ||p||)
 where (x · p) represents the dot product of vectors x and p, and ||x|| and ||p|| denote their respective Euclidean norms.
 
 * c. Recommendation: To recommend items to a user, the system calculates the similarity between the user's preference vector and the feature vectors of all items. The system then ranks the items based on their similarity scores and recommends the top-rated or most similar items.
-
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
 ### Collaborative Filtering Recommender Systems:
 Collaborative filtering recommender systems make recommendations based on the preferences or behavior of other similar users or items. Let's explore the two main approaches: user-based and item-based collaborative filtering.
 
@@ -525,3 +526,33 @@ ii. Prediction: To predict a user's preference for a particular item, the system
   #where sim(i, j) represents the similarity between items i and j, r(u,
 
 ```
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day32
+### Normalization
+Normalization is a technique often applied as part of data preparation for machine learning. The goal of normalization is to change the values of numeric columns in the dataset to use a common scale, without distorting differences in the ranges of values or losing information.
+### Limitation of collabrative filtering
+How to 
+* rank new items that few user have rated ?
+* show something reasonable to new users who have rated few items ?
+How to use side information about items or users:
+* Item: Genre, movei stars, studion...
+* User: Demorgraphics(age,gender,location), epressed prefernces,..
+Note: This limitation of collabrative filtering can be addressed by content based filetring
+### [Tensorflow implementation of collabrative filtreing](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/e34e047cf5b50496b478695c5aad219690b69b18/code/day32%20collabrative%20filetering%20for%20movie%20recommendation.ipynb)
+### Content base recommendation
+It uses both content and user data and using neural network create vector for content and vector for user and its dot product give prediction.
+### Content base recommendation for large items.
+When our website or app has large number of content to recommend like thousands and millon of item it is carried out in two steps:
+#### 1.Retrival
+From large number of content retrival is carried out for selective content for further ranking. for e.g:  
+For movies recommendation:  
+1.for 10 movies watched by user retrieve similar movies.  
+2.for most viewed 3 genres find top 10 movies.  
+3.find top 20 movies in country.  
+At last combined retrived item in list and remove duplicated and items already purchased.   
+#### 2.Ranking
+Apply model to retrived data to find suitable item and display ranked item to user.   
+Note: Retriving more items result in better recommendation but takes more time to analyse try it offline and find suitable number of retrival for better and relevant recommendations.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
