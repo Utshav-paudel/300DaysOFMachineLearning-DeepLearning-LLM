@@ -568,3 +568,13 @@ Principal component analysis, or PCA, is a statistical procedure that allows you
 *  It works on the condition that while the data in a higher dimensional space is mapped to data in a lower dimension space, the variance of the data in the lower dimensional space should be maximum.
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day34
+### Step by step calculation of PCA
+PCA is used to reduce higher dimension data to lower dimension without losing it essence. PCA can be calculated in following steps:
+* Mean centring data
+* Finding covariance matrix 
+* Finding eigen value and eigen vector 
+* Eigen vector with largest eigen value has highest variance and is ready for selction.
+Also I have applied PCA in real world data set, hope you will gain some insight from it.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
