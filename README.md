@@ -575,9 +575,9 @@ PCA is used to reduce higher dimension data to lower dimension without losing it
 * Finding covariance matrix 
 * Finding eigen value and eigen vector 
 * Eigen vector with largest eigen value has highest variance and is ready for selction.
-* [PCA](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/code/day34%20PCA.ipynb)
-After applying PCA to handwritten digit having 784 features we got optimal solution of pca at around 250 that explains nearly to 90% of variance.
-![optimal solution of PCA](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%20%20optimal%20features%20of%20pca.png)
+* [PCA](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/code/day34%20PCA.ipynb)  
+After applying PCA to handwritten digit having 784 features we got optimal solution of pca at around 250 that explains nearly to 90% of variance.   
+![optimal solution of PCA](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%20%20optimal%20features%20of%20pca.png)  
 |2D plot of 784 feautres|3D plot of 784 features|
 |-----------------------|-----------------------|
 |![2d plot of 784 features ](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%202d%20pca%20plot.png) | ![3d plot of 784 features](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%203d%20pca%20plot.png)|
