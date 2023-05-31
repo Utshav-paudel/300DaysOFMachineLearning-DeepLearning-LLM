@@ -579,8 +579,18 @@ PCA is used to reduce higher dimension data to lower dimension without losing it
 * [PCA](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/code/day34%20PCA.ipynb)  
 After applying PCA to handwritten digit having 784 features we got optimal solution of pca at around 250 that explains nearly to 90% of variance.   
 ![optimal solution of PCA](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%20%20optimal%20features%20of%20pca.png)  
-|2D plot of 784 feautres|3D plot of 784 features|
-|-----------------------|-----------------------|
-|![2d plot of 784 features ](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%202d%20pca%20plot.png) | ![3d plot of 784 features](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%203d%20pca%20plot.png)|
+### 2D plot of 784 feautres
+
+|![2d plot of 784 features ](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%202d%20pca%20plot.png) 
+### 3D plot of 784 features
+![3d plot of 784 features](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/19d213dde7bdb7b78360ae2e2688be0499efc076/images/day34%203d%20pca%20plot.png)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day35
+### Reinforcement Learning
+Reinforcement learning is a machine learning training method based on rewarding desired behaviors and/or punishing undesired ones. In general, a reinforcement learning agent is able to perceive and interpret its environment, take actions and learn through trial and error. 
+It reward is calculated as:  
+![reward png](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/84b741cc0d1d1529090a83d92dc4bf50e8c32cf5/images/day35%20reward%20formula)
+### Markov Decision Process(MDP)
+It state that future depends on current state .  
+![MDP](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/84b741cc0d1d1529090a83d92dc4bf50e8c32cf5/images/day35%20reinforcement%20learning.png)
