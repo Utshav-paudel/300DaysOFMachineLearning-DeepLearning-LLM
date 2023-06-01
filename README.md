@@ -594,3 +594,25 @@ It reward is calculated as:
 ### Markov Decision Process(MDP)
 It state that future depends on current state .  
 ![MDP](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/84b741cc0d1d1529090a83d92dc4bf50e8c32cf5/images/day35%20reinforcement%20learning.png)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day36
+### State action value function
+In state action value function, represented by Q(s,a)   
+Q(s,a) = Return , If you 
+* start in state s
+* take action a(once)
+* Then behave optimally after that
+Note: Behaving optimally means taking action which bring maximum Q(s,a).  
+Implementaion of state action value function:
+![State action value function img](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ab4e0367f6e3b922fa20a01c614a11ded789f6d3/images/day36%20state%20action%20function.png)
+### Bellman equation
+Bellman equation explain the return in two step first one is immediate reward and second one is reward from behaving optimally starting from state s.  
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ab4e0367f6e3b922fa20a01c614a11ded789f6d3/images/day36%20bellman%20equation.png)
+### Random stochastic environment 
+Due randomness and uncertainity in enviroment it becomes diffcult for reinforcement learning so to avoid this we caluclate Expected return(i.e average return) in placce of return only .   
+It is calculated as : Q*(s, a) = E[R(s, a, s') + γ ∑ P(s'|s, a) max(Q*(s', a'))],   
+* where E represent average or Expected return .
+* [State action value implementation](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ab4e0367f6e3b922fa20a01c614a11ded789f6d3/code/day36%20state%20action%20value%20function.ipynb)
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
