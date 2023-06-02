@@ -616,3 +616,23 @@ It is calculated as : Q*(s, a) = E[R(s, a, s') + γ ∑ P(s'|s, a) max(Q*(s', a'
 * [State action value implementation](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ab4e0367f6e3b922fa20a01c614a11ded789f6d3/code/day36%20state%20action%20value%20function.ipynb)
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+# Day37
+### Discrete state and continous state
+* Discrete state : It is a state in reinforcement learning where the number of possible state are distinct and countable. Discrete state spaces are common in many RL problems, such as board games, puzzle-solving, and decision-making tasks with a finite number of states.
+* Continuous state : It is a state in reinforcement learning where the number of possible state are in continous range . Continuous state spaces are encountered in various RL applications, including robotics, control systems, and real-world scenarios where states are represented by continuous measurements.
+### Differences in Discrete and continous state
+Discrete state spaces can often be represented using tabular methods, where the agent maintains a value function or a Q-table to learn and update action values for each state. On the other hand, dealing with continuous state spaces often requires `function approximation` techniques, such as using `neural networks, to approximate the value function or policy`. Continuous state spaces also pose challenges for exploration strategies, as the agent needs to explore a potentially infinite space effectively.
+### Exploitation(greedy) VS Exploration
+It also know as epsilorn greedy policy
+* with probability 0.95, pick the action a that maximizes Q(s,a) - Greedy (Exploitation)
+* with porbability 0.05, pick action a randomly. (Exploration)
+* This means epsilon = 0.05
+* Start with high epsilon and decrease gradually
+### Refinement of reinforcement learning by minibatches and softupdate
+### Mini batches
+When we have large number of training examples our iterative process like gradient descent and other iterative process on reinforcement learning like trainin neural network becomes slower so we divide main training examples to differen subsets called mini batches
+### Soft Update
+Soft update in reinforcement learning refers to a technique used to refine the learning algorithm by updating the parameters of a target network gradually. This process involves interpolating between the parameters of the target network and the parameters of the online network.
+* 📚Resources  
+course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
+
