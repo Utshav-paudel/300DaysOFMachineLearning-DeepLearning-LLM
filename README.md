@@ -2,7 +2,7 @@
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
-| 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**]| 🏊 |
+| 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**]()| 🏊 |
 
 | Project Completed |
 | ----------------- |
@@ -636,4 +636,9 @@ When we have large number of training examples our iterative process like gradie
 Soft update in reinforcement learning refers to a technique used to refine the learning algorithm by updating the parameters of a target network gradually. This process involves interpolating between the parameters of the target network and the parameters of the online network.
 * 📚Resources  
 course:[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)
-
+# Day38
+### Building of Books recommender system using Collabrative filtering.
+Collaborative filtering recommender systems make recommendations based on the preferences or behavior of other similar users or items.
+In this book recommendation system I calculated similarity scores between two users to find the euclidean distance and recommendation was made on the basis on two nearer items and most of the collaborative recommender system work like this.   
+Here is snippet of the project hope you get some insight riding this   
+![book recommender system](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/d4e06acc0a1f9da8332d9f3c9769f8a2b1fd1151/images/day38%20movie%20recommender%20system.png)
