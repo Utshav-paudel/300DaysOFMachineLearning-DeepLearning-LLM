@@ -639,6 +639,9 @@ course:[Machine Learning Specialization](https://www.coursera.org/specialization
 # Day38
 ### Building of Books recommender system using Collabrative filtering.
 Collaborative filtering recommender systems make recommendations based on the preferences or behavior of other similar users or items.
-In this book recommendation system I calculated similarity scores between two users to find the euclidean distance and recommendation was made on the basis on two nearer items and most of the collaborative recommender system work like this.   
+In this book recommendation system I calculated similarity scores between two users to find the euclidean distance and recommendation was made on the basis on two nearer items and most of the collaborative recommender system work like this. 
+#### To avoid cold start in collabrative filtering:
+* The movie with more the 50 rating was included.
+* The user who have rated more than 200 books was included.
 Here is snippet of the project hope you get some insight riding this   
 ![book recommender system](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/d4e06acc0a1f9da8332d9f3c9769f8a2b1fd1151/images/day38%20movie%20recommender%20system.png)
