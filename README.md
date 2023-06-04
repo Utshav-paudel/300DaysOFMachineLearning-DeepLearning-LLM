@@ -2,7 +2,7 @@
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
-| 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**]()| 🏊 |
+| 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
 
 | Project Completed |
 | ----------------- |
@@ -645,3 +645,12 @@ In this book recommendation system I calculated similarity scores between two us
 * The user who have rated more than 200 books was included.
 Here is snippet of the project hope you get some insight riding this   
 ![book recommender system](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/d4e06acc0a1f9da8332d9f3c9769f8a2b1fd1151/images/day38%20movie%20recommender%20system.png)
+# Day39
+### Califorina Housing Price prediction
+Started my project on California housing price and cleared my concepts on data pipeling, Batch learning and Online learning, perfomed the fetching and loading of data with EDA to gain some insight on data.
+**NOTE**
+* **Batch learning vs Online learning** : When our data is too large various iterative process become slow so we create susbset of data known as batch and this process of ml is called batch learning, When we have enough storage for data we can take whole data at once known as Online learning
+* **Cost for linear regression** : Most of the time cost for linear regression is calculated by Root Mean Square Error(RMSE) but when data has lots of outlier we use Mean Absolute Error (MAE)
+![calforinaday1](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/24ea2817f4f7092bfa8ff472f0a2b8000dd8183d/images/day39%20Calfornia-dataloading%20and%20Eda.png)
+📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
