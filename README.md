@@ -647,10 +647,11 @@ Here is snippet of the project hope you get some insight riding this
 ![book recommender system](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/d4e06acc0a1f9da8332d9f3c9769f8a2b1fd1151/images/day38%20movie%20recommender%20system.png)
 # Day39
 ### Califorina Housing Price prediction
-Started my project on California housing price and cleared my concepts on data pipeling, Batch learning and Online learning, perfomed the fetching and loading of data with EDA to gain some insight on data.
+Started my project on California housing price and cleared my concepts on data pipeling, Batch learning and Online learning, perfomed the fetching and loading of data with EDA to gain some insight on data.  
 **NOTE**
-* **Batch learning vs Online learning** : When our data is too large various iterative process become slow so we create susbset of data known as batch and this process of ml is called batch learning, When we have enough storage for data we can take whole data at once known as Online learning
+* **Batch learning vs Online learning** : Batch learning is commonly used when the dataset can fit into memory and when the computational resources are sufficient to process the entire dataset at once. It is often used in offline scenarios where there is no need for real-time or incremental learning.  
+Online learning is particularly useful when dealing with streaming data or when the dataset is too large to fit into memory. It allows for real-time learning and adaptation as new data arrives. Online learning algorithms often have lower memory requirements and can adapt to concept drift, which is the phenomenon where the underlying data distribution changes over time.
 * **Cost for linear regression** : Most of the time cost for linear regression is calculated by Root Mean Square Error(RMSE) but when data has lots of outlier we use Mean Absolute Error (MAE)
 ![calforinaday1](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/24ea2817f4f7092bfa8ff472f0a2b8000dd8183d/images/day39%20Calfornia-dataloading%20and%20Eda.png)
-📚Resources
+* 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
