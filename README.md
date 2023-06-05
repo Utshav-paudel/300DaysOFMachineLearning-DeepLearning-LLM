@@ -653,5 +653,19 @@ Started my project on California housing price and cleared my concepts on data p
 Online learning is particularly useful when dealing with streaming data or when the dataset is too large to fit into memory. It allows for real-time learning and adaptation as new data arrives. Online learning algorithms often have lower memory requirements and can adapt to concept drift, which is the phenomenon where the underlying data distribution changes over time.
 * **Cost for linear regression** : Most of the time cost for linear regression is calculated by Root Mean Square Error(RMSE) but when data has lots of outlier we use Mean Absolute Error (MAE)
 ![calforinaday1](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/24ea2817f4f7092bfa8ff472f0a2b8000dd8183d/images/day39%20Calfornia-dataloading%20and%20Eda.png)
+![Eda result](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5bac9c7462071160bf06432031e4bc21bdf2d304/images/day40%20California%20eda%20resul.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day40
+### California Housing Price Prediction continued..
+* Today I Created test data , and splitted data on the basis of train-test-split and also with stratifcation split to remove imbalance in data and create same proportion.   
+**Creating test data**
+![testdata](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5bac9c7462071160bf06432031e4bc21bdf2d304/images/day40%20california%20creating%20test%20set.png)
+**Creating Training and test data with random sampling and stratification sampling**
+![stratification](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5bac9c7462071160bf06432031e4bc21bdf2d304/images/day40%20traintest%20vs%20strarification%20split.png)
+### Different methods of sampling :
+1.Random sampling 
+2.Systematic sampling
+3.Stratified sampling
+* Stratified sampling: Stratified sampling can be useful in train-test split when dealing with imbalanced datasets. In this case, the dataset may have significantly different proportions of classes or subgroups. By using stratified sampling, we can ensure that the training and test sets maintain the same distribution of classes or subgroups as the original dataset. This helps to prevent bias and provides a more accurate evaluation of the model's performance.  
+![sampling in train test split](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/9d17986685775af19e615468114ec3f0089fcac4/images/day40%20stratification%20to%20solve%20imbalance%20in%20class.png)
