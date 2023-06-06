@@ -673,7 +673,7 @@ Online learning is particularly useful when dealing with streaming data or when 
 ### California Housing Price Prediction
 * **Visualization with geographical data** : I plotted geographical visual with respect to population density and housing price to gain better understanding of data   
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5955221f5ea3581accba7a4207088bed30cd68c9/images/day41%20california%20visualization%20of%20geographical%20data%20indication%20housing%20price%20and%20popn.png)
-* **Correlation**: I visualized claifornia housing price data geographically with respect of house price and population, also plotted scatterplot for coefficient of correlation of median_housing price with respect to different features and found out that it has high correlation with median_income but there was some straight line forming in middle of data which need to be filtered before training for better performance.  
+* **Correlation**: Also plotted scatterplot for coefficient of correlation of median_housing price with respect to different features and found out that it has high correlation with median_income but there was some straight line forming in middle of data which need to be filtered before training for better performance.  
 ![correlation fig](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5955221f5ea3581accba7a4207088bed30cd68c9/images/day41%20california%20correlation%20of%20median_house_price%20with%20features.png)
 Here is code hope you gain some insight from it :   
 ![visualization](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5955221f5ea3581accba7a4207088bed30cd68c9/images/day41%20california%20housing%20code.png)
