@@ -680,3 +680,18 @@ Here is code hope you gain some insight from it :
 ![correlation code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/06802a4eb2c9cd3d53efbc6443c0ad1133d8852a/images/day41%20california%20checking%20for%20correlation.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day42
+### California Housing Price Prediction
+### Expermenting with attribute combinations 
+* I created some new combination of feature like room per house , bedroom ration, population per house and found that room per house has done well then other features, it got some high negative correlation that indicated the less bedroom ratio more the price.
+* Also Prepared data for machine learning algorithm by separating the features and target, and perform cleaning of data, replced missing values by filling it with median as it is less destructive.
+![code for data cleaning](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1a4f6b1318fd7e320d8673a0cd35d2e4e16149df/images/day42%20californina%20data%20cleaning.png)
+### Use of Simple Imputer
+* The benefit of using SimplImputer is that it will store the median value of each feature: this will make it possible to impute missing values not only on the training set, but also on the validation set,the test set, and any new data fed to the model.
+![photo of simple imputer use](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1a4f6b1318fd7e320d8673a0cd35d2e4e16149df/images/day42%20california%20handling%20missing%20using%20Imputer.png)
+### Handling of text and categorical data
+* Text and categorical data can be handled by using ordinal encoder and One Hot encoding but incase of ordinal encoder it think data nearby data are more similar than far data which is not the case in Oceanproximity so we use onehot encoding.
+![handling text and categorical data](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1a4f6b1318fd7e320d8673a0cd35d2e4e16149df/images/day42%20handling%20text%20and%20categorical%20data.png)
+
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
