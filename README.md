@@ -700,5 +700,8 @@ Here is code hope you gain some insight from it :
 * Feature scaling is one of the most important transformation you need to apply to  your data. Without feautre scaling most model will bias one feature with another. Two ways of feature scaling are : 1.Min-max scaling  2.Standarization.
 * `Never use fit() or fit_transform() for anything else than training set.`
 ![feature scaling image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/92006ed56d2928f2f3dd6faa3a5121d612bc2657/images/day43%20featurescaling%20california%20code.png)
+### Bucketing/Binning
+The transformation of numeric features into categorical features, using a set of thresholds, is called bucketing (or binning)
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a57d93feaa03386c050725ae72b64cf9b36a848b/images/day43%20bucketing%20concept.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
