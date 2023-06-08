@@ -695,3 +695,10 @@ Here is code hope you gain some insight from it :
 
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day42
+### Feature Scaling
+* Feature scaling is one of the most important transformation you need to apply to  your data. Without feautre scaling most model will bias one feature with another. Two ways of feature scaling are : 1.Min-max scaling  2.Standarization.
+* `Never use fit() or fit_transform() for anything else than training set.`
+
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
