@@ -695,7 +695,7 @@ Here is code hope you gain some insight from it :
 
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
-# Day42
+# Day43
 ### Feature Scaling
 * Feature scaling is one of the most important transformation you need to apply to  your data. Without feautre scaling most model will bias one feature with another. Two ways of feature scaling are : 1.Min-max scaling  2.Standarization.
 * `Never use fit() or fit_transform() for anything else than training set.`
@@ -703,5 +703,13 @@ Here is code hope you gain some insight from it :
 ### Bucketing/Binning
 The transformation of numeric features into categorical features, using a set of thresholds, is called bucketing (or binning)
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a57d93feaa03386c050725ae72b64cf9b36a848b/images/day43%20bucketing%20concept.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day44
+### Column Transformer
+* Column transformer is a versatile tool in machine learning that allows for the application of different preprocessing steps to different columns or subsets of columns in a dataset. It simplifies the preprocessing workflow, enhances reproducibility, and improves the efficiency of feature engineering in machine learning tasks.
+### Pipeline
+* Pipeline refers to a sequence of data processing steps that are applied in a specific order. It combines multiple operations, such as data preprocessing, feature engineering, and model training, into a single cohesive workflow. It make easier to apply same preprocessing to training and test set
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/07d1d3751f7f719a5ecdef3583ed8f435332ea30/images/day44%20columntransformer%20and%20pipeline%20california%20housing.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
