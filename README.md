@@ -713,3 +713,13 @@ The transformation of numeric features into categorical features, using a set of
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/07d1d3751f7f719a5ecdef3583ed8f435332ea30/images/day44%20columntransformer%20and%20pipeline%20california%20housing.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day45
+### Select and train a model
+* I trained some model like LinearRegression, DecisionTreeRegressor and RandomForestRegressor and found out RMSE very high in LinearRegrssion which indicated underfitting and RMSE 0 in DecisionTreeRegressor which was heavily overfitting and RMSE was comparatively low on RandomForestRegressor.So, I  find that RandomForestRegressor can be a good choice
+![selecting model](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/640b2d5857962c1dcde47ca02e92316c9f989e5a/images/day45%20california%20selcting%20and%20training%20model.png)
+### Evaluation of CrossValidation and Fine tunig the model
+* Performing CrossValidation also showed that Random forest was good choice despite of some overfitting and After some tuning in RandomForestRegressor using GridSearch CV I got some good hyperparameter and model perform more better than before and RMSE was also reduced.
+![last day code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/640b2d5857962c1dcde47ca02e92316c9f989e5a/images/day45%20evaluation%20%20of%20cv%20and%20finetuning%20of%20model.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
