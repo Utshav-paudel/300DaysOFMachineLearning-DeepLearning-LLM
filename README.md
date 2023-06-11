@@ -722,4 +722,11 @@ The transformation of numeric features into categorical features, using a set of
 ![last day code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/640b2d5857962c1dcde47ca02e92316c9f989e5a/images/day45%20evaluation%20%20of%20cv%20and%20finetuning%20of%20model.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
-
+# Day46 
+### Classification 
+* Today I dive deep into classification and revised some topic using MNIST like binary classifier, measuring accuracy using cross validation, confusion matirces, precision and recall, precision recall tradeoff.
+* Measuring accuracy is more complex in classification than in regression some of the methods of measuring classification accuracy are : Using cross validation, confusion matirces, precision and recall, ROC curve.
+The below code show implementation of measuring accuracy in classification using different method in MNIST dataset hope you gain some insight:  
+![da46_measuring_accuracy](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/f4a114bc917e059316e68b44b4bbbb0164c0f9b4/images/day46%20accuracy-measure%20in%20classifcation.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
