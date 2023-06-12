@@ -730,3 +730,17 @@ The below code show implementation of measuring accuracy in classification using
 ![da46_measuring_accuracy](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/f4a114bc917e059316e68b44b4bbbb0164c0f9b4/images/day46%20accuracy-measure%20in%20classifcation.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day47
+* Today I revised my classification concept on Multiclass Classification, error analysis, Multilabel Classification, Multioutput Classification.
+* Multiclass classifier are capable of handling more than two class. Some of the algorithm that does multiclass classification are: LogisticRegression, RandomForestClassifier and GaussianNB. Also can be done using multiple binary classifier like SGDClassifier and SVC.    
+1.One Vs All (OVA/OVR): In One Vs All classification there are N Classifier model for N classes. Model with highest score is selected for particular class calssification.  
+2.One Vs One (OVO): In One Vs One classification N classes have N*(N-1)/2 classifier model. In this, we have one classifier model for each class against every other class.   
+* Also performed error analysis using confusion matrix
+* Implemented Multilabel classification : A classification system that
+outputs multiple binary tags is called a multilabel classification system. 
+* Multioutput Classification : It is a classification that has multilabel and each label can have multiple class.
+Below is the implementation of what I have learned today.
+![classification](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/cf150b177fc5a0fe63c1076e2f8f14005d2baeb1/images/day47%20classification%20part2%20complete.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
