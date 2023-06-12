@@ -741,6 +741,7 @@ outputs multiple binary tags is called a multilabel classification system.
 * Multioutput Classification : It is a classification that has multilabel and each label can have multiple class.
 Below is the implementation of what I have learned today.
 ![classification](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/cf150b177fc5a0fe63c1076e2f8f14005d2baeb1/images/day47%20classification%20part2%20complete.png)
+[Classification implemetation code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/3e9027fd4ecb963912e9abcf29ae75487f8b4d06/code/Day47%20Classification%20day2.ipynb)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
