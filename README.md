@@ -8,6 +8,7 @@
 | ----------------- |
 | 1. [**Medical Insurance Price Prediction**](https://github.com/Utshav-paudel/Medical_Insurance_cost-Predictor) |
 | 2.[**Iris Flower Classification**](https://github.com/Utshav-paudel/Iris-flower-calssification-webapp) |
+| 3.[**California Housing Price Prediction**](https://github.com/Utshav-paudel/California-Housing-price-prediction) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
