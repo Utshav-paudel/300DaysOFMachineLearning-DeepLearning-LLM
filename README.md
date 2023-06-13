@@ -744,4 +744,11 @@ Below is the implementation of what I have learned today.
 [Classification implemetation code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/3e9027fd4ecb963912e9abcf29ae75487f8b4d06/code/Day47%20Classification%20day2.ipynb)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day48
+* Today I dived deep into training model and what happen underhood the simplest sickit learn model with help of simplest Linear regression model and learned about minimizing model cost function using gradient descent.
+* Gradient descent is used to find best parameter for reducing cost function. tips:`while using gradient descent all features most have same scale e.g use standardscaler or it will took very long time to converge`. Batch gradient descent takes whole batch of training data at each steps so it is terribly slow during large datasets.
+* To solve the problem of Batch gradient descent we use stochastic gradient descent as named suggest step of this gd is random and stochastic gradient descent picks a
+random instance in the training set at every step and computes the gradients based on it rather than taking whole data. But since it is random the steps may never settled to optimal minimum so this can be solved by decreasing learning rate gradually know as simulated annealing. `To use stochastic gradient descent with linear regression we can use SGDRegressor`
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
