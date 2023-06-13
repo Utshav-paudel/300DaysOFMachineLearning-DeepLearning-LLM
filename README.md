@@ -745,7 +745,7 @@ Below is the implementation of what I have learned today.
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 # Day48
-* Today I dived deep into training model and what happen underhood the simplest sickit learn model with help of simplest Linear regression model and learned about minimizing model cost function using gradient descent.
+* Today I dived deep into training model and what happen underhood the  sickit learn model with help of simplest Linear regression model and learned about minimizing model cost function using gradient descent.
 * Gradient descent is used to find best parameter for reducing cost function. tips:`while using gradient descent all features most have same scale e.g use standardscaler or it will took very long time to converge`. Batch gradient descent takes whole batch of training data at each steps so it is terribly slow during large datasets.
 * To solve the problem of Batch gradient descent we use stochastic gradient descent as named suggest step of this gd is random and stochastic gradient descent picks a
 random instance in the training set at every step and computes the gradients based on it rather than taking whole data. But since it is random the steps may never settled to optimal minimum so this can be solved by decreasing learning rate gradually know as simulated annealing. `To use stochastic gradient descent with linear regression we can use SGDRegressor`.
@@ -754,6 +754,7 @@ putes the gradients on small random sets of instances called mini-batches. The m
 advantage of mini-batch GD over stochastic GD is that you can get a performance
 boost from hardware optimization of matrix operations, especially when using GPU
 ![gd code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/96eea78783eef9e0b3377b4906700bbded88082e/images/day48%20training%20model.png)
+[Implementation of code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ad991fc189ea0625418925e8ec5285d3157e4461/code/day48%20training%20models.ipynb)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
