@@ -758,4 +758,11 @@ boost from hardware optimization of matrix operations, especially when using GPU
 [Implementation of code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ad991fc189ea0625418925e8ec5285d3157e4461/code/day48%20training%20models.ipynb)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day49
+* Today I revised my concept on polynomial regression, learning curve, and about the condition of underfitting, overfitting and it solution.
+* Polynomial regression model is used for non-linear data, we used cross-validation to see how our model is performing to check whether it is underfitting or overfitting, it can be also checked in polynomial regression with the help of Learning curve. If the model is underfetting it is better to add some new features or to use different model but adding more data doesnot help in underfitting and IF the model is overfitted it can be solve by regularization.
+![polynomial](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/813584a9c1f941ba8385955813f6df6cf755ee8c/images/day49_polynomial_regression.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
 
