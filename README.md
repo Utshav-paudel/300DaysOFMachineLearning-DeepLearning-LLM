@@ -764,5 +764,10 @@ boost from hardware optimization of matrix operations, especially when using GPU
 ![polynomial](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/813584a9c1f941ba8385955813f6df6cf755ee8c/images/day49_polynomial_regression.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day50
+* Today I learned about Ridgeregression also known as L2 regularization used to solve overfitting problem it can be aslo used with SGDRegressor directly by putting l2 in penalty and don't forget to divide alpha with m.
+  ![ridgregression](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/065aa698ce47fe3f7eeea8b8f14537c25b7778e8/images/day50%20ridgeregression.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
 
