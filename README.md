@@ -770,4 +770,7 @@ boost from hardware optimization of matrix operations, especially when using GPU
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
-
+# Day51
+* Today I lerned about Lasso Regression also known as L1 regularization and elastic net regression.
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
