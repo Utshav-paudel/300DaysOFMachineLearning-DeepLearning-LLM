@@ -771,7 +771,7 @@ boost from hardware optimization of matrix operations, especially when using GPU
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
 # Day51
-* Today I lerned about Lasso Regression also known as L1 regularization and elastic net regression. Lasso Regression is used in case of high dimensional data and it can perform dimensionality reduction by setting coefficient zero of less important feature on increasing regularization paramter lambda which cannot be done by ridge regression.
+* Today I learned about Lasso Regression also known as L1 regularization and elastic net regression. Lasso Regression is used in case of high dimensional data and it can perform dimensionality reduction by setting coefficient zero of less important feature on increasing regularization paramter lambda which cannot be done by ridge regression.
 * Elastic Net regression : This regularization term is the middle ground of both Ridg and Lasso it is calculated as weighted sum of both ridge and lasso regularization term, elastic net is preffered when more features have strong correlation or number of features is greater than training instances.
 * Early stopping : A very different way to regularize iterative learning algorithms such as gradient
 descent is to stop training as soon as the validation error reaches a minimum. This is
