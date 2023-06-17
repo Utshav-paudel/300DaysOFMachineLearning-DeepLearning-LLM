@@ -780,3 +780,9 @@ called early stopping.
 ![regularization](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6ba6ae180635ead3632908210c5da2993c2b8c99/images/day51%20lasso%2Celastic%20and%20early%20stopping.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day52
+* Today I revisied my concept of logistic regression and softmax regression, logistic regression is used for classification problems and has costfunction called logloss, whereas softmax regression is used in case of multiclass classification.I spend sometime using logistic regression to classify iris flower based on petal length whether it is virginica or not and observed it decision boundary and used softmax regression to do same.
+You can gain some insight on implemenation of what I learned :
+![classfication](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/b70296a2df927669af312a6e02d9639651286e25/images/day52%20logistic%20regression.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
