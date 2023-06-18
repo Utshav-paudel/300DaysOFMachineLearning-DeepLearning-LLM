@@ -786,3 +786,13 @@ You can gain some insight on implemenation of what I learned :
 ![classfication](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/b70296a2df927669af312a6e02d9639651286e25/images/day52%20logistic%20regression.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day53
+* **Support Vector Machine:** SVM is a popular machine learning model that does linear or non-linear classification, regressio and even novelty detection and it perform well with small and medium datasets.The core idea of SVM is :
+  1.Start with lower dimension data
+  2.Move data in higher dimension
+  3.Find a support vector classifier that separates the higher dimension data.
+* Kernel function : It is  function that transform data from lower dimension to higher dimension to find support vector classifiers. some of them are : Linear kernel, polynomial kernel, Radial bias function (RBF) kernel and sigmoid function.
+* Kernel trick : Calculating the high dimensional relationships without actually transforming the data to higher dimension is called kernel trick. It reduces the mathmatical computation.
+ ![Implementation of SVM](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/16e98e7906623a887151e7860bf334d9b598bc01/images/day53%20svmpart1.png)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
