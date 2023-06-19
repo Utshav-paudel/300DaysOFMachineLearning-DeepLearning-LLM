@@ -797,3 +797,13 @@ SVM is a popular machine learning model that does linear or non-linear classific
  ![Implementation of SVM](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/16e98e7906623a887151e7860bf334d9b598bc01/images/day53%20svmpart1.png)
 * 📚Resources
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day54
+* **Polynomial Kernel :** The polynomial kernel is a kernel function that calculates the similarity between two data points in a feature space using a polynomial function. It is defined as:
+K(x, y) = (α * x^T y + c)^d
+![formulas](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/24759b9895374f5330ffa21be484128280046124/images/day54svm%20formula.png)
+* **RBF Kernel :** The RBF kernel, also known as the Gaussian kernel, is a popular kernel function that measures the similarity between data points based on their radial distance in a feature space. It is defined as:
+K(x, y) = exp(-γ * ||x - y||^2)
+* Both the polynomial kernel and the RBF kernel leverage the kernel trick, which is a method used in machine learning to implicitly transform data into a higher-dimensional feature space without explicitly calculating the transformed features. The kernel trick allows algorithms to efficiently operate in this higher-dimensional space by only computing the kernel function values between data points.
+![code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/tree/68fc53494adf0f84b30ceb69362eae06707d7e7d/code)
+* 📚Resources
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
