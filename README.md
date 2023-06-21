@@ -812,3 +812,18 @@ K(x, y) = exp(-γ * ||x - y||^2)
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/b23b510d141d12008e4dfd33034a1dd8d435fcb0/images/day55%20SVM%20regression.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day56
+* Today I spended my time revising concept on decision tree from book and implementing it. Decision tree can perform both classification and regression task and are the fundamental unit of random forest which is one of the most important algorithm in machine learning.Decision tree uses entropy and gini impurity to look how model is doing.Gini impurity is default in decision tree classifier and best in case of large dataset as computationally it is faster than entropy while entropy provide more balanced classes.
+* Regularization : Regularization can be done in decision tree by reducing freedom to decision tree and controlling following parameter like max_leaf_nodes:Maximum number of leaf nodes,
+min_samples_split:
+Minimum number of samples a node must have before it can be split, 
+min_samples_leaf:
+Minimum number of samples a leaf node must have to be created,
+min_weight_fraction_leaf:Same as min_samples_leaf but expressed as a fraction of the total number of
+weighted instances.
+* Increasing min parameter and reducing max parameter regularize decision tree.
+  ![code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfa1d535452953f3ee5548b7a9c7eea7175ec5a9/images/day56%20decision%20tree.png)
+  ![graph](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfa1d535452953f3ee5548b7a9c7eea7175ec5a9/images/day55%20decisiontree-graph.jpeg)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+  
