@@ -826,4 +826,12 @@ weighted instances.
   ![graph](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dfa1d535452953f3ee5548b7a9c7eea7175ec5a9/images/day55%20decisiontree-graph.jpeg)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
-  
+# Day57
+* **Decision Tree for regression:** Decision tree for regression is also similar to classification decision tree it recursively create split until the pure class is obtained. The selection is split is done by information gain using variance reduction.
+* Also learned to reduce max_depth and increase min_sample_split and min_sample_leaf to overcome overfitting in decision tree of regression.
+* Sensitivity to axis rotation : Decision tree does well when split is perpendicular to axis but when split is not perpendicular to axis data may not generalize well so we use scaling and pca to transform data and genralize it.<br>
+* Hyperparameter tuning in decision tree result in high variance which is solved by averaging many decision tree known as ensemling and such ensemled tree is random forest which one of the popular and widely used ml algorithm.
+Implementation of them is given below hope you get some insight.
+![regression decision tree](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/cad00f7108f2341b874ce271adee3c2ab6d89cb9/images/day57%20decision%20tree%20final.png)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
