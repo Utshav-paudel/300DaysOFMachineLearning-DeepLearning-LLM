@@ -834,4 +834,11 @@ weighted instances.
 Implementation of them is given below hope you get some insight.
 ![regression decision tree](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/cad00f7108f2341b874ce271adee3c2ab6d89cb9/images/day57%20decision%20tree%20final.png)
 * 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day58
+* **Ensemble learning**: Today I revised my concept on ensemble learning and I have to say that this is the beauty of machine learning. I enjoyed topics like Wisdom of crowd that hold major concept of ensemble learning (wisdom of crowd = If we average the decision of large crowd we get our result which is close to actual result.) and learned about voting classifier, bagging, boosting and stacking .
+* **Voting Classifier**: voting classifier train different model and either get prediction based on majority vote called hard voting or get prediction based on probability of each model prediction and averaging it called soft voting. `for soft voting we have to set hyperparameter as 'soft' and for svc you have to set probability hyperparameter to True.`
+  Implementation of my learning is given below hope you get some insight from it.
+  ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c0a7ccc7ada7107071978b02f2e90ed0c87bf0a3/images/day58%20ensemble%20learning%20voting%20classifier.png)
+* 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
