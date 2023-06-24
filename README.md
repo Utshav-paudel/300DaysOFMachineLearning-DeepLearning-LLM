@@ -841,4 +841,11 @@ Implementation of them is given below hope you get some insight.
   Implementation of my learning is given below hope you get some insight from it.
   ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c0a7ccc7ada7107071978b02f2e90ed0c87bf0a3/images/day58%20ensemble%20learning%20voting%20classifier.png)
 * 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day59
+* **Bootstrap Aggregation**: In this method of ensemble learning whole data is divided into different sample and selected without replcement known as bootstrap and different model is feded with different sample taken and the result of all model is averaged for regression and voting classifier is done for classfication known as aggreagation. And the data missed in sample is known as oob(out of bag).
+  Implementation of bagging:
+  ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/bdf3498176dfd7dd4505d6dfecd199f1775e6989/images/day59%20bagging.png)
+* 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
+
