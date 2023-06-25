@@ -851,6 +851,7 @@ Implementation of them is given below hope you get some insight.
 # Day60 
 * **Random patches :** Random patches means taking sample of both features and training instances.
 * **Random subspaces :** Random subspaces means taking sampel of features but using all training instances.
- This techniques are used for higher dimensional data like images 
+ This techniques are used for higher dimensional data like images
+![day60](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4bd0928c89792b4f024d1a4223a6fc984bd8bce8/images/day60%20random%20subspaces%20and%20random%20patches.jpg)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
