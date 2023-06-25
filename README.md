@@ -848,4 +848,9 @@ Implementation of them is given below hope you get some insight.
   ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/bdf3498176dfd7dd4505d6dfecd199f1775e6989/images/day59%20bagging.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
-
+# Day60 
+* **Random patches :** Random patches means taking sample of both features and training instances.
+* **Random subspaces :** Random subspaces means taking sampel of features but using all training instances.
+ This techniques are used for higher dimensional data like images 
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
