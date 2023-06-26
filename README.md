@@ -854,4 +854,10 @@ Implementation of them is given below hope you get some insight.
  This techniques are used for higher dimensional data like images
 ![day60](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4bd0928c89792b4f024d1a4223a6fc984bd8bce8/images/day60%20random%20subspaces%20and%20random%20patches.jpg)
 * 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day61
+### Random Forest
+* Today I revised my concept on random forest which is generally the ensemble of decision tree based on bagging concepts. It can be used by importing RandomForestClassifier or RandomForestRegressor according to requirement.Also random forest are very good with feature importance and tell which feature has how much importance , it can be handy for feature selction and it score can be accessed by feature_importances variable.
+  ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dec7414355f595a9c8a403b456abc4c75016a0c8/images/day61%20random%20fores.png)
+* 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
