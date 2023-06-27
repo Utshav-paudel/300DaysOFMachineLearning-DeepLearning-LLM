@@ -860,4 +860,13 @@ Implementation of them is given below hope you get some insight.
 * Today I revised my concept on random forest which is generally the ensemble of decision tree based on bagging concepts. It can be used by importing RandomForestClassifier or RandomForestRegressor according to requirement.Also random forest are very good with feature importance and tell which feature has how much importance , it can be handy for feature selction and it score can be accessed by feature_importances variable.
   ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dec7414355f595a9c8a403b456abc4c75016a0c8/images/day61%20random%20fores.png)
 * 📚Resources
-  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)  
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day62
+### Boosting
+* Boosting basically trains the predictors sequentially each trying to correct it predecessor.Some of the popular boosting method are Ada boosting and gradient boosting.
+* Ada boosting : Ada boost focuses more on the training instances that the predecessor underfit sequentially and works on updated weight. If ada boositng overfit it can be regularized by reducing the number of estimator or number of boosting stages.
+* Gradient boosting : It also works sequentially but instead of updating training instances weight it works by fitting the predecessor on residual error of previous model.
+Implementation of boositing is shown below hope you gain some insight.
+![boosting](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/885082a576488db162910a7b3c8ab1bdf58351f5/images/day62%20boositng.png)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
