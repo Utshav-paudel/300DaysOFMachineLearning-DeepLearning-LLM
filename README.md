@@ -870,3 +870,14 @@ Implementation of boositing is shown below hope you gain some insight.
 ![boosting](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/885082a576488db162910a7b3c8ab1bdf58351f5/images/day62%20boositng.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+  # Day63
+  ### History based gradient boosting
+  * HistGradientBoosting is faster than gbrt and it has two features that it allows missing values and categorical features.
+    It is implemented as :
+    ![hgb](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/a73f2f95575e110c30a054996e662adacd9d2460/images/day63%20hgb.png)
+  ### Stacking
+  * In this ensemble methods there are different model for predicting result based on training instances and the aggregation of this model prediction is done by another final model known as meta learner or blender. The result of base predictor will be feature for blender and the target of trainig instances will be reused to blender model.
+![stacking](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/7936b77b3a1f8b62995000e08d9f4523e8d085ed/images/day63%20stacking.png)
+* [Implementation of ensemble learning](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8ffacdafdca9037de748b80274292b2beaf7aba8/code/day59-62%20Ensemble%20learning.ipynb)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
