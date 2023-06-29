@@ -881,3 +881,13 @@ Implementation of boositing is shown below hope you gain some insight.
 * [Implementation of ensemble learning](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8ffacdafdca9037de748b80274292b2beaf7aba8/code/day59-62%20Ensemble%20learning.ipynb)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day64 
+### Dimensionality reduction
+I have already mentioned and studied about dimensionality reduction technique using pca today I am going to revised and implement it.
+Dimensionality reduction is process of reducing dimension of data without losing it essence and it is done to speed up training and somtime to reduce noise. Two methods of dimensionality reduction are projection and manifold learning.
+### PCA
+It is the most popular technique for dimension reduction it reduce dimension by choosing hyperplane that is closest to the data by preserving variance.
+You can find the number of components/features to use by setting ratio of variance to preserve ideally 95 % in parameter n_components. You can gain some insight form below code.
+![pca ](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c5dafdd02713edcd0ad81ad4d7157dab26e4fb7e/images/day64.png)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
