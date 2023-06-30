@@ -891,3 +891,13 @@ You can find the number of components/features to use by setting ratio of varian
 ![pca ](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c5dafdd02713edcd0ad81ad4d7157dab26e4fb7e/images/day64.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
+# Day65
+### LLE(Locally linear embedding)
+* It is a non-linear dimensionality reduction technique based on mainfold learning unlike PCA which is based on projection.
+ ![LLE](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/f1db0434f0d2cff0f3e088c8bf4d1fb1ae50f74c/images/day65%20lle.png)
+### K-means
+* It is a unsupervised learning algorithm that make clusters of similar data and it has many use cases like image segmentation, anamoly detection, customer segmentation , data analysis and so on.I have already discussed its theory and practical implementation is given below hope you gain some insights.
+* ![]()
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
