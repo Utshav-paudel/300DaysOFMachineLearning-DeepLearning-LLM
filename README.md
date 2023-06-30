@@ -898,6 +898,6 @@ You can find the number of components/features to use by setting ratio of varian
  ![LLE](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/f1db0434f0d2cff0f3e088c8bf4d1fb1ae50f74c/images/day65%20lle.png)
 ### K-means
 * It is a unsupervised learning algorithm that make clusters of similar data and it has many use cases like image segmentation, anamoly detection, customer segmentation , data analysis and so on.I have already discussed its theory and practical implementation is given below hope you gain some insights.
-* ![]()
+* ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dcc9929b5e8b5e8c0a16a4c5764d08f9a7a2dc36/images/day65%20k%20means.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
