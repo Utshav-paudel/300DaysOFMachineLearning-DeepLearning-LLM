@@ -908,5 +908,6 @@ You can find the number of components/features to use by setting ratio of varian
 * Also learned about backpropagation which is the algorithm use to perform gradient descent in neural network to update the weight and bias in such a way cost function is minimized.
 * 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+<br>
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
   
