@@ -3,6 +3,7 @@
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
 | 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
+| 3.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
 
 | Project Completed |
 | ----------------- |
@@ -901,3 +902,11 @@ You can find the number of components/features to use by setting ratio of varian
 * ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dcc9929b5e8b5e8c0a16a4c5764d08f9a7a2dc36/images/day65%20k%20means.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day66
+### Supervised learning in Neural network
+* Today I get started with new course deep learning specialization and learned about supervised learning using neural network. I learned to implement logistic regression which is classification algorithm using neural network. Traditional algorithm after some amount of data doesnot show increment on performance but with more data you can achieve higher performance by increasing neural network size
+* Also learned about backpropagation which is the algorithm use to perform gradient descent in neural network to update the weight and bias in such a way cost function is minimized.
+* 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+  
