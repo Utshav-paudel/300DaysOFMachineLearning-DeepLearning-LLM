@@ -907,7 +907,15 @@ You can find the number of components/features to use by setting ratio of varian
 * Today I get started with new course deep learning specialization and learned about supervised learning using neural network. I learned to implement logistic regression which is classification algorithm using neural network. Traditional algorithm after some amount of data doesnot show increment on performance but with more data you can achieve higher performance by increasing neural network size
 * Also learned about backpropagation which is the algorithm use to perform gradient descent in neural network to update the weight and bias in such a way cost function is minimized.
 * 📚Resources
-[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
-<br>
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+|   
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
-  
+# Day67
+### Image classifier using sequential api
+* Today I learned to use sequential api of keras to create a model that classify mnist fashion dataset clothe images. I trained the model using sequential api with input layer that take image as input and convert it to 1D array and two hidden layer that has relu activation and third output layer with 10 classes and activation softmax for multiple classification and I compile the model and evaluated it and found around 88% accuracy and checked on frist 3 data which was predicted correct.
+Here is the code hope you gain some insight watching it.
+![day67 done](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1b304b7d047c50b4d2a93cdfbb236587e5149c40/images/day67%20sequential%20api.png)
+* 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+|   
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
