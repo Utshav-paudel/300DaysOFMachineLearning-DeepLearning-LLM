@@ -919,3 +919,10 @@ Here is the code hope you gain some insight watching it.
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
 |   
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day68
+* Today I revised concept of vectorization, broadcasting in python and not using of rank 1 array in neural network. Vectorization is done with the help of numpy and it make computation faster by avoiding loop to run in C instead of python. Broadcasting helps to perform arithmetic operation between unsimilar shape vector and also learned to avoid rank 1 array in neural network instead use vectors with rows and column because unexpected broadcasting may happen in rank 1 arrray.These were some basic to clear before diving into deeplearning hope you get some insight from here.
+![basic](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/83031bf0abaeeacbf237712531a9d7ec66972031/images/day68%20basic%20of%20deeplearing.png)
+* 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+|   
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
