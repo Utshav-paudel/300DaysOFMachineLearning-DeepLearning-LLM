@@ -930,3 +930,14 @@ Here is the code hope you gain some insight watching it.
 * Today I learned to use functional api to create complex model, I used keras api that formed deep neural network architecture, it contained input layer to take input and the input was normalized by normalization layer, there were two hidden layer with 30 neuron having relu activation and concattenation layer to concatenate both second hidden layer and normalized layer and finally there was hidden layer or output layer to give prediction.
 [](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/3483069a043bf3b8346f2924a32b56161a55dd21/images/day69.png)
   ![code](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/3483069a043bf3b8346f2924a32b56161a55dd21/images/day69%20complex%20model%20using%20functional%20api.png)
+  * 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+|   
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day70
+* Today I gained some overview on different types of neural network (NN) like ANN(Artifical Neural Network), Convolutional Neural Network (CNN), Recurrent Neural Network(RNN), Auto encoders network , Genrative Adversial Network(GAN).I also learned in detail about perceptron that is mathematical model of neuron and implemented it as binary classifier.
+  ![perceptron implementation](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1bb00cf2656eed95fab4d5950bce5acd74b125bf/images/day70%20perceptron.png)
+  * 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+|   
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
