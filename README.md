@@ -941,3 +941,21 @@ Here is the code hope you gain some insight watching it.
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
 |   
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day71
+# Deep learning foundation
+### Perceptron trick
+* Today I learned about simple perceptron trick in which random data is selected each time and classifer is moved if data is misclassified, but in cannot quantify the classifier and may not converge sometime so we use different lossfunctionn in perceptron
+ #### Loss function in Perceptron
+ * Different loss function like perceptron loss,hinge loss, relu to minimize loss function in neural network we use gradient descent as done previously in machine learning
+### Gradient descent
+ * In neural network gradient descent finding is not easy task due to local minima we have to choose correct learning rate to converge so we use a technique called adaptive learnign that chosses learning rate some of them are SGD,adam,RMSprop,etc.
+ ### Backpropagation
+ * This is done to minimize the loss by updating weights on the basis of gradient descent it utilize chain rule of calculus. In backpropagation we see rate of change of loss with change in weights. It optimizes neural network.
+ ### Batching and regularization
+ * In neural network trainining is done on batches to enable parallel processing and reduces computation complexity by utilizing vecotrization , it also find more stable gradient and reduces overfitting.
+ * Regularization is done on neural network by early stopping and dropout of some neuron.
+ * 
+ 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+|   
+[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
