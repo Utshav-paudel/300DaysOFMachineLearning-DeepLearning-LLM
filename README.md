@@ -954,8 +954,20 @@ Here is the code hope you gain some insight watching it.
  ### Batching and regularization
  * In neural network trainining is done on batches to enable parallel processing and reduces computation complexity by utilizing vecotrization , it also find more stable gradient and reduces overfitting.
  * Regularization is done on neural network by early stopping and dropout of some neuron.
- * 
  📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
 |   
 [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day72
+### Recurrent neural network (RNNS)
+* RNNs are special neural network that takes sequential data like text,audio as input and apply a recurrence relation to process the sequence, RNNs uses same weight matrices everytime ,which allow them to maintain and utilize information from previous time steps while processing the current input.
+  ![Rnnsimage](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4ccc60d94814a7804ebf26426c379456393fd307/images/day72%20rnns.png)
+### Encoding
+* Encoding refers to the process of transforming an input sequence into a fixed-length vector representation or a hidden state that captures the information from the entire sequence.
+[encoding](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4ccc60d94814a7804ebf26426c379456393fd307/images/day72%20encoding%20nl.png)
+### Embedding 
+* Embedding refers to the process of representing categorical or discrete inputs, such as words in natural language processing (NLP), as continuous-valued vectors. Embeddings help capture the semantic relationships and similarities between different input categories.
+### Simple RNN example : 
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4ccc60d94814a7804ebf26426c379456393fd307/images/day72%20rnns_code.png)
+ 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
