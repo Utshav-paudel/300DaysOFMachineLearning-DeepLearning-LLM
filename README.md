@@ -969,5 +969,16 @@ Here is the code hope you gain some insight watching it.
 * Embedding refers to the process of representing categorical or discrete inputs, such as words in natural language processing (NLP), as continuous-valued vectors. Embeddings help capture the semantic relationships and similarities between different input categories.
 ### Simple RNN example : 
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/4ccc60d94814a7804ebf26426c379456393fd307/images/day72%20rnns_code.png)
- 📚Resources
+ * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day73
+### Backpropagation through time (BPTT)
+* In RNN backpropagation involves finding the derivatives of the loss function with respect to each time step in the RNN sequence, and then propagating these gradients backwards through time to update the weight called BPTT.
+### Gradient Issues
+* Computing gradient in rnns can be challenging task because it computing gradient wrt to time state involves many factors of weight repeated gradient computation.
+* If weight matrices is large (many values>1) explodint gradients happen and it is solved by:
+     * gradient clipping : One common solution to address exploding gradients is gradient clipping, which involves setting a threshold for the gradients. If the gradients exceed the threshold, they are scaled down to maintain their magnitude within an acceptable range.
+* If weight matrices is small (many values<1) vanishing gradients happen and it solved by :
+  * Activation function : Using activation function like relu make derivative 1 whenever x>0 so it help to prevent vanishing gradient.
+  * weight initialization : Using Identity matirces as weight and keeping biases o prevent vanishing problem.
+  * Network architecture : Controlling which information to add and which information to remove using  gates in each recurrent network. i.e use of LSTM and GRU.
