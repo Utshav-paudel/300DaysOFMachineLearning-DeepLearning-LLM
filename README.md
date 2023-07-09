@@ -982,3 +982,17 @@ Here is the code hope you gain some insight watching it.
   * Activation function : Using activation function like relu make derivative 1 whenever x>0 so it help to prevent vanishing gradient.
   * weight initialization : Using Identity matirces as weight and keeping biases o prevent vanishing problem.
   * Network architecture : Controlling which information to add and which information to remove using  gates in each recurrent network. i.e use of LSTM and GRU.
+ * 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day74
+### LSTM
+* Long Short Term Memory(LSTM) it use gated method that selectively add or remove information with each recurrent unit. This architecture solve gradient vanishing problem. It use gate to control flow of information by
+   * Forget : Get rid of irrelevant information
+   * Store : Store relevant infromation form current input.
+   * Update : Selectively update the cell state.
+   * Output : Return a filtered version of the cell state.
+### Self Attention
+* Self attention hold the core concepts behind modern transformer based model . It main idea is `Attending the most important part of input`. It captures long-range dependencies and allow parallelization. 
+![self attention image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/7ee81140b9b382df230121902e00b1d966e84368/images/day74%20sellf-attention%20method.png)
+* 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
