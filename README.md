@@ -996,3 +996,15 @@ Here is the code hope you gain some insight watching it.
 ![self attention image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/7ee81140b9b382df230121902e00b1d966e84368/images/day74%20sellf-attention%20method.png)
 * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day75
+### Convolutional Neural Network(CNN)
+CNN are deeplearning algorithm that takes images and videos as input and perfrom further analysis and processing on it trying to mimic human visual system.
+* Convolutional layers: In CNN we use filters of features patches to scan images called convolution. Convolution is element wise matrix multiplication of image patch and filter and summing it up which produces feature map. e.g: In letter 8 we use filters of circle,For different feature of image we use different filters.
+* Activation functions: After forming feature map we apply activation like Relu to introduce non-linearity in the network.
+* Pooling layers: after activation function we use pooling to spatial dimensions which make computational faster, make network more robust for varations in input.
+* Flattening : After downsampling of feature map we convert it into 1-D vector and fed it to conncected layer for classification.
+* Training : The 1-D data is fed to conncected neural network and model is tarined for further prediction and classification. While training model large sample labelled data is used and model learn through backpropagation.
+**To build more robust system we use image augmentation to generate different variation of image for training by scaling,rotating,distorting images**
+![cnn](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c9cbf25c21a56b1d4ccdc00cc64912399e99de50/images/day75%20cnn.png)
+* 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
