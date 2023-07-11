@@ -1008,3 +1008,13 @@ CNN are deeplearning algorithm that takes images and videos as input and perfrom
 ![cnn](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c9cbf25c21a56b1d4ccdc00cc64912399e99de50/images/day75%20cnn.png)
 * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day76
+* Today I dive depper into each steps of CNN and learned more about parameter of each component and implemented it to create a simple CNNs.
+    * I firstly created feature map using Conv2D with 32 filter and filter of 2x2 use relu for non-linearity and downsampled it by using MaxPool2D of size 2x2 and strides i.e movement of 2.
+    * In second convolution I used 64 filter of 3x3 with relu for non-linearity and downsampled it using 2x2 pool with stride 2.
+    * In last step I flatten the feature map into 1D array and use connected layer to make classification using softmax as activation function.
+Hope you get more understanding by looking at code and architecutre of CNN simple implementation.
+![cnn_arch](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/3da635804ef77848eb688697c3a34c55a5f21c82/images/day76%20cnn_for_classification.png)
+![cnn](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/f4287cacf9beb197e8c90cb73307ee8e182cd10a/images/day75%20cnn_implementation.png)
+* 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
