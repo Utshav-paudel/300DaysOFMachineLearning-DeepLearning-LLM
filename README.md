@@ -1025,3 +1025,12 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
 ![r-cnn](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/90c19139c53a6f08ebeeed45bcd28b74dff63666/images/day77%20rcnn.png)
 * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day78
+### Fast R-CNN and Faster R-CNN
+* Fast R-CNN is also object detection algorithm that is faster than R-CNN, because in R-CNN propose region i.e some thousand region were send to CNN but in fast R-CNN input image is send to CNN and after CNN it proposes region from feature map by using selective search algorithm and Region of Interest pooling is done and further prediction is performed.
+* But In cases of Faster R-CNN image is send to CNN like fast-RCNN but selective search algorithm is not used instead of it Region based Proposed Network is used to detect object which was faster than selective search algorithm,.
+### YOLO algorithm
+* You Only Look Once , In this algorithm we take an image and split it into an SxS grid, within each of the grid we take m bounding boxes. For each of the bounding box, the network outputs a class probability and offset values for the bounding box. The bounding boxes having the class probability above a threshold value is selected and used to locate the object within the image.
+  ![yolo](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0e952098885f2d7b9b12b450565db67668ea4f23/images/day78%20yolo.webp)
+  * 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
