@@ -1034,3 +1034,8 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
   ![yolo](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0e952098885f2d7b9b12b450565db67668ea4f23/images/day78%20yolo.webp)
   * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day79
+### Bird Species Classification using CNN 
+* Today I worked on Bird Species classfication using CNN which take bird image as input convert it to array , normalize it  and passes it CNN which perform classification into one of the 6 classes. My model got an accuracy of around 89% on test data. The model architecutre and snippet is shown below:
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/c5486be98b579cf2953b71d66bb1cb24dd83bb51/images/day79%20cnn_bird_architecture.png)
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/64b231050a74cdf269ca3dbc83eafa76ac147a69/images/day79%20bird_classification.png)
