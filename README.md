@@ -1041,6 +1041,10 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/64b231050a74cdf269ca3dbc83eafa76ac147a69/images/day79%20bird_classification.png)
 # Day80
 ### Generative modeling
-* 
+* Generative modeling take training sample as input with some distribution and predict or generate new sample similar to that distribution.
+### Auto encoders
+* Automatic encoding or auto encoders simple change higher dimensional data into lower dimension latent space and reconstruct the data using decoder , provides lower dimension data, denoised data.
+ ### Variational Auto encoders
+ * VAEs are atuo encoders that has probablistic twist on encoders, VAEs use mean and standard deviation to make latent space 
 * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
