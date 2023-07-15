@@ -1045,6 +1045,7 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
 ### Auto encoders
 * Automatic encoding or auto encoders simple change higher dimensional data into lower dimension latent space and reconstruct the data using decoder , provides lower dimension data, denoised data.
  ### Variational Auto encoders
- * VAEs are atuo encoders that has probablistic twist on encoders, VAEs use mean and standard deviation to make latent space 
+ * VAEs are atuo encoders that has probablistic twist on traditional auto encoders, VAEs use mean and standard deviation to learn latent space based on gaussian distribution and decode the latent space to generate new sample data.
+![vaes](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ea57924db99cbb30c1a05f3f5ca0c5eb6afcba86/images/day80%20vaes.png)
 * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
