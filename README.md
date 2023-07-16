@@ -1,4 +1,4 @@
-![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
+![image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/assets/102865357/6c0b172d-515e-42fb-b10a-60928c4b7efa)![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
@@ -1049,3 +1049,17 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
 ![vaes](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/ea57924db99cbb30c1a05f3f5ca0c5eb6afcba86/images/day80%20vaes.png)
 * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day81
+### Prior on the latent disribution
+* Prior on the latent distribution means our assumption on how the data will be distibuted for latent variable, common choice will be gaussian distribution with mean= 0 , variance = 1 becaue it encourages even encoding on latent space and penalizes on the clusering of data i.e avoid memorization of data.
+### Regularization and normal prior
+* In vaes regularzation is done to obatined `continuity : points that are close in latent space are consider similar after decoding` and `completeness: sampling from latent space turn into meaningful content after decoding` .
+![regularization and normalprior](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b285e04491e486991b61ce6708afaacef703858/images/day81%20regularization%20on%20prior.png)
+### Reparametrization 
+* In vaes reparamerization is done to allow backprop and gradient descent for training of vaes end to end.
+  ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b285e04491e486991b61ce6708afaacef703858/images/day81%20reparam.png)
+### latent peturbation and entanglement
+* Keep other variable fixed and increase or decrease single latent variable is latent peturbation and Latent entanglement refers to the interdependencies or correlations among the latent variables in a generative model. In some cases, the latent variables may be entangled, meaning that changing one variable can have an impact on multiple aspects or features of the generated output.
+![peturbationn](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b285e04491e486991b61ce6708afaacef703858/images/day81%20latent-perturbation.png)
+![vaes](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b285e04491e486991b61ce6708afaacef703858/images/day81%20summaryofvaes.png)
+
