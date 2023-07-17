@@ -1,4 +1,4 @@
-![image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/assets/102865357/6c0b172d-515e-42fb-b10a-60928c4b7efa)![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
+![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
@@ -1062,4 +1062,13 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
 * Keep other variable fixed and increase or decrease single latent variable is latent peturbation and Latent entanglement refers to the interdependencies or correlations among the latent variables in a generative model. In some cases, the latent variables may be entangled, meaning that changing one variable can have an impact on multiple aspects or features of the generated output.
 ![peturbationn](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b285e04491e486991b61ce6708afaacef703858/images/day81%20latent-perturbation.png)
 ![vaes](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/0b285e04491e486991b61ce6708afaacef703858/images/day81%20summaryofvaes.png)
-
+* 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day82
+### Genrative Adversial Network (GAN)
+![gan](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/20464f2f84d86b7f0a910cf48d30864ef1961c4f/images/day82%20gan_detail.png)
+* GAN is made up of two model i.e Generator and Discriminator and they behave adversial role to eachother , where
+   * Generator produces synthetic data samples from noise which is similar to real data and Discriminator takes real data and data produced by discriminator as an input and differentiate between fake and real data. Generator and Discriminator works on competitive manner, where generator try to produce good data samples that can fool discriminator and discriminator also improve itself to classify real and fake images. They work on improvement until the data produces by generator becomes as good as real one.
+* After training process you can simply use this generator two generate new images that has been never seen before.
+ * 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
