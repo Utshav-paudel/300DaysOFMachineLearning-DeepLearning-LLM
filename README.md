@@ -1076,7 +1076,7 @@ Hope you get more understanding by looking at code and architecutre of CNN simpl
 ### Challenges for robust deeplearning
 * Bias skewed data and Uncertainity i.e model doesnot know the answer can be challenging part for developing robust deep learning models.
 * **Algorithmic bias** : There can be bias while selection of data i.e some group may be overrepresented while other may be underrepresented, Model bias can be present due to lack of proper benchmark and metrics, Deployment bias due to change in distribution of data overtime, Evaluation bias due to not accounting of subgroups, Intrepretion bias due to human error .
-* **Class Imbalance **: Class imablance can be another major problem that create biasness in deeplearning model which doesnot lead to robust model.For example, in a medical diagnosis task, the majority class could be healthy patients, while the minority class could be patients with a rare disease. In fraud detection, the majority class could be non-fraudulent transactions, while the minority class could be fraudulent transactions.
+* **Class Imbalance**: Class imablance can be another major problem that create biasness in deeplearning model which doesnot lead to robust model.For example, in a medical diagnosis task, the majority class could be healthy patients, while the minority class could be patients with a rare disease. In fraud detection, the majority class could be non-fraudulent transactions, while the minority class could be fraudulent transactions.
 This can be solved by:
 ![class imbalance solution](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5041d0b9d1a70e4e4904766150c5f875be05792a/images/day83%20classimbalance.png)
  * 📚Resources
