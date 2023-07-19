@@ -1081,3 +1081,14 @@ This can be solved by:
 ![class imbalance solution](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5041d0b9d1a70e4e4904766150c5f875be05792a/images/day83%20classimbalance.png)
  * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day84
+### Debiasing VAES
+* VAES should be debias for better performance and it is done automatically by increasing the sample probability of sparse region of distribution and undersampling dense region data.
+![Debiasing in vaes](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5146635a2cb3230b59bec5f202b1d4854dbbbdf1/images/day84%20vaedebiasing.png)
+### Uncertainity
+* Uncertainity is the lack of confidence or ambguity in the predictions made by model due to some noise or incomplete data.
+ * Aleatoric Uncertainity : It is the uncertainity on data itself due to noise or randomness and it cannot be reduced with more data or model improvement.
+ * Epistemic Uncertainity : It is the uncertainity on model  due to incomplete data and can be reduced with more data and model refinement.
+![uncertainity type](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/933c5f143d803257ec1c5e3b78c0d5b36b92ee0e/images/day84%20types%20of%20uncertainity.png)
+ * 📚Resources
+ [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
