@@ -1092,3 +1092,10 @@ This can be solved by:
 ![uncertainity type](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/933c5f143d803257ec1c5e3b78c0d5b36b92ee0e/images/day84%20types%20of%20uncertainity.png)
  * 📚Resources
  [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)
+# Day85 
+### Auto encoders
+* Auto encoders are artificial neural networks capable of learning dense representations of the input data, called latent representations without any supervision. Create an stack autoencoders using keras based on mnist fashion dataset that reconstruct images from latent representations.
+Hope you gain some insight from this code about auto_encoders : 
+![auto encoders](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fc9d9dfaaa4dc4f88b069e6c4a594fbf781d0ebb/images/day85%20autoencoders.png)
+* Reconstructed image by autoencoder
+![result](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fc9d9dfaaa4dc4f88b069e6c4a594fbf781d0ebb/images/day85%20autoencoder_reconst.png)
