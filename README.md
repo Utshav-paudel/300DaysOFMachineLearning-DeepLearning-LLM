@@ -1107,3 +1107,15 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 ![TIE](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/dc2213e56ec286db7f36bb7a4edc5ba12a63ae6d/images/day86%20tiedencoder.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
+# Day87
+* Today I learned topics like training autoencoders at a time,convolutional autoencoders, denoising autoencoder  from books Hands on Machine learning and implemented them hope you get some insight reading short insights and code snippet.
+ * **Training one autoencoder at a time**: We train a first autoencoder with data and the reconstructed data of first autoencoder is sent to second auto encoder , after that the hidden layer of this encoder is stacked and then output layer of this encoder is stacked forminng new stacked autoencoders.
+ * **Convolutional autoencoders** : This autoencoders perform well incase of images it reduces the spatial dimensionality of image and increases the depth  i.e feature map  of image. Hope you get some insight watching my Convolutional autoencoder model.
+![convoae](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6943328f92cc0da048512213915e98112fc9d37a/images/day87%20convolution%20autoencoder.png)
+** **Denoising autoencoders** : Autoencoder can simply be useful to recover noisy image or reconstruct full image by denoising.
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6943328f92cc0da048512213915e98112fc9d37a/images/day87%20denoising_ae-code.png)
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6943328f92cc0da048512213915e98112fc9d37a/images/day87%20denoising_ae.png)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
