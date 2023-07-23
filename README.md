@@ -1119,3 +1119,9 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
 
+# Day88
+* Today I learned about sparsity autoencoders from the books and implemented it hope you gain some insights reading this 
+* **Sparsity autoencoders** : A sparse autoencoder is a type of neural network that enforces a sparsity constraint on the activations of hidden layer neurons. It encourages most neurons to be inactive, resulting in sparse representations of the input data. By learning meaningful and efficient features, it aids in dimensionality reduction and can be beneficial for various tasks that require feature learning and reconstruction.
+![sparisity autoencoders](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8c826da6ac84d73820c95a50facf0dbfae4b5fcd/images/day88%20sparseautoencoder.png)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
