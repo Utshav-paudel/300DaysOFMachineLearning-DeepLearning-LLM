@@ -1125,3 +1125,9 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 ![sparisity autoencoders](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/8c826da6ac84d73820c95a50facf0dbfae4b5fcd/images/day88%20sparseautoencoder.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+# Day89
+* Today I learned about variable autoencoders and its implementation on mnist dataset from the book ,  VAEs are atuo encoders that has probablistic twist on traditional auto encoders, VAEs use mean and standard deviation to learn latent space based on gaussian distribution and decode the latent space to generate new sample data. Its implementation is shown belwo hope you gain some insight reading it.
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6ce100ff8c8e19358ea42d0de39f033d78a91fe4/images/day89%20vaep1.png)
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6ce100ff8c8e19358ea42d0de39f033d78a91fe4/images/day89%20vaep2.png)
+* 📚Resources
+  [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
