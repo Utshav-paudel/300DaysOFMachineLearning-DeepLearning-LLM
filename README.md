@@ -1131,3 +1131,12 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/6ce100ff8c8e19358ea42d0de39f033d78a91fe4/images/day89%20vaep2.png)
 * 📚Resources
   [**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)
+
+# Day90
+* Today I implemented the Generative Adversarial Network(GAN) from the book using fashion mnist dataset that generated new images of clothes.This model uses a generator to create fake images and a discriminator to distinguish between real and fake images. The GAN is then trained using a custom training loop with alternating training of the discriminator and the generator. The goal is to train the generator to generate realistic images that can fool the discriminator. In this way new realsitic images where generated . Below is the code of gan .
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/f80c5890450e78a12fce59f2998fddc61a11af41/images/day90%20gan.png)
+
+
+
+
+
