@@ -10,6 +10,8 @@
 | 1. [**Medical Insurance Price Prediction**](https://github.com/Utshav-paudel/Medical_Insurance_cost-Predictor) |
 | 2.[**Iris Flower Classification**](https://github.com/Utshav-paudel/Iris-flower-calssification-webapp) |
 | 3.[**California Housing Price Prediction**](https://github.com/Utshav-paudel/California-Housing-price-prediction) |
+| 4.[**Collabrative filtering: Book Recommender Webapp**](https://github.com/Utshav-paudel/Book-Recommender-webapp) |
+| 5.[**CNN: Bird Species Classification**](https://github.com/Utshav-paudel/Bird-Species-Classification) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
