@@ -1146,4 +1146,7 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
 
-
+# Day92 
+* Today I revisited my concept on shallow neural network and implemented logistic regression on neural network to create a cat classification model that identify whether the image is cat or not.
+* 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)  
