@@ -1152,3 +1152,7 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 ![p2](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/9e39ed9eaa5523cf8614fb71fc751e1e5f45f801/images/day93%20logisticp2.png)
 * 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)  
+# Day93
+* Today I revisited my concept of optimizer in deep learning , basically optmizer main objective is to decrease loss function so that we get higher accuracy , optimization is done with Gradient descent like Batch GD, Stochastic GD and Mini Batch GD . But this optimization has some problem like finding learning rate, rscheduling learning rate , limitation of control of learning rate in multidimension, local minimum , saddle points where slope becomes zero without reaching optimal minimum points.
+* EWMA(Exponentially Weighted Moving Average) : It is basically weighted average where past data weight get decreasing over time compare to latest data and it is mostly used with time series data. EWMA can be controlled by a paramter alpha , If we increase alpha It give more value to previous data and graph become more stable, If we give decrease alpha our previous data are less weighted and we get moody graph. Optimal alpah is consider to be 0.9 mostly .
+  
