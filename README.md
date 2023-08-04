@@ -1160,10 +1160,11 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
   
 ![SGD momentum](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fa3b5ef126469fea947904a59b26a90fb54dad80/images/day94%20sgd_momentum.png)
 * Nesterov Accelerated Gradient (NAG) : This optimizers solve the oscillation problem of SGD momentum by damping the oscillation and it become more faster than SGD momentum. It basically update weight in two steps first by momentum and second by gradient or momentum look ahead which reduces oscillation .
+![Nag](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1d137af6368597f5fbf1e6f66a361af8c4f7c83b/images/day94%20nag_momentum.png)
 * Adaptive Gradient(ADaGrad) : AdaGrad is an optimizer which use adaptive learning rate and use in case of different scales of features , sparse feature that is due to majority 0 value in feature which create different change in slope in different direction so gradient first move more toward feature that has high gradient update to reduce this learning rate is divided by term which reduces learning rate and make gradient descent convergence faster toward global minimum but due to the term that divides learning rate Gradient descent never converges to global minimum it reaches near it so due this flaw ADAgrad is not used with complex Neural Network It  is only used incase of traditional algorithm but intiuition of it is necessary to learn Adam and RMSprop optimizers.
-  ![ADAgrad](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fdfc521b99c750b074f6f42f67c265b59933fc32/images/day94%20adagrad_optimizer.gif)
+ 
 # Day95 
 * Today I concluded my optimizers learning by getting deeper intuition about the most use optimizer in deep learning that is Adam optimizer along with one of the best optimizer that can compete with adam i.e RMSprop optimizer.
 * RMSprop : This solves the problem of ADaGrad that was not converging to global minimum by changing the learning rate over time. The learning rate has more weight in recent epochs as compare to previous epochs.
 * ADAM optimizer : It uses the concept of both momentum and learning rate decay i.e divides learning rate decay by moving average and mulitply learning rate by momentum which makes it use to hill down the gradient descent faster like momentum and get to global minimum without oscillation like learning rate decay concept.
-![Nag](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/1d137af6368597f5fbf1e6f66a361af8c4f7c83b/images/day94%20nag_momentum.png)
+ ![ADAgrad](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/fdfc521b99c750b074f6f42f67c265b59933fc32/images/day94%20adagrad_optimizer.gif)
