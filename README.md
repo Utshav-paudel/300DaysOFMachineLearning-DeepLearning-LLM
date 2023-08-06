@@ -1174,5 +1174,13 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 * Whereas in case of **Dropout regularization** It knock out hidden unit randomly making more smaller neural network which reduces the overfitting problem but it has one downside that is it may hamper decreasing cost function so dropout should me made in such a way it doesnot hamper cost function mostly dropout is used with the Computer vision.
 * ALso overfitting can be solved by having more data which is achieved by data augmentation.
 * Also early stopping at point where devtest cost function stop decreasing reduces overfitting but it hamper gradient descent to reach optimal solution i,e It breaks orthogonalization which means focusing on one task independently without distrubing other i.e gradient descent and regularization.
-📚Resources
-[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?) 
+* 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day97
+* Today I learned about normalizing input features to make gradinet descent faster , Vanishing and exploding of gradients, Checking of gradient descent properly before training model to see if it is working correctly with the help of numerical approximation of gradient i.e Gradient checking and practical implementation of gradient checking from course DeepLearning Initialization , I hope you do the same and here is short summary hope you get some idea: 
+ * **Normalizing input features :** Normalizing Input features brings all features in same range and helps gradient desent to converges faster 
+ * **Vanishing and exploding gradient** : In deep neural network if weight is greater than 1 or less than 1 , then weight may explode or  vanish respectively which make deep neural network learning difficult it can be solved with xavier inatilization or initialization of weight .
+* **Gradient checking**  : Check the approximated and actual derivative if there difference is 10^-7 then it is good to go if it is more debug. Gradient checking is not used in training , Include regularization term before gradient checking and use gradient checking without dropout and later use dropout. 
+
+* 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
