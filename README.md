@@ -1179,7 +1179,7 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
 # Day97
 * Today I learned about normalizing input features to make gradinet descent faster , Vanishing and exploding of gradients, Checking of gradient descent properly before training model to see if it is working correctly with the help of numerical approximation of gradient i.e Gradient checking and practical implementation of gradient checking from course DeepLearning Initialization , I hope you do the same and here is short summary hope you get some idea: 
  * **Normalizing input features :** Normalizing Input features brings all features in same range and helps gradient desent to converges faster 
- * **Vanishing and exploding gradient** : In deep neural network if weight is greater than 1 or less than 1 , then weight may explode or  vanish respectively which make deep neural network learning difficult it can be solved with xavier inatilization or with proper initialization of weight .
+ * **Vanishing and exploding gradient** : In deep neural network if weight is too large or too small during back propagation, then weight may explode or  vanish respectively which make deep neural network learning difficult it can be solved with xavier inatilization also known as (glorot) , He initialization  or with other proper initialization of weight .
 * **Gradient checking**  : Check the approximated and actual derivative of weight if there difference is 10^-7 then it is good to go if it is more debug. Gradient checking is not used in training , Include regularization term before gradient checking and use gradient checking without dropout and later use dropout. 
 
 * 📚Resources
