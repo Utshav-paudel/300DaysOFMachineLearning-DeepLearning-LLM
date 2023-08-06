@@ -1181,6 +1181,7 @@ When we have symmetrical autoencoder we can tie the weights of decoder layer to 
  * **Normalizing input features :** Normalizing Input features brings all features in same range and helps gradient desent to converges faster 
  * **Vanishing and exploding gradient** : In deep neural network if weight is too large or too small during back propagation, then weight may explode or  vanish respectively which make deep neural network learning difficult it can be solved with xavier inatilization also known as (glorot) , He initialization  or with other proper initialization of weight .
 * **Gradient checking**  : Check the approximated and actual derivative of weight if there difference is 10^-7 then it is good to go if it is more debug. Gradient checking is not used in training , Include regularization term before gradient checking and use gradient checking without dropout and later use dropout. 
-
+Implementation of random and he initialization:
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/778fcbc02f05b589f834fca6edc6ae32dc8b6575/images/day97%20weightinit.png)
 * 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
