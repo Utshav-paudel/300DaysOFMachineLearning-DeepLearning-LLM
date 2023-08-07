@@ -1185,3 +1185,15 @@ Implementation of random and he initialization:
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/778fcbc02f05b589f834fca6edc6ae32dc8b6575/images/day97%20weightinit.png)
 * 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day98
+* Today I learned about batch gradient descent,mini-batch gradient descnet and way of choosing mini batch size , bias correction , Hyperparameters and Hyperparamters tuning to find better result from the course Deeplearning initialization and also spended some time implementing regularization from assignment.
+* **Mini-batch size** : When training set are too large to be train on one epochs mini batch gradient descent can be used and selecting batch-size depends upon the computational capcity of gpu/cpu. It should not be too large and too small , It is choosen as :
+   * If small training set use Batch gd.
+   * Typical mini-batch size are in 2^n depending on cpu and gpu size.
+   * Many researcher use largest batch size that can fit in gpu
+* Where as Bias correction is necessary to handle initial bias in weighted moving average so that initial bias doesnot affect the whole curve.
+* **Hyperparameter** : The most important hyperparameter is learning rate ,optimizer,activation function, hidden unit , batch-size,  learning rate decay
+* Also hyperparameter can be choosen in different method like using coarse to find hyperparamter , picking at random.
+* **Organizing Hyperparamter process** : It is done either by babysitting one model if computational power is limited or training many model at parallel if enough computational power.
+* * 📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
