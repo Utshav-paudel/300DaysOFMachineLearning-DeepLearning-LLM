@@ -1192,8 +1192,8 @@ Implementation of random and he initialization:
    * Typical mini-batch size are in 2^n depending on cpu and gpu size.
    * Many researcher use largest batch size that can fit in gpu
 * Where as Bias correction is necessary to handle initial bias in weighted moving average so that initial bias doesnot affect the whole curve.
-* **Hyperparameter** : The most important hyperparameter is learning rate ,optimizer,activation function, hidden unit , batch-size,  learning rate decay
-* Also hyperparameter can be choosen in different method like using coarse to find hyperparamter , picking at random.
+* **Hyperparameter** : The most important hyperparameter is learning rate ,optimizer,activation function, hidden unit , batch-size,  learning rate decay as well as regularizaition strength i.e L1/L2,dropout rate and initialization method
+* Also hyperparameter can be choosen in different method like using coarse to find hyperparamter , picking at random,grid search ,bayesian optimization.
 * **Organizing Hyperparamter process** : It is done either by babysitting one model if computational power is limited or training many model at parallel if enough computational power.
 * * 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
