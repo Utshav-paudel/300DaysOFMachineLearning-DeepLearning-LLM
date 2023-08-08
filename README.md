@@ -1195,5 +1195,13 @@ Implementation of random and he initialization:
 * **Hyperparameter** : The most important hyperparameter is learning rate ,optimizer,activation function, hidden unit , batch-size,  learning rate decay as well as regularizaition strength i.e L1/L2,dropout rate and initialization method
 * Also hyperparameter can be choosen in different method like using coarse to find hyperparamter , picking at random,grid search ,bayesian optimization.
 * **Organizing Hyperparamter process** : It is done either by babysitting one model if computational power is limited or training many model at parallel if enough computational power.
-* * 📚Resources
+*  📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day99
+* Today I learned about batch normalization and its whole working process like normalizing activation function, fitting batch norm into neural network, batch norm at test time.
+* **Batch Normalization** : Batch normalization is a technique for training very deep neural networks that standardizes the inputs to a layer for each mini-batch. This has the effect of stabilizing the learning process and dramatically reducing the number of training epochs required to train deep networks. So it advantages are it make network stable,faster,has regularizing effect and due to batch normalization weight initialzation become less important.  Batch normalization has four parameter , 2 learnable parameter and 2 not learnable paramter mean and standard deviation. 2 learnable parameter alpha and beta provides scaling and shifting effect.
+* Here is a sample way of applying batch normalization in tensorflow :
+![Batch norm](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/90d0717270579f1675e0fe47a776a9358a535511/images/day99%20batch_normalization.png)
+* Also you can apply batch normalization after activation function and in some case it may perform well.
+*  📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
