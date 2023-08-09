@@ -1206,9 +1206,7 @@ Implementation of random and he initialization:
 *  📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day100
-* Today marks my 100 days of code achievement! I've never been this consistent before, and maybe because this field excites me to sit everyday and learn something new , and with each new algorithm I learn, it feels like  gaining new superpowers.
-
-Also , Today I learned about structuring and optimizing machine learning projects using orthogonalization,single number evaluation metrics ,optimizing and satisficing metric from course deeplearning specialization.
+* Today marks my 100 days of code achievement! I've never been this consistent before, and maybe because this field excites me to sit everyday and learn something new , and with each new algorithm I learn, it feels like  gaining new superpowers. Today I learned about structuring and optimizing machine learning projects using orthogonalization,single number evaluation metrics ,optimizing and satisficing metric from course deeplearning specialization.
 * **Orthogonalization** : It is an system design property that ensures modification of an component of algorithm doesnot create a side effect to other components.
  For e.g : Early stopping any algorithm to prevent overfitting may create a effect on cost function so this is not consider better interm of orthogonalization.
 * **Single Number evaluation metrics:** Evaluating between two different classifier can be bit confusing using precision and recall so single number evaluation metrics for them may be F1 score which can tell which classifier is best.
