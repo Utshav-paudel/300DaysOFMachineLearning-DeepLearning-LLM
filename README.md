@@ -1213,3 +1213,18 @@ Implementation of random and he initialization:
 * **Optimizing and Satisficing metrics** : Optimizing metrics are those metrics that you want to maximize or minimize to get best possible outcome Whereas satisficing is the metrics that are used to ensure certain threshold or minimum requirement is met. In realworld examples combination of optimizing and satisficing metrics is used . for e.g : For any classifier algorithms its optimizing metrics may be F1 score or accuracy and its satisficing metrics may be runtime. 
 *  📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day101
+* Today I continued my learning on structuring machine learning projects and learned about train/dev/test distribution its size and when to change dev/test sets and its metrics, comparing  with human level perfromance /bayes error and learned to create custom loss and use it  from the course DeepLearning specilization.
+* **Managing Train/Dev/Test distribution** : Dev and test set should be of same distribution . Choose a dev set and test set to reflect data you expect to get on future and consider important to do well on.
+* **Size of  Test and Dev set** : Set your test set to be big enough to give high conifence in overall performance of your system.
+* **Things to remember to move in right direction while working on machine learning projects:**
+   * When your metrics is not considering the problem you want to solve tweaks the metrics .
+   * Orthogonalization on metrics : Define a metric to evaluate the model, worry separately on how to do well on this metrics.
+   * If doing well on dev and test set but doesnot do well on your application change your metrics or dev/test set.
+   * E.g : A few ml engineers spending months on tuning their model performance looking to dev set + metrics and when they check on test set with different distrbution it may not perfrom well .
+   * Comparing with human level performance : When you surpass human level performance then the accuracy maynot get incrased rapidly and will not go above a line called baysian optimal error. When can follow avoidable bias and avoidable variance tactics by comparing training , test error and Human error proxy as bayesian optimal error. It means that our expectation of model will not be 0% error.
+   * Avoidable bias is gap between bayes error/Human level error  and training error and can be controlled by using bigger network,training longer/better optimization. The gap betweeen training error and test error is variance problem and can be controlled by more data, regularization, hyperparameter search.
+At last I Learned to create custom loss and create hubber loss that combine both mean squared error (mse) and mean absolute eror (mae) , to use custom loss after loading model we have to provide custom loss you can see from my code below : 
+![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/79df646e444e9f0e2934f33376231a0cf28d5735/images/day101%20custom_model.png)
+*  📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
