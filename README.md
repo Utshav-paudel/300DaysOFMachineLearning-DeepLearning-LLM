@@ -1228,3 +1228,7 @@ At last I Learned to create custom loss and create hubber loss that combine both
 ![](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/79df646e444e9f0e2934f33376231a0cf28d5735/images/day101%20custom_model.png)
 *  📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day102
+* Today I learned about
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
