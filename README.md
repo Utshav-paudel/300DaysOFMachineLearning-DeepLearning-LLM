@@ -1229,6 +1229,12 @@ At last I Learned to create custom loss and create hubber loss that combine both
 *  📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day102
-* Today I learned about
+* Today I learned about the best practices to do while developing a machine learning applications by reading  and evaluating my understanding from the case study of developing bird detection system in city of pacqueta , error analysis , directing to solve error with the help of misclassified dev set and some healthy habits of machine learning projects development.
+* **Error Analysis :** Lets go through a example of cat classifier , If we build a cat classifier and found out few dogs were also classified as cat now what should we do , Should we spend time on dog classifier ?. The answer is ~ check 100 misclassified dev set and count how many are dog . the % of dog in misclassified is the percentage you can get your error down by. IF you got good decrement on error you can spend time on developing dog classifier also .
+* Evaluating different mislabelled dev set in parallel : Look out the mislabelled percentage of differnet items and work on making classifier of items that has highest % of misclassification .
+* Always remeber to apply changes you made on dev set , to test set so they both have same distribution .
+* Also Build your first system quickly and iterate , after that you can work on error analysis and which direction to move for better performance.
+Here is a sample of error analysis to get idea [click](https://github.com/Utshav-paudel/Error-analysis-In-Ml-Projects)
+![error analysis](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/2815ffe58283bb051be1655e181131a18f00f2de/images/day102%20error_analysis.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
