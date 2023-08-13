@@ -4,7 +4,7 @@
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
 | 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
 | 3.[**Intro to DeepLearning**](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✔️ |
-| 3.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
+| 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
 
 | Project Completed |
 | ----------------- |
@@ -1244,5 +1244,9 @@ Here is a sample of error analysis to get idea [click](https://github.com/Utshav
 *  **Training and Testing on different distribution :** This can arise in different machine learning projects , we also choose our test/dev set that represent data distrbution that we will encounter on real world application , dev/test set are the data in which we want to perform better. For e.g : For a cat classifier we can get million of data that are very clear images of cat from internet  but in application user may upload blurry images from camera. So we should make our dev/test set compose of this blurry image from mobile and some amount of this data on training set.
 *  In such situation our bias and variance maynot be seen on training error and dev error gap due to difference in data distribution . so we create a new set called training-dev set which contains training data and dev data, training error and training-dev error will show variance situation  which help to see  variance problem and the gap between training-dev and dev/test  set will show data mismatch situation .
 *  **Addressing data mismatch :**  Data mismatched problem is addressed by getting more data of test/dev distribution using data synthesis , but during data synthesis be very careful about including tiny subset of data .
+# Day104
+* Today I learned about transfer learning and multiple task learning and when this technique should be used from the course DeepLearning Specialization.
+* **Transfer Learning:** It is  a technique where knowledge learned from a task is reused in order to boost performance on a related task. It is mostly used when you have for the problem you're tranferring from and usually relatively less data for the problem you're transferring to . Also the task should have similar input . for e.g: A cat classifier model trained on 1 million data i.e  pretrainged model is used for dog classfication by finetuning i.e changing output layer or additional layer if needed
+* **Multi task Learning:** It is a technique that enables single model to learn multiple taks at once . It is used when training on a set of tasks that could benefit from having share low level features. Usually amount of data is quite similar for each task. for e.g: A object detection that detects car,pedestrian, cycles,etc .
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
