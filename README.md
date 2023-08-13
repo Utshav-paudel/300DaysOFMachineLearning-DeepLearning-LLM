@@ -3,6 +3,7 @@
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
 | 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
+| 3.[**Intro to DeepLearning**](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✔️ |
 | 3.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
 
 | Project Completed |
