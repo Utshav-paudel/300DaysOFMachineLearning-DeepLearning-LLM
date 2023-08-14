@@ -1254,5 +1254,8 @@ Here is a sample of error analysis to get idea [click](https://github.com/Utshav
 * Today I learned about end to end deep learning approach and pipepline deeplearning approach and there use cases from course DeepLearning Specilaization.
 * **End-to-end deeplearning** : It works well when the data is very large to map input x to the output y and in this approach it may be useful because it lets data speak and doesnot get limited on human perception. Less hand designing of component is needed in this approach.
 * **Pipepline approach:** In this approach of deeplearning most important component are only focused for example if you need employee detection system you first take whole picture and keep the face picture and compares it with the orginal dataset to match rather than learning from whole image. It is very useful when large data is not available and It focuses on useful hand-designed component.
+* Also Implemented transfer learning to create a classifier that detects simpson cartoon character using VGG16 architecture with some fine tuning.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b5543da9e3c1f36678309bb08a473c89319c06d4/images/day105%20tl_p1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b5543da9e3c1f36678309bb08a473c89319c06d4/images/day105%20tl_p2.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
