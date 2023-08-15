@@ -13,6 +13,7 @@
 | 3.[**California Housing Price Prediction**](https://github.com/Utshav-paudel/California-Housing-price-prediction) |
 | 4.[**Collabrative filtering: Book Recommender Webapp**](https://github.com/Utshav-paudel/Book-Recommender-webapp) |
 | 5.[**CNN: Bird Species Classification**](https://github.com/Utshav-paudel/Bird-Species-Classification) |
+| 6.[**CNN Transfer Learning: Messy-or-CleanRoom-Detection**](https://github.com/Utshav-paudel/Messy-or-CleanRoom-Detection/tree/Utshav-paudel) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
@@ -1257,5 +1258,12 @@ Here is a sample of error analysis to get idea [click](https://github.com/Utshav
 * Also Implemented transfer learning to create a classifier that detects simpson cartoon character using VGG16 architecture with some fine tuning.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b5543da9e3c1f36678309bb08a473c89319c06d4/images/day105%20tl_p1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b5543da9e3c1f36678309bb08a473c89319c06d4/images/day105%20tl_p2.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day106
+* Today I completed the prediction portion of Messy or clean room detection using VGG16 architecture by transfer learning, and revised  some computer visions topics like edge detection,padding and strides from course DeepLearning Specialization.
+* **Padding** : In normal convolution operation edge are given less emphasis as compared to central area and image shrinks in each convolution to avoid this padding is used which make a external border around the image known as pad which avoid image shrinking and less emphasis on edge. It is of two type : valid means no padding and "same" means pad so output size is same as input.
+Here is the some insights of making prediction of model that I saved which was previously trained using transfer learning.
+![making prediction](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/bad11b4c36bfbace1dc773572dc780990a294502/images/day106%20tl_p3.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
