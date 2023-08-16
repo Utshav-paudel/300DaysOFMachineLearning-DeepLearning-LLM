@@ -1268,10 +1268,16 @@ Here is the some insights of making prediction of model that I saved which was p
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day107
-* Today I revised about convolution over volume , notation of convolution layer, Types of layers in CNN, Convolution Neural Network example (LeNet-5) and why convolution instead of neural network from the course DeepLearning Specialization.
+* Today I revised about convolution over volume , notation of convolution layer, Types of layers in CNN, Convolution Neural Network example (LeNet-5) and why convolution instead of neural network from the course DeepLearning Specialization and also spended some time developing cnn from scratch and built zero padding function and forward prop function.
 * **Convolution over volume** : When some convolution operation is applied to the input images using some filters then some features are extracted . On a Single image of multi channel i.e RGB image a multichannel vertical edge detection and horizontal edge detection filter is applied which has same channel to images and new Ouput of dimension i.e displayed in images below will be obtained whose channel is equal to the number of filters.
 * **Types of Layers in CNN** : Convolution layer, pooling layer, Fully connected layer or Dense layer.
 * Input Image is taken an some filter is applied to detect feature for the input image called convolution operation , the layer formed is known as `convolution layer` in such layer `pooling layer` is applied  to reduce dimension this combination of convolution + pooling is taken as 1 layer and many such layer are obtained which generate a final convolution layer that is then flatten and provided to `fully connected layer` and at last require prediction is made.
 * **Why Convolution** : Convolution is used instead of simple nn beacause: 
     * Parameter sharing : A feature detector that is used in one part is useful for another part which reduce required number of paramters.
     * Sparsity connections: Output values depends upon only a samll number of input. 
+#### Implementation of CNN From scratch 
+* Zero padding and convolution single step
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f18a279e7ae0e429cb312e7cf74c50ecb29765c3/images/day107.png)
+  
+* convolution forward prop
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f18a279e7ae0e429cb312e7cf74c50ecb29765c3/images/day107%20convolutionp2.png)
