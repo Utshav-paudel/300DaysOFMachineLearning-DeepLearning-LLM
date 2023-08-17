@@ -1281,3 +1281,14 @@ Here is the some insights of making prediction of model that I saved which was p
   
 * convolution forward prop
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f18a279e7ae0e429cb312e7cf74c50ecb29765c3/images/day107%20convolutionp2.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day108 
+* Today I Learned about some classical CNN architectures like LeNet-5(60k parameters), AlexNet(~60M parameters), VGG-16(~138M parameters) also learned about ResNets, 1x1 convolution, Inception architecutre, and also created pooling function for CNNs from scratch.
+* **ResNet** : The Residual Network (ResNet) allows to train deeper neural network i.e many layer without exploding and vanishing of gradients by skipping connections, while skipping of connection the later activation must match dimension to the previous activation that may be changed by pooling, this matching of activation is done with the help of activation in later activation functions. So with the help of ResNet we can train deeper neural network that bring greater performance which was limited in theory before the invention of ResNet.
+* **1*1 convolution** : 1x1 filters are used to decrease the channels , it reduces the channel equivalent to number of 1x1 filters used, which may be helpful since it reduce computational complexity and give more emphasis on important channels.
+* **Inception** : The important features of input sometimes get distributed more locally and sometimes get distributed more globally, which may need different filter size to detect them properly, previously same size of filter was used throughout the architecutre but inception stacks different dimensional filter together and to reduce computational complexity it uses 1x1 convolution.
+* pooling function to downsampling image
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/641e72ec3cb65dc65e9ee8e1639c8d74017681ad/images/day108%20pooling.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
