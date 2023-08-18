@@ -1292,3 +1292,10 @@ Here is the some insights of making prediction of model that I saved which was p
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/641e72ec3cb65dc65e9ee8e1639c8d74017681ad/images/day108%20pooling.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day109
+* Today I dive deeper into the intuition of MobileNets ,
+*  **MobileNets :** The main idea behind the MobileNets is low computational cost and can be used for mobile device and embedded vision applications. Instead of performing normal convolution MobileNets uses depthwise separable convolutions which is made of depthwise and pointwise convolution which help in reducing number of paramters.
+*  **MobileNets V2 :** The mobile net V2 is the improved version of MobileNet which is made of input->expansion(point wise convolution that increases number of channel)-> depthwise convolution that has filters of fxf size and number of filters equal to channel of expanded conv-> projection which is aslo pointwise convolution that decreases channel-> output layer. This middle (i.e expansion->depthwise->projection) is also known as bottle neck reduces computational cost providing good performance in hardware limited scenario like mobile app , embeded system.
+*  **Efficient net** : The Effiecient is another architecutre that provides flexibility to change resolution, depth and width of  convNet to get best performance within your computational budget.
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
