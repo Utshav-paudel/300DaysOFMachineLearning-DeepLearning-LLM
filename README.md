@@ -1299,3 +1299,11 @@ Here is the some insights of making prediction of model that I saved which was p
 *  **Efficient net** : The Effiecient is another architecutre that provides flexibility to change resolution, depth and width of  convNet to get best performance within your computational budget.
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day110
+* Today I learned about the open source Implementation of different network archtecture built and using them , transfer learning, data augmentation, state of computer vision from the course deep learning specialization and spended some time implementing image augmentation on a single image.
+* **Data augmentation :** The technique use to generate datasets of variation when datasets is limited by applying different transformation like mirroring, random cropping, rotating, shearing, color shifting .  It reduces overfitting problem and increase performance of model.
+* State of computer vision : If you have more data than less hand engineering is required and If you have less data then you can use more hand engineering and transfer learning if needed.
+Image augmentation implementation
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a536513f5c9b2672005b448b89700b0a84473b0c/images/day110.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
