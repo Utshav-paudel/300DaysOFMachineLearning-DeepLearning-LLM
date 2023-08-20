@@ -1307,3 +1307,15 @@ Image augmentation implementation
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a536513f5c9b2672005b448b89700b0a84473b0c/images/day110.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day111
+* Today I revisited object detection in deep learning and learned about object localization,landmark detection, Sliding window, YOLO : IoU,Non max suppression,anchor box from the course deep learning specialization.
+* **Object Localization:** Detects objects and draw bounding box around them i.e location of the objects.
+* **Landmark detection:** It is the process of detecting significant landmark withing the image, these landmark are the point or features of interest within the image such as corners, edges, object keypoints, facial features, or any other salient points that help describe the structure or content of an image.
+* **Sliding Window by convolution**: Sliding window according to stride over image may be computationally costly so instead of it we use fully connected layer as convolution and create all possible sliding window at once and select the one with objects but this method maynot give accurate bounding box
+* **YOLO algorithm**: This algorithm works well on detecting bounding box than sliding window and it is faster . In this algorithm we take an image and split it into an SxS grid, within each of the grid we take m bounding boxes. For each of the bounding box, the network outputs a class probability and offset values for the bounding box. The bounding boxes having the class probability above a threshold value is selected and used to locate the object within the image.
+  * **Intersection Over Union:** IoU measures the overlap between ground truth bounding box and predicted bounding box.
+    IoU= Area of Overlap/Area of Union.This IoU makes the preformance of YOLO better by providing more accurate bounding box.
+  * **Non-Max suppression:** It selects the bouding box with maximum probability out of different bounding boxes.
+  * **Anchor box**: When object of different aspect ratio is in the image then anchor box is used to detect them seperately
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
