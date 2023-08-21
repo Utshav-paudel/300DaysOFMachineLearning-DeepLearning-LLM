@@ -1,4 +1,4 @@
-![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
+![image](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/assets/102865357/4aef1428-93ed-4a16-82c2-fb8e26c52576)![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
@@ -1319,3 +1319,11 @@ Image augmentation implementation
   * **Anchor box**: When object of different aspect ratio is in the image then anchor box is used to detect them seperately
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day112
+* Today I learned about Image segmentation, transpose matrix multiplication, U-net architecture and spended some time creating a CNN model to detects wether the person is similing and sign language detection using Sequential Api and Functional Api from the course Deep learning specialization.
+* **Image Segmentation :** It is the method to label every single pixel instead of drawing bounding boxes in the images and used in automonous driving car, medical field. U-net architecture is one of the popular image segmentation archtitecture . It first use normal convolution and pooling in contraction and in expansion it use transpose convolution with skip connection that provides activation function of higher detailed low level spatial information. Then at last 1x1 convolution filter equal to number of classes to segment is used resulting output with dimension HxW equal to input and 3rd dimension equal to number of class to segment.
+* **Functional API vs Sequential API** : Sequential API works very well with linear topology but for non-linear topology you need to use Functional API. I will share some code snippet that reflect way to use Sequential API and Functional API.
+**Seqeuntial API use to detect smily face:**
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0e020a4187780175db3dcee78e89ae1d57a06eee/images/day112%20sequentialapi.png)
+**Functional API use to detect sign language:**
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0e020a4187780175db3dcee78e89ae1d57a06eee/images/day112%20functionalapi.png)
