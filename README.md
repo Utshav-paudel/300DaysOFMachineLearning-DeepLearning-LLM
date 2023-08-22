@@ -1323,7 +1323,18 @@ Image augmentation implementation
 * Today I learned about Image segmentation, transpose matrix multiplication, U-net architecture and spended some time creating a CNN model to detects wether the person is similing and sign language detection using Sequential Api and Functional Api from the course Deep learning specialization.
 * **Image Segmentation :** It is the method to label every single pixel instead of drawing bounding boxes in the images and used in automonous driving car, medical field. U-net architecture is one of the popular image segmentation archtitecture . It first use normal convolution and pooling in contraction and in expansion it use transpose convolution with skip connection that provides activation function of higher detailed low level spatial information. Then at last 1x1 convolution filter equal to number of classes to segment is used resulting output with dimension HxW equal to input and 3rd dimension equal to number of class to segment.
 * **Functional API vs Sequential API** : Sequential API works very well with linear topology but for non-linear topology you need to use Functional API. I will share some code snippet that reflect way to use Sequential API and Functional API.
+
 **Seqeuntial API use to detect smily face:**
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0e020a4187780175db3dcee78e89ae1d57a06eee/images/day112%20sequentialapi.png)
 **Functional API use to detect sign language:**
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0e020a4187780175db3dcee78e89ae1d57a06eee/images/day112%20functionalapi.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day113
+* Today I dive deep into the concepts behind facial recognition system like one shot learning , siamese network ,  triplet loss from the course deep learning specialization.
+* **One-shot learning:** It is a classification algorithm that assesses the similarity and differences between two images. For example for face recognition of a person you get one image from camera and compare it with the image in database . You get some sorts of scores and if the least score is less than threshold ,you are recognized . Thus you don't need to train on thousand of images in different lightings so it is called one shot. This one short learning uses network called siamese network and has loss called triplet loss.
+* **Triplet Loss**: Triplet loss is a loss function that recognize the similarity or difference between items. It uses groups of three items called triplets they are : anchor , positive(similar item) and negative(dissimilar item). The loss function encourages the embedding of anchor and positive item to be closer then the embedding of anchor and negative item at least by certain margin.
+Implementation of triplet loss :
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c98f45a4b520e8b2da7b5d7ee4f1eb0dae34937f/images/day113%20tripletloss.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
