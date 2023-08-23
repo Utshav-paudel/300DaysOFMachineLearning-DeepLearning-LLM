@@ -1338,3 +1338,14 @@ Implementation of triplet loss :
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c98f45a4b520e8b2da7b5d7ee4f1eb0dae34937f/images/day113%20tripletloss.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day114
+* **Face recognition as binary classification problem :** You have images of verified person in database and you can precompute the embedding of this images and the new images whose face has to be recognized is now embeded and this input image embedding and database embedding is handled by sigmoid function that takes z=Wx+b, where x is the difference of each elements of embedding give 1 if same and 0 if dissimilar face is found.
+* **Neural style transfer :** It is the technique in which it have content image and style image , combines them together to generate a new image of content drawn in style refrence.
+* At first the generated images is initialize as a  noise and after running gradient descent and minimizing the cost function iteration by iteration the generated image will look more like the rendered image that combines style and content image.
+     * **Style cost function:** It is basically the euclidean distance of gram matrix of style image and generated image, where gram matrix is the correlation between activation in k and k' channel where k' means prime channel . Style in any layer is defined as correlation between activations across channels.
+     * **Content cost function :** It is basically the euclidean distance between activation of content and activation of generated .
+  ## NOTE: combination of content cost and style cost give cost function for Neural style transfer
+     * **Deep ConVnet Learning :** The shallower layer detect simpler features like edges, color contrast, corners and deeper layer detect complex features like water , birds legs, people,etc
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+
