@@ -1348,7 +1348,15 @@ Implementation of triplet loss :
   #### NOTE: combination of content cost and style cost give cost function for Neural style transfer
      * **Deep ConVnet Learning :** The shallower layer detect simpler features like edges, color contrast, corners and deeper layer detect complex features like water , birds legs, people,etc
 * Also spendeded some time implementing resnet and created function for identity block that show skip connections.
-* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ef43219c27ba3b3947950ced6c9c2d495fc7ad61/images/day114.png)
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1d42fc24febb2d658c2914a8e99ae5d73a6b0745/images/day115%20resnet1.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 
+# Day115
+* Today I created ResNet-50 from scratch first I built convolutional block function that skips the connection and shortcut path has convolutional layer to equalise dimension of input and output and also used yesterday built identity block that skips connection but it should have same dimension of input and output and it doesnot have convolutional layer on shortcut path. Using this two function I built the entire ResNet-50 model inspired from the course DeepLearning specialization.
+* **Convolutional_block : It skips connection , has convolutional layer in shorcut path to make input and output dimension equal**
+ ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1d42fc24febb2d658c2914a8e99ae5d73a6b0745/images/day115%20resnet2.png)
+* **ResNet-50 : Built using convolutional_block and identity_block**
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1d42fc24febb2d658c2914a8e99ae5d73a6b0745/images/day115%20resnet3.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
