@@ -1360,3 +1360,8 @@ Implementation of triplet loss :
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1d42fc24febb2d658c2914a8e99ae5d73a6b0745/images/day115%20resnet3.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day116
+* Today I implemented the MobileNet-V2 using transfer learning for image classification task and obtained around 78% accuracy on 5 epochs, since it was the binary classification problem I only used on neuron in dense layer . The overall purpose of using MobileNet-V2 was its tradeoff on accuracy and performance , since it get run in small memory because of depthwise separable convolutions which reduces the number of trainable parameter . Below is the code snippet of transfer learning hope you get some insights reading it , I will put more concise explanation once I complete it fine tuning aiming more accuracy.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/2af9fba167aef323847dcbb318c925dcb83119e8/images/day%20116_mobilenet.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
