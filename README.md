@@ -1367,5 +1367,7 @@ Implementation of triplet loss :
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day117 
 * Today I finetuned my MobileNet-V2 , while fine tuning the first layers are for detecting low level simple features like edge,color so changing them is not that important instead you should modify the deeper ending layer because they are made for detecting high level features, I first unfreezed the layer, I started finetuning the layers form 120 to 155 which was last layers and run the 5 more epochs from previous left off and increase the accuracy from 78% to 92 % .
-Belwo is the snippet of code hope you get some insights reading it.
+Below is the snippet of code hope you get some insights reading it.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f6f5c7cf0d8ee3f161e191002d211e3a59823c1f/images/day%20117mobilenet_finetuning.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
