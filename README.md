@@ -1371,3 +1371,22 @@ Below is the snippet of code hope you get some insights reading it.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f6f5c7cf0d8ee3f161e191002d211e3a59823c1f/images/day%20117mobilenet_finetuning.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day118
+* Today I dive deeper into the YOLO model for object detecting , got better understanding about the underhood function like filtering the boxes , Applying Non max suppression to select the best bounding boxes among the confident one , using the IoU threshold to remove overlapped bounding box and overally how the image is converted to encoding by model and the encoding is changed to bounding box that detect objects with scores and classes .
+* Below is the code snippet of working of yolo model
+
+Let's breakdown the steps: 
+* 1. Your Deep-CNN yolo models take image as input and give you the emedding as output
+* 2. We will now take this embedding and convert it to the best bounding box,scores and class name using some of our custom functions.
+
+## Yolo filter boxes : It returns the filter boxes above the threshold from all H_image*W_image*anchor_box ,
+## IoU : It is a function used  in non-max suppression to remove boudning box above the IoU threshold.
+![](https://github.com/Utshav-paudel/YOLO-Underhood/blob/2f3d8d689d127dcac43dd20cae44f3ca67f10ab3/Image/Yolo%20(1).png)
+## Non-Max suppression : It select the most confidence bounding boxes among all the boxes.
+![](https://github.com/Utshav-paudel/YOLO-Underhood/blob/2f3d8d689d127dcac43dd20cae44f3ca67f10ab3/Image/Yolo%20(2).png)
+## Converting yolo model encoding to the bounding box, scores and class
+![](https://github.com/Utshav-paudel/YOLO-Underhood/blob/2f3d8d689d127dcac43dd20cae44f3ca67f10ab3/Image/Yolo%20(3).png)
+## Putting all together : Using above function to detect object from the image using pretrained model.
+![](https://github.com/Utshav-paudel/YOLO-Underhood/blob/2f3d8d689d127dcac43dd20cae44f3ca67f10ab3/Image/Yolo%20(4).png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
