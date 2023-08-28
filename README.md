@@ -1390,3 +1390,11 @@ Let's breakdown the steps:
 ![](https://github.com/Utshav-paudel/YOLO-Underhood/blob/2f3d8d689d127dcac43dd20cae44f3ca67f10ab3/Image/Yolo%20(4).png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day119
+* Today I implemented U-net architecture to perform image segmenetation which means labeling each pixel of image, It is basically made of ; 
+    * Encoding part : At first image is taken by conv_block() which downsamples the image by performing normal convolution and return next_block and skip_connections, where next_block is used by upcoming convolution that also downsamples and skip_connections is used by corresponding decoding block.
+      ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9a189ddc298de55a7b545b3b00176d19f65cc46c/images/day119%20U-net_encoding.png)
+    * Decoding part : It takes previous layer as first parameter and skip connection as second paramter and  performs Transpose convolution to upscale the image and at last convolution the number of filters of convolution is equal to number of classses to be labeled.
+    * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9a189ddc298de55a7b545b3b00176d19f65cc46c/images/day119%20U-net_decoding.png)
+    * U-Net Model : It uses this encoding and decoding to create the segmenetation of image .
+      ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9a189ddc298de55a7b545b3b00176d19f65cc46c/images/day119%20U_net%20final%20model.png)
