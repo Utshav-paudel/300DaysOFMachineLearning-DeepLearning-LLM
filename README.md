@@ -1400,3 +1400,8 @@ Let's breakdown the steps:
       ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9a189ddc298de55a7b545b3b00176d19f65cc46c/images/day119%20U_net%20final%20model.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day120
+* Today I started LLM from scratch and learned about create own kernel space, setup all the environmen required and learned about word, subword and character tokenizer, where
+* Work tokenizer means splitting the raw text into the words base on delimiter this create a huge vocabulary  problem ,  whereas charcter tokenizer splits the raw text into each character this has small vocabulary but single text doesnot provide context which is solved by subword tokenizer which splits the raw text into subword by : not splitting the frequently used small words , but splitting rare large word into small meaningful words.
+I also created a character tokenizer that encode and decode each character , I hope you gain some insight from it :
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/d844b2fa280af9c8d734a2fe15cd923816bfd993/images/day120%20tokenizer.py.png)
