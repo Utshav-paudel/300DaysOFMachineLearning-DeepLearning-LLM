@@ -1398,3 +1398,5 @@ Let's breakdown the steps:
     * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9a189ddc298de55a7b545b3b00176d19f65cc46c/images/day119%20U-net_decoding.png)
     * U-Net Model : It uses this encoding and decoding to create the segmenetation of image .
       ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9a189ddc298de55a7b545b3b00176d19f65cc46c/images/day119%20U_net%20final%20model.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
