@@ -1408,3 +1408,7 @@ I also created a character tokenizer that encode and decode each character , I h
 # Day121
 * Today I explored the basic operations in pytorch , using of pytorch to process sequential data and learned to properly use the gpu using .to('cuda') when gpu is availabe and checked the difference between gpu and cpu performance in pytroch/
   ![ptyorch_basic](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9657ed96a6f17757492b7e5448b3d2c225f448c1/images/day121.png)
+# Day122 
+* Today I explored pytorch function and learned about different function like creating sample using torch.multinomial(), concatenation using torch.cat(), creating upper triangular and lower triangular using torch.triu() and torch.tril() respectively, and also about transposing , stacking , masking and mostly the basic building block of  neural network torch.nn and torch.nn.functional ,
+* Below is the implementation of all the basic functions of pytorch
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a444d348c47d7ee476719c0115d0cd5b34a289a4/images/day122%20pytorch_function.png)
