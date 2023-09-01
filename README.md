@@ -1412,3 +1412,9 @@ I also created a character tokenizer that encode and decode each character , I h
 * Today I explored pytorch function and learned about different function like creating sample using torch.multinomial(), concatenation using torch.cat(), creating upper triangular and lower triangular using torch.triu() and torch.tril() respectively, and also about transposing , stacking , masking and mostly the basic building block of  neural network torch.nn and torch.nn.functional ,
 * Below is the implementation of all the basic functions of pytorch
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a444d348c47d7ee476719c0115d0cd5b34a289a4/images/day122%20pytorch_function.png)
+# Day123
+* Today I learned about nn.Embedding and  dived deep into creating Bigram Language model that predicts the next token of word based on previous sequence of token, where model take vocab_size as input .
+    * forward pass : It takes index and target = None as  paramter and return logits and loss .
+    * generate : It takes index of current context and generate index of current and next context.
+ You can get some insights from below code , In coming days I will be finetuning the model created .
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/d46aee4c04b16de90f7eecc88e84c22f904c7527/images/day123%20bigramLanguageModel.png)
