@@ -1,4 +1,4 @@
-![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
+![image](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/assets/102865357/d7bcf5a4-6cd0-46c2-8612-db3e55719f35)![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
@@ -1418,3 +1418,7 @@ I also created a character tokenizer that encode and decode each character , I h
     * generate : It takes index of current context and generate index of current and next context.
  You can get some insights from below code , In coming days I will be finetuning the model created .
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/d46aee4c04b16de90f7eecc88e84c22f904c7527/images/day123%20bigramLanguageModel.png)
+# Day124
+* Today I created the evaluation function and optimized my Bigram Language model, I have used adamw as optimizer and after few k of iterations bigram Language model was able to generate some text that was on similar format to training data.
+* BigramLanguge Model : A Bigram Language Model is a type of statistical language model that predicts the probability of a word based on the preceding word in a sequence of words. It is a simple and intuitive approach to language modeling and is often used as a baseline or for educational purposes. After this my bigram Language model was completed hope you get some insights reading this 
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c29dc9a66514f3ead6d3dd135b6b9426237bc545/images/day124%20bigram_language_eval.png)
