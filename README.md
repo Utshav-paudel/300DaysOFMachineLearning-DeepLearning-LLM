@@ -1,4 +1,4 @@
-![image](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/assets/102865357/d7bcf5a4-6cd0-46c2-8612-db3e55719f35)![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
+![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 | Books and Resources | Status of Completion |
 | ----- | -----|
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
@@ -1422,3 +1422,8 @@ I also created a character tokenizer that encode and decode each character , I h
 * Today I created the evaluation function and optimized my Bigram Language model, I have used adamw as optimizer and after few k of iterations bigram Language model was able to generate some text that was on similar format to training data.
 * BigramLanguge Model : A Bigram Language Model is a type of statistical language model that predicts the probability of a word based on the preceding word in a sequence of words. It is a simple and intuitive approach to language modeling and is often used as a baseline or for educational purposes. After this my bigram Language model was completed hope you get some insights reading this 
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c29dc9a66514f3ead6d3dd135b6b9426237bc545/images/day124%20bigram_language_eval.png)
+# Day125 
+* Today I revisted some activation like sigmoid, softmax,tanh and dive deeper into the transformer architecutre and learned every detail posssible ,learned about
+* **Masked mult head attention** that only provide attention to current and previous token , it doesnot provide attention to next token because in this case model will memorize or overfit and will not learn from output positional encoding so masked is done uisng lower triangular matrix.
+* Also spended some time updating my Bigram Language Model to GPTLanguage model and create weight initialization funcition and continued forward pass by providing sequential decoder.
+  ![](images/125 weight_init and forward pass.png)
