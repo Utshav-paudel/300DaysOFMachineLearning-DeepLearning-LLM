@@ -1426,4 +1426,4 @@ I also created a character tokenizer that encode and decode each character , I h
 * Today I revisted some activation like sigmoid, softmax,tanh and dive deeper into the transformer architecutre and learned every detail posssible ,learned about
 * **Masked mult head attention** that only provide attention to current and previous token , it doesnot provide attention to next token because in this case model will memorize or overfit and will not learn from output positional encoding so masked is done uisng lower triangular matrix.
 * Also spended some time updating my Bigram Language Model to GPTLanguage model and create weight initialization funcition and continued forward pass by providing sequential decoder.
-  ![](images/125 weight_init and forward pass.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4d98de0931a1c4278e6eb8f63df82ffd633d88c2/images/125%20weight_init%20and%20forward%20pass.png)
