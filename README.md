@@ -1427,3 +1427,6 @@ I also created a character tokenizer that encode and decode each character , I h
 * **Masked mult head attention** that only provide attention to current and previous token , it doesnot provide attention to next token because in this case model will memorize or overfit and will not learn from output positional encoding so masked is done uisng lower triangular matrix.
 * Also spended some time updating my Bigram Language Model to GPTLanguage model and create weight initialization funcition and continued forward pass by providing sequential decoder.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4d98de0931a1c4278e6eb8f63df82ffd633d88c2/images/125%20weight_init%20and%20forward%20pass.png)
+# Day126
+* Today I created decoder block of my GPT language model Which simply is like -> Multihead attention -> add and normalize -> feedforward -> add and normalize ->  after the creation of Block class then I created  the feedforward class that is used in decoder block which is simply like Linear-> ReLU -> Linear . Below is the code snippet of Decoder Block and its feedforward portion.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/326887652f0bc8a4a0dc16a608e7911f38987bb0/images/day126%20decoder_block%2Cfeedforward%20layer.png)
