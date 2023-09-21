@@ -5,6 +5,7 @@
 | 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
 | 3.[**Intro to DeepLearning**](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✔️ |
 | 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
+| 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✔️ |
 
 | Project Completed |
 | ----------------- |
@@ -1405,6 +1406,8 @@ Let's breakdown the steps:
 * Work tokenizer means splitting the raw text into the words base on delimiter this create a huge vocabulary  problem ,  whereas charcter tokenizer splits the raw text into each character this has small vocabulary but single text doesnot provide context which is solved by subword tokenizer which splits the raw text into subword by : not splitting the frequently used small words , but splitting rare large word into small meaningful words.
 I also created a character tokenizer that encode and decode each character , I hope you gain some insight from it :
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/d844b2fa280af9c8d734a2fe15cd923816bfd993/images/day120%20tokenizer.py.png)
+  * 📚
+    [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
 # Day121
 * Today I explored the basic operations in pytorch , using of pytorch to process sequential data and learned to properly use the gpu using .to('cuda') when gpu is availabe and checked the difference between gpu and cpu performance in pytroch/
   ![ptyorch_basic](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9657ed96a6f17757492b7e5448b3d2c225f448c1/images/day121.png)
