@@ -1443,6 +1443,8 @@ I also created a character tokenizer that encode and decode each character , I h
 # Day126
 * Today I created decoder block of my GPT language model Which simply is like -> Multihead attention -> add and normalize -> feedforward -> add and normalize ->  after the creation of Block class then I created  the feedforward class that is used in decoder block which is simply like Linear-> ReLU -> Linear . Below is the code snippet of Decoder Block and its feedforward portion.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/326887652f0bc8a4a0dc16a608e7911f38987bb0/images/day126%20decoder_block%2Cfeedforward%20layer.png)
+* 📚Resources
+    [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
 # Day127 
 * Today I created Multihead attention class and Block class , where multi head attention is used to provide the realtion of each word with others , it provides dependecies of token or word and most importantly I used  nn.Modulelist() for head which make them run parallely making multihead attention faster .
 * Below is the code snippet for this Multihead attention.
