@@ -16,6 +16,7 @@
 | 5.[**CNN: Bird Species Classification**](https://github.com/Utshav-paudel/Bird-Species-Classification) |
 | 6.[**CNN Transfer Learning: Messy-or-CleanRoom-Detection**](https://github.com/Utshav-paudel/Messy-or-CleanRoom-Detection/tree/Utshav-paudel) |
 | 7.[**Data Augmentation**](https://github.com/Utshav-paudel/Data-Augmentation/blob/5f0215d9812f54e9fae9e64c7f2673b85a5558f8/day110%20data_augmentation.ipynb) |
+| 8.[**YOLO From Scratch**](https://github.com/Utshav-paudel/YOLO-Underhood) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
