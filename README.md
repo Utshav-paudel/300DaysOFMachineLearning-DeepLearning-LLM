@@ -7,7 +7,8 @@
 | 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
 | 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✔️ |
 
-| Project Completed |
+
+| Projects Completed |
 | ----------------- |
 | 1. [**Medical Insurance Price Prediction**](https://github.com/Utshav-paudel/Medical_Insurance_cost-Predictor) |
 | 2.[**Iris Flower Classification**](https://github.com/Utshav-paudel/Iris-flower-calssification-webapp) |
