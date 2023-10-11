@@ -1459,6 +1459,12 @@ I also created a character tokenizer that encode and decode each character , I h
 * 📚Resources
     [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
 # Day128
+* Today I continued to work on my Large Language model to create a system that will feed the large corpus of text data to LLM for training which was openwebtext data with around 20k separate files, So I write my script that was able to read all file in format .xyz and append them into list.
+* From list of .xyz file I splited them into parts each part containing few file
+* Loop was run to each part and the vocab of the part was updated i.e set of characters was updated.
+* each character was store in separate line.
+ ![](https://github.com/Utshav-paudel/NLP-Transformer-LLM-fever/blob/31cff1117b5a7a3b127f743af06e407a6e251ad1/LLM_from_scratch/day9/data_extractionn_from_text_corpus.png)
+![](https://github.com/Utshav-paudel/NLP-Transformer-LLM-fever/blob/31cff1117b5a7a3b127f743af06e407a6e251ad1/LLM_from_scratch/day9/part2_to_store_new_vocabulary.png)
 * 📚Resources
     [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
   
