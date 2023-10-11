@@ -1458,3 +1458,7 @@ I also created a character tokenizer that encode and decode each character , I h
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/046726571cd7b8887ffbd84282687f2dc7c4c80c/images/day127%20Multiheadattention.png)
 * 📚Resources
     [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
+# Day128
+* 📚Resources
+    [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
+  
