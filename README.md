@@ -1468,3 +1468,8 @@ I also created a character tokenizer that encode and decode each character , I h
 * 📚Resources
     [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
   
+# Day129 
+* Today I updated my data feeding scripts where I created system to process training and validation data seperately which seem more effective than storing the whole corpus on single file and dividing while training it will be more inefficient , learned about authenicating admin rights while running script that need admin rights like extracting of whole 20k files.
+![](https://github.com/Utshav-paudel/NLP-Transformer-LLM-fever/blob/0c82f50e2821c33c6851c30b338b28a55f89e385/LLM_from_scratch/day10/extracting_trainandval_seperately.png
+* 📚Resources
+    [**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)
