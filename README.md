@@ -1486,6 +1486,8 @@ I also created a character tokenizer that encode and decode each character , I h
      * GRU is used for simpler task that need less computation whereas LSTM is more powerful and computational heavy.
      * Bidirectional RNN has ability where output layer can get information from past and fututre state, BRNN combined with LSTM and GRU are used in many task.
      * DEEP RNNs , RNN,GRU and LSTM in a sequence stacked upon layer to layer is also used in complex nlp where long range dependencies is need to be captured
+ Also spended sometime creating test and validation set for shakspeare text generation
+
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/2c51d2207a670a1b75fd3c7a1e672928fd4cb8a1/images/day131%20shakespare_dataset_prepartionn.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
