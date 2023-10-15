@@ -1480,6 +1480,11 @@ I also created a character tokenizer that encode and decode each character , I h
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day131
-* Today I
+* Today I learned about topics like sampling novel sequences, Gater Rectified Unit (GRU) , Long Short Term Memory (LSTM), Bidirectional RNN, Deep RNNs from the course deep learning specialization.
+     * Samping novel sequences was using np.random.choice on output softmax probability to pick any random choice and feeding it to input of next time state.
+     * GRU was the more simpler version of LSTM which used two gates i.e Update gate and Reliablity Gate wheras LSTM used 3 gate update,forget and output gate. Simpler RNN were not able to capture the long range dependecny so LSTM and GRU model were used.
+     * GRU is used for simpler task that need less computation whereas LSTM is more powerful and computational heavy.
+     * Bidirectional RNN has ability where output layer can get information from past and fututre state, BRNN combined with LSTM and GRU are used in many task.
+     * DEEP RNNs , RNN,GRU and LSTM in a sequence stacked upon layer to layer is also used in complex nlp where long range dependencies is need to be captured
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
