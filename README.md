@@ -1477,3 +1477,9 @@ I also created a character tokenizer that encode and decode each character , I h
 * Today I revisted concept of RNN its working and different types of RNN like one-to-one , one-to-many, many-to-one and many-to-many and their used case accordingly , also learned about Loss function for RNN model , forward propagation, Backpropagation through time for RNN model . Also spended some time on language model and sequence generation .
 * **Language Model and Sequence generation**: Language model take sentence as input predict its probabiliy given the previous output . By using this language model we can create sequence generation where word sequence can be generated . Today I started shakesperian text generation and created data reading and encoding scripts for today
 ![](https://github.com/Utshav-paudel/NLP-Transformer-LLM-fever/blob/66173b0309d42f88bfcd78ac5067b3cc71ad8295/LLM_from_scratch/day11/day130_dataset.png)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day131
+* Today I
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
