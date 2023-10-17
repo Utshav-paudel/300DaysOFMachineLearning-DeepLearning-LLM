@@ -1491,3 +1491,9 @@ I also created a character tokenizer that encode and decode each character , I h
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/2c51d2207a670a1b75fd3c7a1e672928fd4cb8a1/images/day131%20shakespare_dataset_prepartionn.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day132
+* Today I train RNN modle combined with GRU for shakespeare text generation , also completed the programming assignment of building RNN model from scratch from the course deep learning specialization.
+* Here is code snippet of today progress on training RNN model for shakespeare text generation.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/52a550c92ea49823d95feebaa9bdf8d165ffb70c/images/day132_shakespeare_rnn_with_GRU.png)
+  *   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
