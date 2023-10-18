@@ -1498,5 +1498,9 @@ I also created a character tokenizer that encode and decode each character , I h
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day133 
+* Today I continued to learn more about nlp and word embedding, word embedding uses featureized representation of words in higher dimension which provide the relation of words with eachother and it can be visualized in 2D using t-SNE, word embedding is mostly done in following ways:
+ 1. Learn word embedding from large text corpus i.e 1-100B words or download pretrained word embedding.
+ 2. Transfer embedding to newer task with smaller training set i,e around 100k words.
+ 3. Optional : COntinue with finetuing word embedding with new data
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
