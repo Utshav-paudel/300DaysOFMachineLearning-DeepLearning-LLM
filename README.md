@@ -1502,5 +1502,8 @@ I also created a character tokenizer that encode and decode each character , I h
  1. Learn word embedding from large text corpus i.e 1-100B words or download pretrained word embedding.
  2. Transfer embedding to newer task with smaller training set i,e around 100k words.
  3. Optional : COntinue with finetuing word embedding with new data
+* Also learned about the properties of cosine similarity and how they are used to represent two different word embedding with similar features like man as to woman is similar to king as to queen.
+* Embedding matrix * one hot encoding of words = Embedding vectors .
+* Also completed week1 first assignement of building rnn from scratch : [click](https://github.com/Utshav-paudel/DeepLearning-Specialization/blob/0bf797d7ec27a811d06ad44a56391864b617a49a/Sequence_models/W1/Building_a_Recurrent_Neural_Network_Step_by_Step.ipynb)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
