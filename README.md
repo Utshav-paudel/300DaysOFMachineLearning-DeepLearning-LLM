@@ -1511,3 +1511,6 @@ I also created a character tokenizer that encode and decode each character , I h
 * Today I learned about different embedding algorithm using in language model and how they works like continuos bag of words and Word2Vec embedding from the course deeplearning specialization.
 * Continuous bag of words simple use surrounding words to predict the target words which require more computational power because more words has to be taken as context.
 * Word2vec/skipgram uses the technique of taking one word as context and taking random target word to calculate P(context|target) but it also has to calculate softmax for large number of vocabulary so it uses negative sampling that takes one positive sample and k negative sample 2<=k<=20 which reduces computation.
+Also spended sometime reading regular expression from book speech and language processing.
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
