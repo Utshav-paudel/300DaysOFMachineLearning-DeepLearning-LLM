@@ -1507,3 +1507,7 @@ I also created a character tokenizer that encode and decode each character , I h
 * Also completed week1 first assignement of building rnn from scratch : [click](https://github.com/Utshav-paudel/DeepLearning-Specialization/blob/0bf797d7ec27a811d06ad44a56391864b617a49a/Sequence_models/W1/Building_a_Recurrent_Neural_Network_Step_by_Step.ipynb)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day134 
+* Today I learned about different embedding algorithm using in language model and how they works like continuos bag of words and Word2Vec embedding from the course deeplearning specialization.
+* Continuous bag of words simple use surrounding words to predict the target words which require more computational power because more words has to be taken as context.
+* Word2vec/skipgram uses the technique of taking one word as context and taking random target word to calculate P(context|target) but it also has to calculate softmax for large number of vocabulary so it uses negative sampling that takes one positive sample and k negative sample 2<=k<=20 which reduces computation.
