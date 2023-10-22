@@ -1514,3 +1514,9 @@ I also created a character tokenizer that encode and decode each character , I h
 Also spended sometime reading regular expression from book speech and language processing.
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day135 
+* Today I learned about Global vectors (GloVe) which is also a popular embedding technique that uses co-occurrence matrix to encode the meaning with other words in large text corpus, also learn to use word embedding with RNN for nlp task like sentiment classification, learned how the embedding vectors can learn the sterotpye like man:woman is as computer_programmer:house_wife and the way of debiasing such bias by:
+   * Identify the bias direction
+   * Neutralize for non-definational word like programmer,doctor,nurse in gender scneario by using linear classifier to identify the non-definational word.
+   * Equidistant definational word like son and daughter from non-definational word like doctor.
+  
