@@ -1519,4 +1519,5 @@ Also spended sometime reading regular expression from book speech and language p
    * Identify the bias direction
    * Neutralize for non-definational word like programmer,doctor,nurse in gender scneario by using linear classifier to identify the non-definational word.
    * Equidistant definational word like son and daughter from non-definational word like doctor.
-  
+  *   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
