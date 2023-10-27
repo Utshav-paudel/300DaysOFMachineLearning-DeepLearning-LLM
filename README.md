@@ -1522,6 +1522,6 @@ Also spended sometime reading regular expression from book speech and language p
   *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day136
-* Today I create a character level language model for generating name using RNN and the steps where clipping gradient for exploding gradient, sampling novel sequence , optimizing and final model was ready which was able to generate the new dinosaur name and started another sentiment classification project 
+* Today I create a character level language model for generating name using RNN and the steps where clipping gradient for exploding gradient, sampling novel sequence , optimizing and final model was ready which was able to generate the new dinosaur name and started another sentiment classification project .
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
