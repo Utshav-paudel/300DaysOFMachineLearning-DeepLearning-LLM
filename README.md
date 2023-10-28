@@ -1522,8 +1522,9 @@ Also spended sometime reading regular expression from book speech and language p
   *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day136
-* Today I create a character level language model for generating name using RNN and the steps where clipping gradient for exploding gradient, sampling novel sequence , optimizing and final model was ready which was able to generate the new dinosaur name and started another sentiment classification project .
-* Stateful RNN : It doesnot start with zero vector but the output of previous forward propagation
-* 
+* Today I worked on  a character level language model for generating name using RNN and the steps where clipping gradient for exploding gradient, sampling novel sequence , optimizing and final model was ready which was able to generate the new dinosaur name.
+* Spended some time learning basic model, most likely sentence and beam search from the course deeplearning sepcialization.
+* During speech translation it is not good to use random probability as in language model , in speech translation we use most likely sentence that is selected using an algorithm called as beam search.
+* Beam search in an algorithm that uses conditional probability to select most likely sentence by conisdering highest probability, number of possibility is determined by the parameter known as beam 
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
