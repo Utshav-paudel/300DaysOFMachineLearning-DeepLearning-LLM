@@ -1528,3 +1528,5 @@ Also spended sometime reading regular expression from book speech and language p
 * Beam search in an algorithm that uses conditional probability to select most likely sentence by conisdering highest probability, number of possibility is determined by the parameter known as beam 
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day137
+* Today I spended time reading research paper on text to speech tts, and learned about speech synthesis in detail and will be spending more time on it .
