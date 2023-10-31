@@ -1529,6 +1529,9 @@ Also spended sometime reading regular expression from book speech and language p
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day137
-* Today I spended time reading research paper on text to speech tts, and learned about speech synthesis in detail and will be spending more time on it .
+* Today I optimized the previously developed dinosaur name generating model which was basically using simple RNN model with sampling novel sequence to get unique name and it did pretty well and cool dinosaur name was generated.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4dfc5505a98606566b3f1544971d03e5684592cb/images/day137%20dinosaur_name_generation.png)
+* Also spended some time training the keras model that uses LSTM to take care of larger dependencies to generate the poem given one word that was similiar to shakespeare style because it was trained on shakespeare text of poem.
+ ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4dfc5505a98606566b3f1544971d03e5684592cb/images/day137%20shakespeare_poem_generation.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
