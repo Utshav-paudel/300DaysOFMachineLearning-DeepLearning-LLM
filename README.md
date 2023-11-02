@@ -1535,3 +1535,8 @@ Also spended sometime reading regular expression from book speech and language p
  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4dfc5505a98606566b3f1544971d03e5684592cb/images/day137%20shakespeare_poem_generation.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day138
+* Today I used LSTM to generate jazz music by training the sequential LSTM model to produce musical values which was postprocessed and save to mp3 format . 
+* [Jazz Music generation](https://github.com/Utshav-paudel/DeepLearning-Specialization/blob/d0bc4968a5f6862e02a06825f783b6c7f79d892f/Sequence_models/W1/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4%20(1).ipynb)
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
