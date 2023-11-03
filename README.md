@@ -1540,3 +1540,7 @@ Also spended sometime reading regular expression from book speech and language p
 * [Jazz Music generation](https://github.com/Utshav-paudel/DeepLearning-Specialization/blob/d0bc4968a5f6862e02a06825f783b6c7f79d892f/Sequence_models/W1/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4%20(1).ipynb)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day139 
+* Today I spended time creating webapp for neural style transfer , which has some option for  style and option for input image , the webapp load pretrained model to stylize the image. In neural style transfer the content image is transferred into the artistic way of style image . I used the available pretrained VGG16 model for different sytle and created sepearte function for loading model and styling which helped in caching making the webapp more faster.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/866bd78f534862427e2f966fffb703a4b0d5e0be/images/day139%20neural_style_transfer.png)
+[Style transfer Webapp](https://github.com/Utshav-paudel/Neural-Style-Transfer_webapp)
