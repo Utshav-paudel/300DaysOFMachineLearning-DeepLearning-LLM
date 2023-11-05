@@ -1544,3 +1544,10 @@ Also spended sometime reading regular expression from book speech and language p
 * Today I spended time creating webapp for neural style transfer , which has some option for  style and option for input image , the webapp load pretrained model to stylize the image. In neural style transfer the content image is transferred into the artistic way of style image . I used the available pretrained VGG16 model for different sytle and created sepearte function for loading model and styling which helped in caching making the webapp more faster.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/866bd78f534862427e2f966fffb703a4b0d5e0be/images/day139%20neural_style_transfer.png)
 [Style transfer Webapp](https://github.com/Utshav-paudel/Neural-Style-Transfer_webapp)
+# Day140
+* Today I learned about Length normalization , beam search algorithm and error analysis in Beam search
+* Length normalization is basically dividing the log of probabilites by length of the sentence Ty , using log result in more stable output because the multiple are added on log ,
+* Beam search algorithm as we already know is used to find the most likely sentence it has parameter B which if become large result in better result but slower and if small result in worse result but faster so proper tradeoff is required.
+* Also learned about error analysis with beam search, If the probability of human translation is greater than probability of algorithm translation then algorithm choose less likely sentence so Beam search is at fault and if the probability of algorithm is greater than human translation then RNN fault and by looking at fraction of this we decide to mitigate error i.e RNN fault solve or Beam search fault solve.
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
