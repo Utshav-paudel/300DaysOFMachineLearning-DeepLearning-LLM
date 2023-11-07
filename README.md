@@ -1552,3 +1552,5 @@ Also spended sometime reading regular expression from book speech and language p
 * Also scratched my head on Retrieval Augmented Generation which basically solve the hallucination of LLM like whem LLM doesnot have source to answer or LLM is outdated to user query than it may give its madeup answer which may be wrong so RAG add a source where the response of LLM is checked to give the correct answer to user without hallucination.
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day141 
+* Today I learned about Blue score , attention model and worked on programming assignment of wrod debiasing from the course deeplearning specialization.
