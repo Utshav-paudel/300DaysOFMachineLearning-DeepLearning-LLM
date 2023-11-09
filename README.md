@@ -1554,3 +1554,5 @@ Also spended sometime reading regular expression from book speech and language p
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day141 
 * Today I learned about Blue score , attention model and worked on programming assignment of wrod debiasing from the course deeplearning specialization.
+*   📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
