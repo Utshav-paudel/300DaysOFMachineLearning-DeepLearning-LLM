@@ -1553,7 +1553,7 @@ Also spended sometime reading regular expression from book speech and language p
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day141 
-* Today I learned about Blue score , attention model and worked on programming assignment of wrod debiasing from the course deeplearning specialization.
+* Today I learned about Blue score from the course deeplearning specialization and spended sometime implementing it.
 * Bleu(Bilinguial Evaluation Understudy) score is a single evaluation metric that checks how good is machine translation by comparing to refrence human translation . IT is mostly used in speech translation and some time in text generation related task, Below I have provided the sample of blue score on two prediction and see  how a good prediction got higher bleu score.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b1d53b6d9089553008410dfdef7ff8aaced33fc4/images/day141_bleu_score.png)
 *   📚Resources
