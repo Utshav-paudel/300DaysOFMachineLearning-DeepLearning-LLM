@@ -1558,3 +1558,5 @@ Also spended sometime reading regular expression from book speech and language p
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b1d53b6d9089553008410dfdef7ff8aaced33fc4/images/day141_bleu_score.png)
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day142
+* Today I dive deep into the intutition of attention mechanism from the course deep learning specialization.
