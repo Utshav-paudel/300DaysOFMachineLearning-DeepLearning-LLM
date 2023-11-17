@@ -1560,6 +1560,7 @@ Also spended sometime reading regular expression from book speech and language p
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day142
-* Today I dive deep into the intutition of attention mechanism from the course deep learning specialization.
-*   📚Resources
+* Today I dive deep into the intutition of attention mechanism from the course deep learning specialization. 
+*  Explored about the speech recognition from the course deep learning specialization
+*    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
