@@ -1560,7 +1560,9 @@ Also spended sometime reading regular expression from book speech and language p
 *   📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day142
-* Today I dive deep into the intutition of attention mechanism from the course deep learning specialization. 
-*  Explored about the speech recognition from the course deep learning specialization
+* Today I dive deep into the intutition of attention mechanism from the course deep learning specialization and also implemented GRU to generate shakespeare text and since training such model on large corpus of data takes time I tried to train it on gpu but failed, also revisited the concept of attention model and how it capture more longer dependecies than LSTM .
+* Below is the code snippet of shakespeare text generation.
+ ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b8f9dbd0660a9c17f5d282ab84c2041bf4f1f315/images/day143_p1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b8f9dbd0660a9c17f5d282ab84c2041bf4f1f315/images/day143_p2.png)
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
