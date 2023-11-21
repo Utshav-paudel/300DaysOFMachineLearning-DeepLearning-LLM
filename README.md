@@ -1566,3 +1566,7 @@ Also spended sometime reading regular expression from book speech and language p
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b8f9dbd0660a9c17f5d282ab84c2041bf4f1f315/images/day143_p2.png)
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day143
+* Today I setup my cuda environment to run gpu in jupyternotebook
+*    📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
