@@ -1567,6 +1567,6 @@ Also spended sometime reading regular expression from book speech and language p
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day143
-* Today I setup my cuda environment to run gpu in jupyternotebook and work on speech processing by setting up esp32 and packing it with tactron 2 architecture.
+* Today I finally  concluded my shakespeare text generation model by training it on local GPU which was showing some good sign as it was able to generate text that was similar to shakespeare style, I use random sampling to generate the next text which help in more creative text but, training the GRU only seems to be not good enough to capture long range of dependencies as the output generated was not completely right.
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
