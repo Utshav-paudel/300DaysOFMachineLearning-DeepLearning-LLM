@@ -1567,6 +1567,6 @@ Also spended sometime reading regular expression from book speech and language p
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day143
-* Today I setup my cuda environment to run gpu in jupyternotebook
+* Today I setup my cuda environment to run gpu in jupyternotebook and work on speech processing by setting up esp32 and packing it with tactron 2 architecture.
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
