@@ -1572,3 +1572,7 @@ Also spended sometime reading regular expression from book speech and language p
 * [embed]https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/383355109bffc0ff553b2d724c4bcf0533ae356d/images/day143.pdf[/embed]
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day144
+*  Today I continued my learning on the encoder decoder archtiecture and learned some are of it like speech recognition from the course the deeplearning specialization
+*    📚Resources
+[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
