@@ -20,6 +20,7 @@
 | 8.[**YOLO From Scratch**](https://github.com/Utshav-paudel/YOLO-Underhood) |
 | 9.[**U-NET From Scratch**](https://github.com/Utshav-paudel/U-Net-Intestine) |
 | 10.[**LLM From Scratch**]() |
+| 11.[**Shakespeare text generation**](https://github.com/Utshav-paudel/Shakespeare-text-generation/blob/Utshav-paudel/Shakespeare_wordgeneration.ipynb)|
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
