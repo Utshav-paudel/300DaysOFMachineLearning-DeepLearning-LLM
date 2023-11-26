@@ -1574,6 +1574,7 @@ Also spended sometime reading regular expression from book speech and language p
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day144
-*  Today I continued my learning on the encoder decoder archtiecture and learned some are of it like speech recognition from the course the deeplearning specialization
+*  Today I dive deep into the most interesting topic that was the attention model using bidirectional RNN and get better understanding of  how attention score is calculated by feeding  activation of input RNN and RNN that takes context .
+*  Even learned about  speech recognition system that uses attention or specially CTC method and learned about the trigger word detection technique in RNN from the course deeplearning specialization.
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
