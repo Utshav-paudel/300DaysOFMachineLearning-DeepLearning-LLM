@@ -1583,4 +1583,5 @@ Also spended sometime reading regular expression from book speech and language p
 * so, today I learned about creating setup.py  to make your python projects a complete packages and using Hypen e dot I was able to achieve setup.py installation from installing requirements.txt as 'pip install -r requirements.txt'
 * In a simple words I learned to create pacakges.
 * Below is the code snippet of setup.py hope you have good time creating your own packages.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/cae9fc2aa688be99698bca34c3f5b04a24528946/images/day145.png)
 [End to End Machine learning project](https://github.com/Utshav-paudel/End-to-End-ml-project)
