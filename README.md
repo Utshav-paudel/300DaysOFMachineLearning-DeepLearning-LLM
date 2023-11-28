@@ -1578,3 +1578,9 @@ Also spended sometime reading regular expression from book speech and language p
 *  Even learned about  speech recognition system that uses attention or specially CTC method and learned about the trigger word detection technique in RNN from the course deeplearning specialization.
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
+# Day145 
+* Machine learning is not always about creating notebook , preprocessing data and running model making predictions in a complete machine learning cycle there is requirement of well organizing your project from creating virtual environment , to setting up things in case of launching your own packages
+* so, today I learned about creating setup.py  to make your python projects a complete packages and using Hypen e dot I was able to achieve setup.py installation from installing requirements.txt as 'pip install -r requirements.txt'
+* In a simple words I learned to create pacakges.
+* Below is the code snippet of setup.py hope you have good time creating your own packages.
+[End to End Machine learning project](https://github.com/Utshav-paudel/End-to-End-ml-project)
