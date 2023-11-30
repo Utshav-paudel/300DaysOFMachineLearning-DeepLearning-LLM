@@ -1586,4 +1586,6 @@ Also spended sometime reading regular expression from book speech and language p
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/cae9fc2aa688be99698bca34c3f5b04a24528946/images/day145.png)
 [End to End Machine learning project](https://github.com/Utshav-paudel/End-to-End-ml-project)
 # Day146
-* Today I learned more about designing end to end project like adding files to componenets , src and desgining pipeline
+* Today I continued more about designing end to end project and learned more on file stucture and developed a custom error handling scripts that was based on sys module which contain the detail of information which help to detect the error details like : error message, erro filename and line number of here.
+* Below is the code snippet of exception handling hope you have good time finding those error and fixing while running your end to end ml model.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5407ecbfa2f1f21f4d43d9c4dff058300f251c15/images/day146.png)
