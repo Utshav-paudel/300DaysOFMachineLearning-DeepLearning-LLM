@@ -1585,3 +1585,5 @@ Also spended sometime reading regular expression from book speech and language p
 * Below is the code snippet of setup.py hope you have good time creating your own packages.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/cae9fc2aa688be99698bca34c3f5b04a24528946/images/day145.png)
 [End to End Machine learning project](https://github.com/Utshav-paudel/End-to-End-ml-project)
+# Day146
+* Today I learned more about designing end to end project like adding files to componenets , src and desgining pipeline
