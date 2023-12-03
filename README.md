@@ -1589,3 +1589,5 @@ Also spended sometime reading regular expression from book speech and language p
 * Today I continued more about designing end to end project and learned more on file stucture and developed a custom error handling scripts that was based on sys module which contain the detail of information which help to detect the error details like : error message, erro filename and line number of here.
 * Below is the code snippet of exception handling hope you have good time finding those error and fixing while running your end to end ml model.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5407ecbfa2f1f21f4d43d9c4dff058300f251c15/images/day146.png)
+# Day147
+Today my laptop didn't turned on So I just learned some thoery of nlp and made planning on next project , spended some time learning about qunatization and how to run ml model in lite device like microcontrollers 
