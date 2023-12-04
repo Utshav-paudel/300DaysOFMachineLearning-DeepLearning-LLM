@@ -1590,4 +1590,19 @@ Also spended sometime reading regular expression from book speech and language p
 * Below is the code snippet of exception handling hope you have good time finding those error and fixing while running your end to end ml model.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5407ecbfa2f1f21f4d43d9c4dff058300f251c15/images/day146.png)
 # Day147
-Today my laptop didn't turned on So I just learned some thoery of nlp and made planning on next project , spended some time learning about qunatization and how to run ml model in lite device like microcontrollers 
+* From today I am going to continue my 300daysofdata toward the direction of nlp specialization embracing modern technology like llm. I have studied about RNN,LSTM ,GRU and transformer many time but this journey from now is gonna be more practical approach . I am going to start from text processing and will be learning newest technology like langchain and vectordatabase so if you are also planning to specialize in nlp lets get connected and start.
+* Topics : Tokenization, Stemming and Lemmatization , Text preprocessing ,stop word, punctuation removal and text normalization, Spacy
+* Hands on : Applied the above concept on project called Anime recommender system.
+
+💡 Notes:
+1. Tokenization  means breaking the sentence into words or part .
+2. Lemmatization is the process of reducing the words into its root form or 'lemma'.
+3. Stemming is the process of reducing the word into its stem which is almost similar to lemmatization but it is less accurate and computationally faster than lemmatization.
+4. Removing stop words is the process of removing words like 'and' , 'the' which don't convey much meaning.
+5. Text normalization is the process of converting text to more consistent form like converting to lowercase.
+
+Below is the sample code snippet that cover all concepts hope you have some good time understanding this basic : 
+![[day147 nlp_text_preprocessing 1.png]]
+
+Output:
+![[day147_output.png]]
