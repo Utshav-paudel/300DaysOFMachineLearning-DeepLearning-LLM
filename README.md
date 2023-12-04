@@ -1602,7 +1602,6 @@ Also spended sometime reading regular expression from book speech and language p
 5. Text normalization is the process of converting text to more consistent form like converting to lowercase.
 
 Below is the sample code snippet that cover all concepts hope you have some good time understanding this basic : 
-![[day147 nlp_text_preprocessing 1.png]]
-
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/dc3eb1374dcd06a94a99bd742575cbf567dd53f3/images/day147%20nlp_text_preprocessing.png)
 Output:
-![[day147_output.png]]
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/dc3eb1374dcd06a94a99bd742575cbf567dd53f3/images/day147_output.png)
