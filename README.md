@@ -1570,7 +1570,7 @@ Also spended sometime reading regular expression from book speech and language p
 # Day143
 * Today I finally  concluded my shakespeare text generation model by training it on local GPU which was showing some good sign as it was able to generate text that was similar to shakespeare style, I use random sampling to generate the next text which help in more creative text but, training the GRU only seems to be not good enough to capture long range of dependencies as the output generated was not completely right.
 * Below is the snippet of shakespeare text generation I hope you have some good time training you own model and tweaking parameter to generate even better result.
-* [embed]https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/383355109bffc0ff553b2d724c4bcf0533ae356d/images/day143.pdf[/embed]
+* [shakespeare text generation](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/383355109bffc0ff553b2d724c4bcf0533ae356d/images/day143.pdf)
 *    📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day144
@@ -1606,7 +1606,6 @@ Below is the sample code snippet that cover all concepts hope you have some good
 Output:
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/dc3eb1374dcd06a94a99bd742575cbf567dd53f3/images/day147_output.png)
 # Day148
-* # Day2
 * Topics : Bag of words, TF-IDF, World2Vec i.e text representation.
 * Hands on : Using Spacy to build toxic comment classifer
 💡 Notes:
@@ -1615,4 +1614,4 @@ Output:
 * World2Vec: Word2Vec represents words as continuous vector embeddings in a high-dimensional space.
 🎯Note to take: Out of this 3 method Word2Vec is more advanced which capture semantic realtion and require large data .
 🧠 Also implemented this text preprocessing and text representation to build toxic comment classifier below is the code of this classifier using count vectorizer which was doing decent but I found that when the word hate was coming it wrote it as toxic even the comment was not toxic, so I have decided to use word2vec next and see the result. Hope have some good time build you own toxic comment classifier.
-* [embed]https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c74757d6d9d61fb99d0bb0a4d1609037776a1d5f/images/day2.pdf[/embed]
+* [Code snippet of toxic message classifier](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c74757d6d9d61fb99d0bb0a4d1609037776a1d5f/images/day2.pdf)
