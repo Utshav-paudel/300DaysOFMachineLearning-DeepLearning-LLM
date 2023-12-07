@@ -1615,3 +1615,5 @@ Output:
 🎯Note to take: Out of this 3 method Word2Vec is more advanced which capture semantic realtion and require large data .
 🧠 Also implemented this text preprocessing and text representation to build toxic comment classifier below is the code of this classifier using count vectorizer which was doing decent but I found that when the word hate was coming it wrote it as toxic even the comment was not toxic, so I have decided to use word2vec next and see the result. Hope have some good time build you own toxic comment classifier.
 * [Code snippet of toxic message classifier](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c74757d6d9d61fb99d0bb0a4d1609037776a1d5f/images/day2.pdf)
+# Day 149
+* Topics : World2Vec embedding and its implementation in toxic comment classifier which resulted in better result than previous count vectroizer representations.
