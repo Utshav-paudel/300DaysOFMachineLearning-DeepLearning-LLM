@@ -1620,4 +1620,8 @@ Output:
 * In my today learning and coding I found that my toxic comment classifier was doing well on the normal easy comments but for the comments like "Hate is everywhere but I don't hate you" it identified it as toxic comment which is not actually toxic. So I thought it was not capturing context like don't which actually was true becuase they where removed in stopword then I modified my stopword even after that there was no change and I use 100 dimension word2vec embedding instead of 25 dimension word2vec embedding which for sure increase some accuracy but didn't did well on that particular comment which should be non-toxic.
 ⚠️ SO I ended today session with challenge which for sure I will try to solve some of my next step will be using sentence transfomer.
 # Day 150
-* Topics : Imporvement on sentence classifier by using sentence transformer
+* Topics : sentence transformer and its implementation.
+* Notes :  Today I learned about sentence transformer and implemented to calculate the similarity  between two sentences.
+* Sentence transformer  : It is a model that convert sentence into a vector representation that capture semantic information, making them useful for various NLP tasks such as similarity comparison, clustering, and information retrieval.
+* Below is the code snippet of implementing sentence transformer I hope you have good time implementing sentence transformer in your own applications.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/580715917c8493c2de80b8b69a36f031095bc5fb/images/day150%20sentence_transformer.png)
