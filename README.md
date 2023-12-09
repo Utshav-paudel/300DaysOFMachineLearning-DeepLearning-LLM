@@ -1619,3 +1619,5 @@ Output:
 * Topics : World2Vec embedding and its implementation in toxic comment classifier which should resulted in better result than previous count vectroizer representations.
 * In my today learning and coding I found that my toxic comment classifier was doing well on the normal easy comments but for the comments like "Hate is everywhere but I don't hate you" it identified it as toxic comment which is not actually toxic. So I thought it was not capturing context like don't which actually was true becuase they where removed in stopword then I modified my stopword even after that there was no change and I use 100 dimension word2vec embedding instead of 25 dimension word2vec embedding which for sure increase some accuracy but didn't did well on that particular comment which should be non-toxic.
 ⚠️ SO I ended today session with challenge which for sure I will try to solve some of my next step will be using sentence transfomer.
+# Day 150
+* Topics : Imporvement on sentence classifier by using sentence transformer
