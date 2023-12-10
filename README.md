@@ -1615,13 +1615,22 @@ Output:
 🎯Note to take: Out of this 3 method Word2Vec is more advanced which capture semantic realtion and require large data .
 🧠 Also implemented this text preprocessing and text representation to build toxic comment classifier below is the code of this classifier using count vectorizer which was doing decent but I found that when the word hate was coming it wrote it as toxic even the comment was not toxic, so I have decided to use word2vec next and see the result. Hope have some good time build you own toxic comment classifier.
 * [Code snippet of toxic message classifier](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c74757d6d9d61fb99d0bb0a4d1609037776a1d5f/images/day2.pdf)
-# Day 149
+# Day149
 * Topics : World2Vec embedding and its implementation in toxic comment classifier which should resulted in better result than previous count vectroizer representations.
 * In my today learning and coding I found that my toxic comment classifier was doing well on the normal easy comments but for the comments like "Hate is everywhere but I don't hate you" it identified it as toxic comment which is not actually toxic. So I thought it was not capturing context like don't which actually was true becuase they where removed in stopword then I modified my stopword even after that there was no change and I use 100 dimension word2vec embedding instead of 25 dimension word2vec embedding which for sure increase some accuracy but didn't did well on that particular comment which should be non-toxic.
 ⚠️ SO I ended today session with challenge which for sure I will try to solve some of my next step will be using sentence transfomer.
-# Day 150
+# Day150
 * Topics : sentence transformer and its implementation.
 * Notes :  Today I learned about sentence transformer and implemented to calculate the similarity  between two sentences.
 * Sentence transformer  : It is a model that convert sentence into a vector representation that capture semantic information, making them useful for various NLP tasks such as similarity comparison, clustering, and information retrieval.
 * Below is the code snippet of implementing sentence transformer I hope you have good time implementing sentence transformer in your own applications.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/580715917c8493c2de80b8b69a36f031095bc5fb/images/day150%20sentence_transformer.png)
+# Day151
+* Topics : Implementation of sentence transformer into toxic message classifier
+* Today I implemented sentence trasnformer embedding for representing sentence for toxic message classifier and train the logistic regression which as expected showed the improvement in accuracy to then that of word2vec embedding and also designed own custom words to prevent more context in sentence for some trick comments.
+* Below is the code snippet of toxic message classifier hope you get some insights from my learning.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part1.png)
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part2.png)
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part3.png)
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part4.png)
+  
