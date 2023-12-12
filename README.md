@@ -1634,3 +1634,6 @@ Output:
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part3.png)
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part4.png)
   
+# Day152
+* Topics : different methodology of sentiment analysis.
+* Today I explored different method of analyzing sentiment like VADER which is traditional approach, using ROBERTA which is a model provided by Hugging face .
