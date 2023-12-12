@@ -1635,5 +1635,6 @@ Output:
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c15aa110b347443004e67a244812802a53f5b05f/images/day151_part4.png)
   
 # Day152
-* Topics : different methodology of sentiment analysis.
-* Today I explored different method of analyzing sentiment like VADER which is traditional approach, using ROBERTA which is a model provided by Hugging face .
+* Today I revisited the concept of transformer understanding it from the concept like embedding how the attention , multi head attention provide better embedding for words like apple which can be apple company or apple fruit from context of sentence and also played with hugging face pipeline for sentiment analysis and text generation. I will spending more time learning transformer block and how it is used in large language model.
+* Here is the simple code snippet of using hugging face transformer pipeline for sentiment analysis and text generation
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5b03609d9ab712d0bc6ac1060695fce02eeeb4b3/images/day152%20.png)
