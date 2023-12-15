@@ -1638,3 +1638,20 @@ Output:
 * Today I revisited the concept of transformer understanding it from the concept like embedding how the attention , multi head attention provide better embedding for words like apple which can be apple company or apple fruit from context of sentence and also played with hugging face pipeline for sentiment analysis and text generation. I will spending more time learning transformer block and how it is used in large language model.
 * Here is the simple code snippet of using hugging face transformer pipeline for sentiment analysis and text generation
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5b03609d9ab712d0bc6ac1060695fce02eeeb4b3/images/day152%20.png)
+# Day153
+*  Today I revised my understanding on attention-mechanism , transformer language models from the cohere LLM university course.
+* Attention mechanism in shorts : Sometime the word like apple can convey two meanings for e.g it can be company and fruit, which is consider by attention mechanism it distinguish between whether the apple is company or fruit by looking at the sentence context.
+### Let's talk about transformer language model in short as possible : It architecture is as follows 
+
+* input -> (Tokenization)-> (embedding) ->(positional encoding) -> (series of Transformer block { attention component and feed forward layer }) -> (softmax layer) -> output
+- Tokenizer: Turns words into tokens.
+- Embedding: Turns tokens into numbers (vectors)
+- Positional encoding: Adds order to the words in the text.
+- Transformer block: Guesses the next word. It is formed by an attention block and a feedforward block.
+- Attention: Adds context to the text.
+- Feedforward: Is a block in the transformer neural network, which guesses the next word.
+- Softmax: Turns the scores into probabilities in order to sample the next word.
+### Macro precision,recall and F1 score for multilabel classification
+Alsoe learned about Macro precision , macro recall and F1 score which is calculated by calculating precision recall and F1 score for each class and averaging it by number of classes in classification.
+* After that I covered some basics of langchain discovering its LLMchain and propmt_template and created a simple pet name generator here is the code snippet of it.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/67455e22e0b028361e6bba4cd43353fb0c13618a/images/day153%20langchain_basic.png)
