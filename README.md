@@ -1658,4 +1658,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 # Day154
 * Today I launched my first langchain application with the help of streamlit and github also created functionalities of entering api key in webapp so that webapp can generate petname according to user input.
 ![](https://github.com/Utshav-paudel/Petname-Generator/blob/main/demo_petname_gen.gif)
-🍃petname generator = https://github.com/Utshav-paudel/Petname-Generator
+* 🍃[petname generator](https://github.com/Utshav-paudel/Petname-Generator)
