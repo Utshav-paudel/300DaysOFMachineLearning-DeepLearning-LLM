@@ -1655,3 +1655,7 @@ Output:
 Alsoe learned about Macro precision , macro recall and F1 score which is calculated by calculating precision recall and F1 score for each class and averaging it by number of classes in classification.
 * After that I covered some basics of langchain discovering its LLMchain and propmt_template and created a simple pet name generator here is the code snippet of it.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/67455e22e0b028361e6bba4cd43353fb0c13618a/images/day153%20langchain_basic.png)
+# Day154
+* Today I launched my first langchain application with the help of streamlit and github also created functionalities of entering api key in webapp so that webapp can generate petname according to user input.
+![](https://github.com/Utshav-paudel/Petname-Generator/blob/main/demo_petname_gen.gif)
+🍃petname generator = https://github.com/Utshav-paudel/Petname-Generator
