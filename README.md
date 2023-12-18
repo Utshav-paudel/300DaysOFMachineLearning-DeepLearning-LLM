@@ -1659,3 +1659,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I launched my first langchain application with the help of streamlit and github also created functionalities of entering api key in webapp so that webapp can generate petname according to user input.
 ![](https://github.com/Utshav-paudel/Petname-Generator/blob/main/demo_petname_gen.gif)
 * 🍃[petname generator](https://github.com/Utshav-paudel/Petname-Generator)
+# Day155
+* Today I explore langchain agents which uses language model as a reasoning engine to determine which action to take in and  in which order and also learned about agent tools which are the functions that invoke agents. Then I simply used two tools like wikipedia for information and llm-math for calculation part and build simple agent that gets average life of tortoise and human and subtract it , setting verbose = True gave me the inside process of agent
+* Below is the code snippet of agent that I built I hope you have some good time building your own agent for your own greater purpose.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ba0176bc6857d8dcfbd8a47c00da1429223a9bbd/images/day155%20agent.png)
