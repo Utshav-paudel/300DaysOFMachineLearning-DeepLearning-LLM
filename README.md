@@ -1663,3 +1663,11 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I explore langchain agents which uses language model as a reasoning engine to determine which action to take in and  in which order and also learned about agent tools which are the functions that invoke agents. Then I simply used two tools like wikipedia for information and llm-math for calculation part and build simple agent that gets average life of tortoise and human and subtract it , setting verbose = True gave me the inside process of agent
 * Below is the code snippet of agent that I built I hope you have some good time building your own agent for your own greater purpose.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ba0176bc6857d8dcfbd8a47c00da1429223a9bbd/images/day155%20agent.png)
+# Day156
+* Today I continued my learning on langhcain and learned about different components that perform different operations and used youtube loader which takes youtbube url and convert it to transcripts .
+* After that converted the transcripts into small chunks of 1000 chunk_size and it was stored on vector format i.e using FAISS .
+* Then later I created a function that takes vector stores of docs find similarity from docs according to query provided using openai text-davinci-003 model.
+* Also created UI using streamlit for user at last I was able to generate the useful insights from 3 hour long podcast.
+* Below is sample of the yotube assistant I build using langchain I hope you have good time reading my documentation the code of this will be out soon on my github.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/3fe27f94a081a33ad017f6b7392da9c45b390879/images/day156_1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/3fe27f94a081a33ad017f6b7392da9c45b390879/images/day156_2.png)
