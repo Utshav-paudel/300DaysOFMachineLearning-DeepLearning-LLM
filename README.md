@@ -1671,3 +1671,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is sample of the yotube assistant I build using langchain I hope you have good time reading my documentation the code of this will be out soon on my github.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/3fe27f94a081a33ad017f6b7392da9c45b390879/images/day156_1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/3fe27f94a081a33ad017f6b7392da9c45b390879/images/day156_2.png)
+# Day157
+* Today I learned about Autogen and it is so exciting, Autogen are Multi agent working together to solve tasks iteratively.
+* It is mostly composes of  Userproxy agent and assistant agent, Userproxy agent work on the behalf of user and give feedback to the assistant agent wheras the assistant agent intereact and provide accurate answer to userproxy agent from writing code to doing anything that user proxy desire.
+* Also learned about static and dynamic conversations , In static conversation agents work on defined topology but incase of dynamic agent topology can be changed in iteration and it types are auto reply and function calls.
