@@ -1680,4 +1680,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Also Implemented score ranking system from the text using pydantic below is sample code snippet of using pydantic and langchain to extract structured data from unstructured data.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a74d4a410732b111c265e4f4e2519e6859288943/images/day%20158.png)
 # Day159
-* Today I learned to create response schema for getting structured data into desired JSON format using langhchain .
+* Today I explored about the Modules I/O of langchain and learned about output parser that is used to convert unstructured data into structure data, also spended some time learning to design the Response schema to get the output in JSON format which a success. I hope you also harness this powerful method of langchain to get strucutred data from the raw unstructured text data.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/409a4f36a2850af983f908b8752b9de8376a9c2d/images/day159.png)
+
