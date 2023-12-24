@@ -1679,3 +1679,5 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I learned about creating structured data from unstructered data like text corpus using langchain and pydantic class which is one of my personal favourite work of langchain power and spended sometime exploring OpenAI function call which can be config as auto function call , no function call and compulsory function call accoriding to requirement.
 * Also Implemented score ranking system from the text using pydantic below is sample code snippet of using pydantic and langchain to extract structured data from unstructured data.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a74d4a410732b111c265e4f4e2519e6859288943/images/day%20158.png)
+# Day159
+* Today I learned to create response schema for getting structured data into desired JSON format using langhchain .
