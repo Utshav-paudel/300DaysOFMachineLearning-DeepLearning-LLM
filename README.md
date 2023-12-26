@@ -1683,3 +1683,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I explored about the Modules I/O of langchain and learned about output parser that is used to convert unstructured data into structure data, also spended some time learning to design the Response schema to get the output in JSON format which a success. I hope you also harness this powerful method of langchain to get strucutred data from the raw unstructured text data.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/409a4f36a2850af983f908b8752b9de8376a9c2d/images/day159.png)
 
+# Day160 
+* Today I learned about document loader component of langchain and explored different document loader like text,csv,Unstructured markdown and applied Unstructred markdown loader, converted it to vector form using FAISS .
+* Below is the sample code of using langchain to convert text data to vector form which is very essential in llm applications for example similarity_search.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4628a46c996ac1d84af0177c24499ca2ab21bf00/images/day160.png)
