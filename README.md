@@ -1687,3 +1687,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I learned about document loader component of langchain and explored different document loader like text,csv,Unstructured markdown and applied Unstructred markdown loader, converted it to vector form using FAISS .
 * Below is the sample code of using langchain to convert text data to vector form which is very essential in llm applications for example similarity_search.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4628a46c996ac1d84af0177c24499ca2ab21bf00/images/day160.png)
+# Day161
+* Today I learned to integrate SQL in langchain by the help of which the natural language prompt can be converted into SQL queries which is used in chatbot that retrieves data from database or other nlp task that need to extract data from database.
+* Below is the simple snippet of integrating SQL chain in langchain hope you have good time using langchain.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/130e649cb5fb76b2b669f96e6379ae3a6d6263d2/images/day160.png)
