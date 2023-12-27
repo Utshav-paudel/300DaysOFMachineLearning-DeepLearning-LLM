@@ -1690,4 +1690,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 # Day161
 * Today I learned to integrate SQL in langchain by the help of which the natural language prompt can be converted into SQL queries which is used in chatbot that retrieves data from database or other nlp task that need to extract data from database.
 * Below is the simple snippet of integrating SQL chain in langchain hope you have good time using langchain.
-![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/130e649cb5fb76b2b669f96e6379ae3a6d6263d2/images/day160.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/130e649cb5fb76b2b669f96e6379ae3a6d6263d2/images/day161.png)
