@@ -1670,7 +1670,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Also created UI using streamlit for user at last I was able to generate the useful insights from 3 hour long podcast.
 * Below is sample of the yotube assistant I build using langchain I hope you have good time reading my documentation the code of this will be out soon on my github.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/3fe27f94a081a33ad017f6b7392da9c45b390879/images/day156_1.png)
-![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/3fe27f94a081a33ad017f6b7392da9c45b390879/images/day156_2.png)
 # Day157
 * Today I learned about Autogen and it is so exciting, Autogen are Multi agent working together to solve tasks iteratively.
 * It is mostly composes of  Userproxy agent and assistant agent, Userproxy agent work on the behalf of user and give feedback to the assistant agent wheras the assistant agent intereact and provide accurate answer to userproxy agent from writing code to doing anything that user proxy desire.
@@ -1691,3 +1690,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I learned to integrate SQL in langchain by the help of which the natural language prompt can be converted into SQL queries which is used in chatbot that retrieves data from database or other nlp task that need to extract data from database.
 * Below is the simple snippet of integrating SQL chain in langchain hope you have good time using langchain.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/130e649cb5fb76b2b669f96e6379ae3a6d6263d2/images/day161.png)
+# Day162
+* Today I learned about Retrieval Augmented Generation (RAG) which simply prevent LLM from hallucination as it provides retrieval facility from user data. I also implemented simple RAG where I used document loader from langchain to read my github repo and ask it to prepare about the roadmap from day one to till date about what I learned and it did a pretty good job.
+* Below is the code snippet of RAG implementation in langchain I hope you also had a good time reading this documentation.
