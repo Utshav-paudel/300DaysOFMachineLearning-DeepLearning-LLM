@@ -1693,4 +1693,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 # Day162
 * Today I learned about Retrieval Augmented Generation (RAG) which simply prevent LLM from hallucination as it provides retrieval facility from user data. I also implemented simple RAG where I used document loader from langchain to read my github repo and ask it to prepare about the roadmap from day one to till date about what I learned and it did a pretty good job.
 * Below is the code snippet of RAG implementation in langchain I hope you also had a good time reading this documentation.
-  [](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/311340df0b0a0dadc237f07946757e4a10fb16ec/images/day162.png)
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/311340df0b0a0dadc237f07946757e4a10fb16ec/images/day162.png)
