@@ -1700,3 +1700,5 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1249c3641e5b98d7edce986338253ea007ee0ee0/images/day163_p1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1249c3641e5b98d7edce986338253ea007ee0ee0/images/day163_p2.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1249c3641e5b98d7edce986338253ea007ee0ee0/images/day163_p3.png)
+# Day164
+* Today I learned to run Mistral7B locally using llama-cpp-python and develop the streamlit app for my chatbot that answer query related to the pdf.
