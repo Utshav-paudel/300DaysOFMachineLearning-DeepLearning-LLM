@@ -1704,4 +1704,9 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I learned to use LLM model locally using llama cpp , then I downloaded mistral 7B model and loaded it locally also learned about different parameter of llama cpp to make model configuration more efficient like n_gpu_layer which select number of gpu layer, n_ctx token window size, f16_kv which in true use half precision saving some memory
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ab846d650ef8434aa3c43bc122305cc969f91cf0/images/day165.svg)
 # Day165 
-* Today I learned about Finetuning Pretrained Model for specific task and making model more specific and special purpose according to the user requirement.
+* Today I revisited the hugging face before diving deep into llm and relearn about hugging face pipeline and breakdown its steps into textinput->(AutoTokenizer i.e handles both tokenization and encoding)->AutoModel(used transformer to give hidden states)->hidden states(high dimensional output of transformer)->Head(Contain different Model like AutoModelForSequenceClassification ) -> logits ->(torch.nn.functional.softmax() -> predicitions
+* Also spended some time learning to handle multiple sequence by adding additional dimension and learned to handle sequence of different lenght using padding.
+* Below is the code snippet and flow of pipeline of hugging face pipeline, I will be getting more deeper into hugging face for few days.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165.svg)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165_hugging_facep1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165_hugging_facep2.png)
