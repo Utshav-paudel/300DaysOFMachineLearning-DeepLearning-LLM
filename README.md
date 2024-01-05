@@ -1701,4 +1701,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1249c3641e5b98d7edce986338253ea007ee0ee0/images/day163_p2.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1249c3641e5b98d7edce986338253ea007ee0ee0/images/day163_p3.png)
 # Day164
-* Today I learned to run Mistral7B locally using llama-cpp-python and develop the streamlit app for my chatbot that answer query related to the pdf.
+* Today I learned to use LLM model locally using llama cpp , then I downloaded mistral 7B model and loaded it locally also learned about different parameter of llama cpp to make model configuration more efficient like n_gpu_layer which select number of gpu layer, n_ctx token window size, f16_kv which in true use half precision saving some memory
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ab846d650ef8434aa3c43bc122305cc969f91cf0/images/day165.svg)
+# Day165 
+* Today I learned about Finetuning Pretrained Model for specific task and making model more specific and special purpose according to the user requirement.
