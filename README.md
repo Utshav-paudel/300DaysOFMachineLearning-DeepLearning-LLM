@@ -1710,3 +1710,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165.svg)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165_hugging_facep1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165_hugging_facep2.png)
+# Day166
+* Today I learned one of the unique concept where I chained two different chain like the first chain generate output and second chain evaluate the result of first one, overally I created a Sequential chain where two different agent are chained.
+* Also continued my learning on hugging face where today I learned about finetuning the model
