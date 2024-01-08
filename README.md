@@ -1720,3 +1720,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * You can also explored similar topics from hugging face docs and prepare your datasets
 ## Datasets Prepeartion Snippet
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f09de8c70d21b54abb1337f61229f5db6986f520/images/day167%20preparing_datasets.png)
+* Also spended some time tinkering finetuning bert model using Trainer API and improve f1 score from 87% to 89% , you can check my code from below snippet for finetuning bert.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c7604e353dba4d3f1b4141d4785b8425adc55750/images/day167%20finetuningp1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c7604e353dba4d3f1b4141d4785b8425adc55750/images/day167%20finetuningp2.png)
