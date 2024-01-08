@@ -1715,3 +1715,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Also continued my learning on hugging face where today I learned about finetuning the model and finetuned bert on few sentences as trail will be learning more on datasets prepartion for further pretraining of model.
 * Below is the code snippet of pretraining bert I hope you are also spending time pretraining model for your own greater purpose.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b0583dff6067382087dc02c7211f860e5cfc578b/images/day166_finetuning%20bert.png)
+# Day167
+* Today I dive deep into preparing dataset for finetuning model where I used hugging face dataset library and tokenized the datasets used map function to batch the tokenized dataset and make it run smoothly on ram, Also learned to make every batch of equal length with dynamic padding provided by DataCollatorWithPadding of hugging face which is essentila for making quality datasets.
+* You can also explored similar topics from hugging face docs and prepare your datasets
+## Datasets Prepeartion Snippet
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f09de8c70d21b54abb1337f61229f5db6986f520/images/day167%20preparing_datasets.png)
