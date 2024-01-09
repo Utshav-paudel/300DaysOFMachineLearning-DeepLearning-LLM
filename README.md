@@ -1730,3 +1730,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp1.png)
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp2.png)
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp3.png)
+* 📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
