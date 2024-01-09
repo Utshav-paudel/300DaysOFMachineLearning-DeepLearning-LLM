@@ -1723,3 +1723,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Also spended some time tinkering finetuning bert model using Trainer API and improve f1 score from 87% to 89% , you can check my code from below snippet for finetuning bert.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c7604e353dba4d3f1b4141d4785b8425adc55750/images/day167%20finetuningp1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c7604e353dba4d3f1b4141d4785b8425adc55750/images/day167%20finetuningp2.png)
+# Day168 
+* Today I learned to create full training cycle to train bert using pytorch by preprocessing huggingface mrpc datasets, creating training and validation dataloader and preparing batch and passing it to mode and achieved f1 socre of ~90%
+* Also learned to use get_scheduler to control learning rate decay linearly from maximum i.e 5e-5 to 0.
+* Below is the code snippet of my training cycle to train bert you can also train your own model for greater use.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp1.png)
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp2.png)
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp3.png)
