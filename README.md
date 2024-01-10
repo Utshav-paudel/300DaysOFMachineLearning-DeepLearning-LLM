@@ -1731,3 +1731,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp2.png)
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/958fad39dfa334724f8c84f9b4967105c0b750f6/images/day168%20traininingloopp3.png)
 * 📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day169
+* Today I spended my time learning to use hugging face pretrained model using pipeline and Autoclass, also used conversational pretrained model to create simple chatbot.
+* Below is the code snippet of using pretrained model from hugging face hope you are having great time learning hugging face for nlp and deeplearning tasks
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f5e45eff0807e7c2a344c70e3c34d5899ef072c7/images/day169%20chatbot.png)
