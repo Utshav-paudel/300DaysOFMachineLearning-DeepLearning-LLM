@@ -1710,11 +1710,13 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165.svg)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165_hugging_facep1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/5e8cb129ad28962c2802df7be31c00d8bc6deafb/images/day165_hugging_facep2.png)
+* 📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day166
 * Today I learned one of the unique concept where I chained two different chain like the first chain that generate output and second chain evaluate the result of first one, overally I created a Sequential chain where two different chain are chained together to make conversable agents.
 * Also continued my learning on hugging face where today I learned about finetuning the model and finetuned bert on few sentences as trail will be learning more on datasets prepartion for further pretraining of model.
 * Below is the code snippet of pretraining bert I hope you are also spending time pretraining model for your own greater purpose.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/b0583dff6067382087dc02c7211f860e5cfc578b/images/day166_finetuning%20bert.png)
+* 📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day167
 * Today I dive deep into preparing dataset for finetuning model where I used hugging face dataset library and tokenized the datasets used map function to batch the tokenized dataset and make it run smoothly on ram, Also learned to make every batch of equal length with dynamic padding provided by DataCollatorWithPadding of hugging face which is essentila for making quality datasets.
 * You can also explored similar topics from hugging face docs and prepare your datasets
@@ -1723,6 +1725,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Also spended some time tinkering finetuning bert model using Trainer API and improve f1 score from 87% to 89% , you can check my code from below snippet for finetuning bert.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c7604e353dba4d3f1b4141d4785b8425adc55750/images/day167%20finetuningp1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c7604e353dba4d3f1b4141d4785b8425adc55750/images/day167%20finetuningp2.png)
+* 📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day168 
 * Today I learned to create full training cycle to train bert using pytorch by preprocessing huggingface mrpc datasets, creating training and validation dataloader and preparing batch and passing it to mode and achieved f1 socre of ~90%
 * Also learned to use get_scheduler to control learning rate decay linearly from maximum i.e 5e-5 to 0.
