@@ -1738,3 +1738,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I spended my time learning to use hugging face pretrained model using pipeline and Autoclass, also used conversational pretrained model to create simple chatbot.
 * Below is the code snippet of using pretrained model from hugging face hope you are having great time learning hugging face for nlp and deeplearning tasks
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f5e45eff0807e7c2a344c70e3c34d5899ef072c7/images/day169%20chatbot.png)
+# Day170
+* Today I learned to share pretrained model to hugging face models using huggingface_hub API also learned to version control model using git lfs which is the simplest way of controlling models versions.
+* Also It was fun to inference the model you finetuned or created to allow to public use or inference.
+* Below is the snippet of simple way to push your model to hugging face hub
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0191cd87d6e004e2a2c4b9faa04172d0961d4b32/images/day170%20sharing_pretrainedp1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0191cd87d6e004e2a2c4b9faa04172d0961d4b32/images/day170%20sharing_pretrainedp2.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
