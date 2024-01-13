@@ -1745,3 +1745,9 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0191cd87d6e004e2a2c4b9faa04172d0961d4b32/images/day170%20sharing_pretrainedp1.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0191cd87d6e004e2a2c4b9faa04172d0961d4b32/images/day170%20sharing_pretrainedp2.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day171
+* Today I dive deep into preprocessing Large datasets in hugging face hub where I learned about loading your own datasets using load_dataset() , then observing the some sample of dataset and preprocessing required part using map function and understood the power of using batched=True in map() which  provided parallel processing to speed up preprocessing.
+* Below is the code snippet where I have done some preprocessing of datasets hope you gain some insight from it.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a49556e7cbbd78fb318a6209b0c0fd2e556b35e6/images/day171%20slicing%26dicing_datasets.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a49556e7cbbd78fb318a6209b0c0fd2e556b35e6/images/day171%20slicing%26dicing_datasets2.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
