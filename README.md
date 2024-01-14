@@ -1751,3 +1751,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a49556e7cbbd78fb318a6209b0c0fd2e556b35e6/images/day171%20slicing%26dicing_datasets.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a49556e7cbbd78fb318a6209b0c0fd2e556b35e6/images/day171%20slicing%26dicing_datasets2.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day172
+* Today I concluded datasets part from hugging face where I learned creating tokenizer and split facility that returns tokens in constant length and also return overflowed tokens, converting datasets to Dataframe format doing reuqired preprocessing and converting back to Dataset, preparing clean train,validation and test set and saving the dataset to local machine
+* Below is the code snippet of all twinkering with datasets I made today hope you gain some valuable insights and new ideas from it.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6f6da42985fc68915412a7e3d85a7a75ddd983a1/images/day172%20cleaning_saving_data1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6f6da42985fc68915412a7e3d85a7a75ddd983a1/images/day172%20cleaning_saving_data2.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6f6da42985fc68915412a7e3d85a7a75ddd983a1/images/day172%20cleaning_saving_data3.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
