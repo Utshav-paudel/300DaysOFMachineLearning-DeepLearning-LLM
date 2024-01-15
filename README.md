@@ -1760,7 +1760,9 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day173
 * Today I learned about memory mapping and streaming technique which is essential to have whem working with multi gigabytes of data, large datasets are needed to finetune LLM models but loading them is challenging task so it can be performed by memory mapping and streaming.
-* In streaming the whole data is broken down into smaller stream and one stream is processed at once in memory and that stream is removed and next stream is taken. Also take() is used for taking nth number of datasets. and skip() is used to skip nth number of datasets from start.
+* In streaming the whole data is broken down into smaller stream and one stream is processed at once in memory and that stream is removed and next stream is taken.
+  * take() is used for taking first nth number of datasets. Useful for preparing small datasets like validation set
+  * skip() is used to skipping first nth number of datasets. Useful for preparing larger datasets like training set
 * Below is the code for laoding 14gb datasets using streaming hope you get some insights from the code snippet .
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a7372e083158bd7af1a55105c011700aa82dbf23/images/day173%20streaming_datasets.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
