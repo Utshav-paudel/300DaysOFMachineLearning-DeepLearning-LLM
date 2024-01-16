@@ -1766,4 +1766,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code for laoding 14gb datasets using streaming hope you get some insights from the code snippet .
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a7372e083158bd7af1a55105c011700aa82dbf23/images/day173%20streaming_datasets.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
-  
+
+# Day174
+* Today I learned about preparing own datasets from hugging face where I spended my time using githubapi to scrape data for issues and prepare datasets by loading that scrape data into Datasets format.
+* Below is the code snippet of preparing own datasets and loading it hope you get some idea watching the snippet.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/e9fbc22a28656aa368627c618cdac4420afe3c2d/images/day174%20preparing_datasets1.png)
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/e9fbc22a28656aa368627c618cdac4420afe3c2d/images/day174%20preparing_datasets2.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
