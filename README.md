@@ -1773,3 +1773,11 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/e9fbc22a28656aa368627c618cdac4420afe3c2d/images/day174%20preparing_datasets1.png)
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/e9fbc22a28656aa368627c618cdac4420afe3c2d/images/day174%20preparing_datasets2.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day175
+* Today I learned about semantic search using FAISS which is really fast and efficient way of searching where the dataset is mapped to embeddings and using similarity search the nearest embedding is return as search result.
+* Also I loaded github issues data preprocessed it applied cls_pooling for [CLS] token which hold the previous state.
+* Below is the code snippet of semantic search using FAISS hope you gain some insight reading it.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f4dacfaed5a7401c14a3c87e9278d9d140d60c0e/images/day%20175%20semantic_search_faiss1.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f4dacfaed5a7401c14a3c87e9278d9d140d60c0e/images/day%20175%20semantic_search_faiss2.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f4dacfaed5a7401c14a3c87e9278d9d140d60c0e/images/day%20175%20semantic_search_faiss3.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
