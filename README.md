@@ -1782,6 +1782,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f4dacfaed5a7401c14a3c87e9278d9d140d60c0e/images/day%20175%20semantic_search_faiss3.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day176 
-* Today I created a dataframe for my semantic search resulat and arranged it on the basis of socres were highest scores was at top, in conclusion when user input the query the semantic search results in solutions that matches the query and display the comments , scores , title and url of solutions.
+* Today I created a dataframe for my semantic search result and arranged it on the basis of scores were highest scores was at top, in conclusion when user input the query the semantic search results in solutions that matches the query and display the comments , scores , title and url of solutions.
 * Below is the code snippet of the displaying semantic search result.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/453d42f4b50c22076d308ac9b78120ba07bd2d06/images/day176%20semantic_search_final.png)
