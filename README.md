@@ -1805,3 +1805,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet of token-classfication with simply pipeline and also its underhood .
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/51ea613e870bef4e6b01fb6928df06db32511586/images/day178%20underhood_fastotokenizers.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day179
+* Today I dive deep into the underhood of QA pipeline by implementing it and learned about how masking is performed to remove query for context and how context starting and ending index is computed, also learned about theory of different tokenization technique like Byte-pair encoding,Word piece tokenizaion and Unigram tokenization.
+* Below is the code snippet of implementing QA pipeline and its underhood hope you gain some insights reading it and implementing too.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/64acb1cf9c7bee08dc7543e06d2ee389651c061a/images/day179%20qa_pipeline.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
