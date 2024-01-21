@@ -4,9 +4,9 @@
 | 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
 | 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
 | 3.[**Intro to DeepLearning**](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✔️ |
-| 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)| 🏊 |
+| 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)|  ✔️  |
 | 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✔️ |
-
+| 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✔️  |
 
 | Projects Completed |
 | ----------------- |
@@ -21,6 +21,13 @@
 | 9.[**U-NET From Scratch**](https://github.com/Utshav-paudel/U-Net-Intestine) |
 | 10.[**LLM From Scratch**]() |
 | 11.[**Shakespeare text generation**](https://github.com/Utshav-paudel/Shakespeare-text-generation/blob/Utshav-paudel/Shakespeare_wordgeneration.ipynb)|
+| 12.[**Neural Style Transfer Webapp**](https://github.com/Utshav-paudel/Neural-Style-Transfer_webapp) | 
+| 13.[**Langchain : Petname Generator**](https://github.com/Utshav-paudel/Petname-Generator)| 
+| 14.[**Langchain : YouTube Assistant**](https://github.com/Utshav-paudel/YouTube-assistant-langchain)|
+| 15.[**Mistarl7B-Question-Answer-on-your-data**](https://github.com/Utshav-paudel/Mistarl7B-Question-Answer-on-your-data)|
+| 16.[**Company_recommender_LLM**](https://github.com/Utshav-paudel/Company_recommender_LLM)|
+
+
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
