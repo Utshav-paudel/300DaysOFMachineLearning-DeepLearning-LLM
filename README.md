@@ -1785,9 +1785,16 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I created a dataframe for my semantic search result and arranged it on the basis of scores were highest scores was at top, in conclusion when user input the query the semantic search results in solutions that matches the query and display the comments , scores , title and url of solutions.
 * Below is the code snippet of the displaying semantic search result.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/453d42f4b50c22076d308ac9b78120ba07bd2d06/images/day176%20semantic_search_final.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day177
 * Today I learned about benefits of training new tokenizer from the pretrained tokenizer : 
 *  for the text corpus that is different to the text corpus that  language model was trained on
 *  For data on different language , domains and so on.
 *  Below is the code snippet of the training new tokenizer.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/41f7e7afb101b9fa908c71040650abbfa41f375f/images/day177%20training_new_tokenizer.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day178
+* Today I enjoyed understanding the token-classification pipeline implementing its underhood , at default AutoModel uses fast tokenizer which is very efficient when used with batched sentences. I also learned how aggregation style "simple" gives token classfication for words by returning means scores and mapping star:end of words
+* Below is the code snippet of token-classfication with simply pipeline and also its underhood .
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/51ea613e870bef4e6b01fb6928df06db32511586/images/day178%20underhood_fastotokenizers.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
