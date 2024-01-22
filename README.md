@@ -1810,3 +1810,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet of implementing QA pipeline and its underhood hope you gain some insights reading it and implementing too.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/64acb1cf9c7bee08dc7543e06d2ee389651c061a/images/day179%20qa_pipeline.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day180
+* Today I dive deep to implement every steps from loading datasets,tokenizer,model and preparing training arguments to finetune bert model for NER recognition and uploaded the finetuned model to hugging face.
+* Also implemented dynamic padding using collator function and designed custom evaluation functions for NER where the evaluation functions doesnot take padded values.
+* And spended some time researching different approaches that we can implement to imporve our RAG systems and learned about creating parent and child splits for better retrieval and avoid missing data and use choere ranking of our retrieval.
+* Below is the code implementation of NER recognition using bert model.
+ ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1edbb537f81b11ffe3af1bd81f0f48a1ac277fc1/images/day180.png)
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
