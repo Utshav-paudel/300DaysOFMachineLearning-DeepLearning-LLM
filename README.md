@@ -1817,3 +1817,11 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code implementation of NER recognition using bert model.
  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/1edbb537f81b11ffe3af1bd81f0f48a1ac277fc1/images/day180.png)
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
+# Day181
+* Today I dive deep into domain adaptation, knowledge distillation and learned about Masked language model and preplexity which is evaluation metrics for genration task also spended time preprocessing imbdb data and finetuning mask language model in Imbd datasets for domain adaptaion and inference it at last.
+* **Domain adaptation** : It is the process of finetuning pretrained language model in domain data which makes it suitable for downstream task(i.e task you want to solve)
+* **Knowledge distillation** : Tranfering knowledge from large model to small  model is called knowledge distillation which make the small model more powerful and save computational cost.
+* **Masked Language Model** : This model predict the words that should be filled in the blank. It is also used popularly for finetuning in domain specific data.
+* **Preplexity** : It is simply the exponent of binary cross entropy loss , less preplexity means better langauge model.
+* Below is inferencing snippet please check my github link for full finetuning process
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/49091fd3e58c4fdefa58dc96c5d7b99d675598d8/images/day181%20finetuning_masked_language_model.png)
