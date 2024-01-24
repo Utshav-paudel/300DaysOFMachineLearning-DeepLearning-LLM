@@ -1825,3 +1825,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * **Preplexity** : It is simply the exponent of binary cross entropy loss , less preplexity means better langauge model.
 * Below is inferencing snippet please check my github link for full finetuning process
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/49091fd3e58c4fdefa58dc96c5d7b99d675598d8/images/day181%20finetuning_masked_language_model.png)
+# Day182
+* Today I got to see the domain adaptation of model, pretrained model for english to french translation was missing some translation like for word email, plugin, thread . After finetuning it on english to french translation data that has translation for those words missed by pretrained model the model was adapted to domain and finetuned model while infrencing converted those english word to french easily.
+* Also learned about Blue score : which compares generated translation with human refrences using ngram model , higher blue score results in better translation.
+* Below is the inferencing showing differnece made by domain adaptation of english to french check full code in below link.
+*  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
