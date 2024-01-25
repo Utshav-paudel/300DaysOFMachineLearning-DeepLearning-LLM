@@ -1831,4 +1831,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the inferencing showing differnece made by domain adaptation of english to french check full code in below link.
 *  📚 Resources : [Hugging face Nlp course](https://huggingface.co/learn/nlp-course)
 # Day183
-* Today I dive deep into summarization task of nlp where I spended by time creating datasets for model, preprocessed data and tokenized it to fine tune t5 model which was suitable for summarization task and also was multilingual. Also learned about evaluation metrics for summarization i.e rogue which simply is calculated by overlapping words/total words in text
+* Today I dive deep into summarization task of nlp where I spended by time creating datasets for model, preprocessed data and tokenized it to fine tune t5 model which was suitable for summarization task and also was multilingual. Also learned about evaluation metrics for summarization i.e ROUGE measures the overlap of words between the generated summary and the reference summary, providing a quantitative measure of the model's effectiveness.
