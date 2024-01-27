@@ -1834,3 +1834,9 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I dive deep into summarization task of nlp where I spended by time creating datasets for model, preprocessed data and tokenized it to fine tune t5 model which was suitable for summarization task and also was multilingual. Also learned about evaluation metrics for summarization i.e ROUGE measures the overlap of words between the generated summary and the reference summary, providing a quantitative measure of the model's effectiveness.
 # Day184
 * Today I learned about knowledge graph where entity is represented by node and their relationship is represented by using edges between them which represents semantic relationship of text.
+* Also created a movie knowledge graph, extracted entities and created cypher function to reply movie released date
+🎯Created the interface using gradio for chatbot.
+
+🎯Below is the code snippet and demo of chatbot that search on knowledge graph to reply info.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3ffdcc0370b7cea8ee03bb68afbe48245c8a0af/images/day184_search_using_knowledge%20graph.png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3ffdcc0370b7cea8ee03bb68afbe48245c8a0af/images/day184.png)
