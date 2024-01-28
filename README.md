@@ -1840,3 +1840,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 🎯Below is the code snippet and demo of chatbot that search on knowledge graph to reply info.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3ffdcc0370b7cea8ee03bb68afbe48245c8a0af/images/day184_search_using_knowledge%20graph.png)
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3ffdcc0370b7cea8ee03bb68afbe48245c8a0af/images/day184.png)
+# Day185
+* Today I spended my time researching about the working of knowledge graph + rag to build a better llm applications and I started working on extracting relationships and entites to make graph database . SO at first I created a chain using MapReduceDocumentsChain()
+* MapReduceDocumentsChain() : 	This chain first passes each document through an LLM, then reduces them using the ReduceDocumentsChain. Useful in the same situations as ReduceDocumentsChain, but does an initial LLM call before trying to reduce the documents.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3db3cc2c9bfbed95d75f3bff25b66ccbab39927/images/day185%20stuff_documents_chain().png)
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3db3cc2c9bfbed95d75f3bff25b66ccbab39927/images/day185%20MapReduceDocumentsChain.png)
+* For better understanding of MapReduceDocumentsChain() check below image and code snippet.
+* Note : I personally find MapReduceDocumentsChain() very useful in case of preparing graph database and at end I got summarise relation enrich data from 77k length documents to 3k length documents capturing all semantic relationships.
