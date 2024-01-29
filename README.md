@@ -1847,3 +1847,13 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3db3cc2c9bfbed95d75f3bff25b66ccbab39927/images/day185%20MapReduceDocumentsChain.png)
 * For better understanding of MapReduceDocumentsChain() check below image and code snippet.
 * Note : I personally find MapReduceDocumentsChain() very useful in case of preparing graph database and at end I got summarise relation enrich data from 77k length documents to 3k length documents capturing all semantic relationships.
+# Day185
+* Today I concluded my session of creating knowledge graph from text data using ne04j by using spacy for extracting entities and relationships usign llm. so overall steps for creating knowledge graph that I followed was :
+    * First creating Summaries of text data or anyother data that is capturing all essence of data without losing relationships between entities
+    * Second extracting entities and relationship using spacy LLM pipeline using spacy pipeline for relationships extraction
+    * Third I used chatgpt to generate cypher query langauge for the json of file containing entity and relationships.
+    * Final enter the cypher query language in ne04j workspace and your knowledge graph is ready.
+* Below is the code snippet of the extracting process of relationship and entities using spacy llm and the knowledge graph I  created
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6944dba83be89b5d9e38a7c646e5489203e2f343/images/day186%20knowledge_graph.png)
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6944dba83be89b5d9e38a7c646e5489203e2f343/images/day186%20extracting_entities%20_relationships.png)
+* I will be using this knowledge graph to build hybrid search in coming days so be in touch for this learning.
