@@ -1856,4 +1856,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet of the extracting process of relationship and entities using spacy llm and the knowledge graph I  created
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6944dba83be89b5d9e38a7c646e5489203e2f343/images/day186%20knowledge_graph.png)
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6944dba83be89b5d9e38a7c646e5489203e2f343/images/day186%20extracting_entities%20_relationships.png)
-* I will be using this knowledge graph to build hybrid search in coming days so be in touch for this learning.
+* I will be using this knowledge graph to build hybrid search in coming days so keep watching this repo of my learning .
