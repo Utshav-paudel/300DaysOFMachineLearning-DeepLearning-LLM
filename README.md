@@ -1857,3 +1857,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6944dba83be89b5d9e38a7c646e5489203e2f343/images/day186%20knowledge_graph.png)
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6944dba83be89b5d9e38a7c646e5489203e2f343/images/day186%20extracting_entities%20_relationships.png)
 * I will be using this knowledge graph to build hybrid search in coming days so keep watching this repo of my learning .
+* Today I was astonished reading the paper of alpaca, revealing secret recipe for preparing datasets to finetune instructions following model i.e LLama7B to get some models like text-davinci-003 under very low cost i.e Alpaca Model.
+* Simply , The Llama7B was finetuned by 52k instructions supervised data that was generated using text davinci 003 by providing 175 sample of supervised instructions dataset by human and after finetuning alpaca model was obtained which was very small in size to text davinci 003 but the performance was almost near to it even better in some case.
+* So this research showed the way to **obtain high quality instructions following model** generated using **high quality pretrained model i.e LLama model** and **using high quality instruction following data i.e using existing languge model to automatically generate instruction data**
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ce3ace32780018d252077889e2c80269ee266758/images/day%20187_alpaca.png)
+* [link to paper](https://crfm.stanford.edu/2023/03/13/alpaca.html)
