@@ -1847,7 +1847,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c3db3cc2c9bfbed95d75f3bff25b66ccbab39927/images/day185%20MapReduceDocumentsChain.png)
 * For better understanding of MapReduceDocumentsChain() check below image and code snippet.
 * Note : I personally find MapReduceDocumentsChain() very useful in case of preparing graph database and at end I got summarise relation enrich data from 77k length documents to 3k length documents capturing all semantic relationships.
-# Day185
+# Day186
 * Today I concluded my session of creating knowledge graph from text data using ne04j by using spacy for extracting entities and relationships usign llm. so overall steps for creating knowledge graph that I followed was :
     * First creating Summaries of text data or anyother data that is capturing all essence of data without losing relationships between entities
     * Second extracting entities and relationship using spacy LLM pipeline using spacy pipeline for relationships extraction
