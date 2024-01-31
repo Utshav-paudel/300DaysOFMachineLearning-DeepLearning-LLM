@@ -1865,3 +1865,18 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * So this research showed the way to **obtain high quality instructions following model** generated using **high quality pretrained model i.e LLama model** and **using high quality instruction following data i.e using existing languge model to automatically generate instruction data**
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/ce3ace32780018d252077889e2c80269ee266758/images/day%20187_alpaca.png)
 * [link to paper](https://crfm.stanford.edu/2023/03/13/alpaca.html)
+# Day188
+* Today I dive deep into reading research paper named **WizardLM: Empowering Large Language Models to Follow Complex Instructions** where I get to know about evol instructions. Below is the summary of what I learn , you can enjoy this summary in just few mins
+* Training LLM on closed domain instructions i.e specific type of instructions resulted in  two drawbacks :
+                * 1. No diversity, common instructions
+                * 2. Instructions only ask for one tasks wherase in reallife human instructions have muliple tasks.
+  * So to avoid this LLM like openai where trained on opend domain specific task using human annotators which was a bit time consuming and expensive and the instruction where skewed towards easy and medium type of instructions in comparison to complex instructions.
+  * So here comes the hero **evol_instruct** which is a novel technique to automate instructions generation using LLM which generate more balanced open domain instructions of various diffculty level to improve performance of LLMs.
+  # How it generates instuctions.
+  * It generates instuctions in two ways by depth evolving and breadth evolving .
+     * In depth evolving complex instructions where generate by adding constraints, deepening, concretizing, increasing reasoning steps and complicate inputs
+     * In breadth evolving new complex instructions wherer generate to give diversifications
+    ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/528f9b138eb3a2904301bb7a691c4dbd9a50b9fa/images/day187%20evol_instructions_running.png)
+ # Results of evol instructions.
+ * Instructions generate with evol-instructs where superior to human generate ones and WizardLM trained using evol-instruct outperform chatgpt under complex test instuctions.
+📚 Resources : [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
