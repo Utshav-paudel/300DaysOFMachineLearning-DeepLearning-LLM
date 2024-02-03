@@ -1893,4 +1893,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * 📚 Resources : [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
 
 # Day190
-* Today I spended my time learning to create Instructions dataset using weight & biases to fine tune LLM , where I found out that weight & biases provides a great visulazation of model training and its evaluations.
+* Today I spended my time learning to create Instructions dataset to fine tune LLM , where I found out that weight & biases provides a great visulazation of model training and its evaluations . Also weight and biases is great platform to observed or analyze your data.
+* Also while preparing data I learned about Packing where token id is putted together equals to max lenght of llm model which make model finetuning more memory efficients.
+* Completed reading the wizardLM whose main theme is use LLM to create complex instructions datasets which is more balance and superior to human created one because of time and skewness of human create data towards the simpler one.
+* Below is the sample code snippet of preparing datasets and using wandb.log to observe datasets. I will be finetuning LLama model in coming days I hope you have good time reading this.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0e7ec955a9e0898fcae2a95f77e95aaf14a09c12/images/day190.png)
