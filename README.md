@@ -1892,3 +1892,5 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 
 * 📚 Resources : [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244)
 
+# Day190
+* Today I spended my time learning to create Instructions dataset using weight & biases to fine tune LLM , where I found out that weight & biases provides a great visulazation of model training and its evaluations.
