@@ -1898,3 +1898,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Completed reading the wizardLM whose main theme is use LLM to create complex instructions datasets which is more balance and superior to human created one because of time and skewness of human create data towards the simpler one.
 * Below is the sample code snippet of preparing datasets and using wandb.log to observe datasets. I will be finetuning LLama model in coming days I hope you have good time reading this.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0e7ec955a9e0898fcae2a95f77e95aaf14a09c12/images/day190.png)
+
+# Day191
+* Today I dive deep into implementing packing instead of padding , also used weight&biases for saving packed data and I was happy with features provided by wandb  like data version control and provding api to your dataset, packing generally add next sequence once the current sequence is finished to fill the window size instead of adding unvaluable padding tokens which generally reduces the computation and make finetuning more efficient as the number of sequence will be reduced also implemented packing.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0bfb08d0f3e6d9a783462bf3ca2fa4cc20cbd9b7/images/day191%20packing_instead_of_padding.png)
+* **Packing** : Packing is a technique  for LLM inputs  to concatenate multiple tokenized sequences together into a single input, which we can call a ‘pack’. It eliminates padding which donot contribute to langugage understanding
+* Below is the code snippet where I have implemented packing into alpaca datasets and saved them to weight and biases artifact.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0bfb08d0f3e6d9a783462bf3ca2fa4cc20cbd9b7/images/day191%20packing_and_saving_dataset_to_wandb.png)
