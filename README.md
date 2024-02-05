@@ -1906,3 +1906,14 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet where I have implemented packing into alpaca datasets and saved them to weight and biases artifact.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/0bfb08d0f3e6d9a783462bf3ca2fa4cc20cbd9b7/images/day191%20packing_and_saving_dataset_to_wandb.png)
 * 📚 Resources [How to finetune LLM part 1](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-1-Preparing-a-Dataset-for-Instruction-Tuning--Vmlldzo1NTcxNzE2)
+# Day192
+* Today I dive deep into understanding different concepts of decreasing memory while finetuning LLM models like freezing layers, freezing embeddings, gradient checkpointing and implemented them in code for finetuning Llama7B model.
+* If you are also interested in optimizing memory while finetuning LLM you can read following topics.
+* **Freezing layers to save memory**  : Transformer based LLM like LLama2 are stack of identical 32 layered model so if you cannot fit whole model in GPU you can train last layer like 8 last layer which is responsible for predicitions.
+* **LoRA** : Also you can train whole model using efficient parameter finetuning technique like LoRA.
+* **Freezing embeddings** : Freezing embeddings can also decrease memory usage.
+* **gradient checkpointing** : Gradient checkpointing recalculates activations of certain layers during backward pass to save some memory taking addtional computational time.
+* **Automatic mixed precision**  : float16 or bfloat16 makes model training faster since the model are trained on half precisons.
+* Below is the code snippets where I implemented above techniques like gradient checkpointing, freezing embeddings and model layers to make finetuning possible in GPU efficient way.
+  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6d0581e4a44b805be85710fea37d8a80189caa67/images/day192%20optimizing_memory_for_finetuning_llm.png)
+* 📚 Resources [How to finetune LLM part 2](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-2-Instruction-Tuning-Llama-2--Vmlldzo1NjY0MjE1#downloading-the-preprocessed-dataset-from-w&b)
