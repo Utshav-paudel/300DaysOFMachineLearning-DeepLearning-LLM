@@ -1917,3 +1917,11 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippets where I implemented above techniques like gradient checkpointing, freezing embeddings and model layers to make finetuning possible in GPU efficient way.
   ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/6d0581e4a44b805be85710fea37d8a80189caa67/images/day192%20optimizing_memory_for_finetuning_llm.png)
 * 📚 Resources [How to finetune LLM part 2](https://wandb.ai/capecape/alpaca_ft/reports/How-to-Fine-Tune-an-LLM-Part-2-Instruction-Tuning-Llama-2--Vmlldzo1NjY0MjE1#downloading-the-preprocessed-dataset-from-w&b)
+# Day193 
+* Today I dive deep into understanding QLORA which allows efficient finetuning of LLM model while preserving performance. It made possible training even 20B LLM in google colab. Also I breaked down the steps of using qlora using Parameter Efficient Finetuning (PEFT).
+* 1. Use Bits and bytes to quantize your model into 4bit.
+* 2. Apply gradientcheckpointing and prepare k bit training to your model.
+* 3. Setup Loraconfig and use get_peft_model to get your parameter efficient finetuned model.
+* 4. Now your model is ready to be finetuned on efficient memory usage.
+* Below is the code snippet of finetuning LLM model using QLORA hope you have some good time finetuning your LLM model in your available setup made possible by QLORA.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/2d3238316fe84baac6b05bad81f1c234997cb514/images/day193%20peft.png)
