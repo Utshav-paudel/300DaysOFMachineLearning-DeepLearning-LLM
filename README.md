@@ -1925,3 +1925,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * 4. Now your model is ready to be finetuned on efficient memory usage.
 * Below is the code snippet of finetuning LLM model using QLORA hope you have some good time finetuning your LLM model in your available setup made possible by QLORA.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/2d3238316fe84baac6b05bad81f1c234997cb514/images/day193%20peft.png)
+# Day194
+* Today I connected things that I learned previously like quantizing LLM model to 4 bit and using LORA to finetune whole model with peft, so I finetuned Llama2 7B on google colab which was awesome for me.
+* Also I used hugging face training args and trainer to make training more simple and efficient. Below is the code snippet of finetuning LLama2 7B on alpaca datasets.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9dc93cb73e27d9cb640d9bbfe08a7fc08ec9f006/images/day194%20finetuning_llama2.png)
