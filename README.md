@@ -1929,3 +1929,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I connected things that I learned previously like quantizing LLM model to 4 bit and using LORA to finetune whole model with peft, so I finetuned Llama2 7B on google colab which was awesome for me.
 * Also I used hugging face training args and trainer to make training more simple and efficient. Below is the code snippet of finetuning LLama2 7B on alpaca datasets.
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/9dc93cb73e27d9cb640d9bbfe08a7fc08ec9f006/images/day194%20finetuning_llama2.png)
+# Day195
+* Today I learned more on chat template , using different format than the format on which chat model is trained on is the silent performance degradation so making sure the correct format is used is necessary for better performance which is where chat template comes in.
+* **Chat Template** : Chat templates are Jinja template strings that are saved and loaded with your tokenizer, and that contain all the information needed to turn a list of chat messages into a correctly formatted input for your model.
+* Below is some chat template format to use :
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/33d88463dd30cf4fcde7e0a472cbeb67cd636432/images/day195.png)
