@@ -1934,3 +1934,17 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * **Chat Template** : Chat templates are Jinja template strings that are saved and loaded with your tokenizer, and that contain all the information needed to turn a list of chat messages into a correctly formatted input for your model.
 * Below is some chat template format to use :
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/33d88463dd30cf4fcde7e0a472cbeb67cd636432/images/day195.png)
+# Day196 
+* Today I learned about interesting topics to handle the edge case while building RAG systems i.e maximal marginal relevance (MMR)
+* MMR selects examples based on a combination of which examples are most similar to the inputs, while also optimizing for diversity. It first select the most similar one then penalizes other similar case to create diversity.
+* Below is the sample example of mmr hope you gain some insight from it.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/c6cdf01e66ec39ea1444484e01ac720c84f6858b/images/day196%20mmr.png)
+
+# Day197 
+* Today I wrapped a project by Deeplearning AI i.e Langchain with your data where I revised my concepts of langchain and got to know some valuable edge case handling techniques like :
+### Some edge cases and their handling in langchain
+* Avoiding duplicated response and adding diversity to response using Maximal Relevance Retrieval.
+* Getting response only from the data specified by user using metadata and SelfQueryRetriever.
+* Contextual compression for getting better responses by shirnking the context to relevant compressed data.
+* Getting response to follow up question using memory.
+* 📚 Resources : [Langchain with your data](https://www.coursera.org/projects/langchain-chat-with-your-data-project?utm_source=ln&utm_source=mobile&utm_medium=page_share&utm_content=lih&utm_campaign=card_button)
