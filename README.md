@@ -1948,3 +1948,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Contextual compression for getting better responses by shirnking the context to relevant compressed data.
 * Getting response to follow up question using memory.
 * 📚 Resources : [Langchain with your data](https://www.coursera.org/projects/langchain-chat-with-your-data-project?utm_source=ln&utm_source=mobile&utm_medium=page_share&utm_content=lih&utm_campaign=card_button)
+# Day198 
+* Today I learned about running LLM locally using LM studio which is UI based application that allows to run LLM locally on your pc . It is quite handy and easy to use.
+* I downloaded and use phi-2 a 3B Small language model with 2 bit quantization which was decent with simple tasks.
+* Also using LM studio you can check the performance of your finetuned LLM very easily.
+* Below is the snippet of comparing phi-2 2bit vs 4bit where 4bit done well but 2 bit perform badly where resources wise 2bit was efficient as expected
+* 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
+
