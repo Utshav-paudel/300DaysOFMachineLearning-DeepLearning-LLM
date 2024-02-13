@@ -1954,4 +1954,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Also using LM studio you can check the performance of your finetuned LLM very easily.
 * Below is the snippet of comparing phi-2 2bit vs 4bit where 4bit done well but 2 bit perform badly where resources wise 2bit was efficient as expected
 * 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
-
+# Day199 
+* Today I worked on developing a full cost free local document Question Answering bot where I used hugging face embeddings and Llamacpp , After that I created a rag chain to answer from my documents at last a proper local data QA bot was developed.
+* Below is the code snippet for developing your own local QA bot free of cost.
+* I will be working to make it more robust in coming days.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/74d56c67aa72a33bab0c0da7d3aa114373b52688/images/day199%20document_reader_llm_local.png)
