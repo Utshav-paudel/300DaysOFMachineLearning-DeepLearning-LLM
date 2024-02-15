@@ -1959,6 +1959,14 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet for developing your own local QA bot free of cost.
 * I will be working to make it more robust in coming days.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/74d56c67aa72a33bab0c0da7d3aa114373b52688/images/day199%20document_reader_llm_local.png)
+# Day200
+* Today I wrapped up my local document bot that can read local files and give reply to the query from documents. Thanks to Mitko Vasilev for inspiring to use local models and it feel great to own you local LLM.
+* I used opens source model phi2 3b with llama cpp python to run locally
+* I used hugging face embeddings
+* Also use langchain directory loaders to load files.
+* Below is the code and sample of Docbot I developed I will be making it conversable in coming days.
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/25ed5d4f7d6e495dda9ab33e7e2a9d8ef42ca78a/images/day%20200_local_docsbot.png)
+* [Docsbot](https://lnkd.in/dPsfHSjU)
 # Day201
 * Today I started reading and implementing Large Language Models finetuning from Maxime Labonne blogs where I learned about difference between Supervised Fine Tuning(SFT) and RLHF(Reinforcement Learning from Human Feedback) by use:
 
