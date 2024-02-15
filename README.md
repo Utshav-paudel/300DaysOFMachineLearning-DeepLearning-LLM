@@ -1959,3 +1959,15 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet for developing your own local QA bot free of cost.
 * I will be working to make it more robust in coming days.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/74d56c67aa72a33bab0c0da7d3aa114373b52688/images/day199%20document_reader_llm_local.png)
+# Day201
+* Today I started reading and implementing Large Language Models finetuning from Maxime Labonne blogs where I learned about difference between Supervised Fine Tuning(SFT) and RLHF(Reinforcement Learning from Human Feedback) by use:
+
+* **SFT** : Models are trained on labelled data and weight will be adjusted to  minimize the loss
+
+* **RLHF** : Model learn by recieving feedback from human, a reward model train on human prefrences is used to optmize agent's policy using reinforcement learning through algorithm Like PPO.
+
+* While SFT dataset with similar format to prompt brings greater results.
+
+* Below is the sample diagram showing how RLHF works
+* ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/48b989729f28a26fc0b3a9c634f542f8b59f1fc8/images/day201%20RLHF.png)
+* 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
