@@ -1979,3 +1979,15 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the sample diagram showing how RLHF works
 * ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/48b989729f28a26fc0b3a9c634f542f8b59f1fc8/images/day201%20RLHF.png)
 * 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
+# Day202
+* Today I dive deep into the Mistral7B where I learned about sliding window attention and its benefit over vanilla attention also started to prepare datasets for finetuning Mistral7B .
+* Sliding Window attention : It has fixed size window that slides instead of linearly increasing window size in vanilla which reduces computational power and lower latency in inference.
+* Rolling buffer cache in Mistral overwrites old token with new tokens when cache size is overtaken.
+#### Preparing datasets for finetuning tips.
+* Removing samples with larger token size accoriding to context size of model you are finetuning.
+* Removing similar output samples using embedding to measure similarity.
+* Sampling top k datasets with larger number of tokens
+* Having datasets in suitable template format of model you are training.
+#### Notebooks for preparing datasets
+[preparing datasets to finetune LLM](https://github.com/Utshav-paudel/Finetuning-Full-Cycle/blob/ec46779b121a68fe85b44262e5f6030172ccc939/Dataset_creation_for_finetuning.ipynb)
+* 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
