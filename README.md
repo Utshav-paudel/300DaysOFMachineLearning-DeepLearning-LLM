@@ -1991,3 +1991,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 #### Notebooks for preparing datasets
 [preparing datasets to finetune LLM](https://github.com/Utshav-paudel/Finetuning-Full-Cycle/blob/ec46779b121a68fe85b44262e5f6030172ccc939/Dataset_creation_for_finetuning.ipynb)
 * 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
+* # Day203
+* Today I dive deep into finetuning Mistral7B on the 1k dataset that I prepared .  I simply finetuned Mistral7b model on google colab by quantizing model to 4 bit and Using Lora, PEFT and SFT trainer . AT last merge the base model and finetuned model and pushed the finetuned model to hugging face hub.
+* 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
