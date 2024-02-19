@@ -1996,3 +1996,10 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Below is the code snippet of merging LoRA with the base model using peft library
  ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/a9fcda3fea1674296c1723568eef74bd7d93e19f/images/day203%20mergingmodel.png)
 * 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
+# Day204
+* Today I published Mistral 7B after finetuning it on gucano 1k dataset in google colab where I used 4bit quantization precision and was able to fine tune the model using 13.1 GB of gpu for 1hr and 36 min. 
+* I have also published the notebook of finetuning Mistral 7b you can checkout 
+[Finetuning Mistral 7b](https://github.com/Utshav-paudel/Finetuning-Full-Cycle)
+* I have also published the finetuned model on hugging face you can check.
+[Finetuned Mistral 7B model](https://huggingface.co/Utshav/Mistral-7B-v-0.2-guanaco)
+* 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
