@@ -2003,3 +2003,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * I have also published the finetuned model on hugging face you can check.
 [Finetuned Mistral 7B model](https://huggingface.co/Utshav/Mistral-7B-v-0.2-guanaco)
 * 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
+# Day205
+* Today I wrapped up my finetuning session of Mistral 7B on google colab by merging Lora wieghts with base models and final model was published to hugging face.
+* Check out all details of models and notebooks on this repository - > [Finetuning Mistral7B](https://github.com/Utshav-paudel/Finetuning-Mistral7B-on-google-colab/blob/1e62325b44ed89c63b0e219d32bd1eabebaaa3a4/Merging_model_weights.ipynb)
+* 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
