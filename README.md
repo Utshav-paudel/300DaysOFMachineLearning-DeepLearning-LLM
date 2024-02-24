@@ -7,6 +7,7 @@
 | 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)|  ✔️  |
 | 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✔️ |
 | 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✔️  |
+| 7.[**LLM course**](https://github.com/mlabonne/llm-course/tree/main)| 🏊 |
 
 | Projects Completed |
 | ----------------- |
@@ -26,6 +27,7 @@
 | 14.[**Langchain : YouTube Assistant**](https://github.com/Utshav-paudel/YouTube-assistant-langchain)|
 | 15.[**Mistarl7B-Question-Answer-on-your-data**](https://github.com/Utshav-paudel/Mistarl7B-Question-Answer-on-your-data)|
 | 16.[**Company_recommender_LLM**](https://github.com/Utshav-paudel/Company_recommender_LLM)|
+| 17.[**Local LLM : DocBot**](https://github.com/Utshav-paudel/Company_recommender_LLM)|
 
 
 # Day1 
