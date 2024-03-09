@@ -31,6 +31,18 @@
 | 17.[**Local LLM : DocBot**](https://github.com/Utshav-paudel/Company_recommender_LLM)|
 | 18.[**Fine Tuning Mistral7B on google colab**](https://github.com/Utshav-paudel/Finetuning-Mistral7B-on-google-colab) |
 
+| **Days** | **Topics Covered** | **Resources** |
+|--------- | ------------------ | ------------- |
+| Day1 | Superviesed learning, regression, classification | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day2 | Univariate Linear regression, Cost function | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day3 | Gradient descent | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day4 | Learning rate | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day5 | Multiple linear regression, Vectorization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day6 | Feature scaling, Choosing correct learning rate | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day7 | Feature engineering, Polynomial regression | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day8 | Classification, Logistic regression | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day9 | Sigmoid function, Decision boundary | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day10 | Gradient descent in Logistic regression, Cost function in Logistic regression | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 
 
 # Day1 
