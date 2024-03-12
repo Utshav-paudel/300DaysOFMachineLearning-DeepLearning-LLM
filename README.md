@@ -46,6 +46,7 @@
 | Day11 | [**Gradient descent in logistic regression Implementation**](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/aecd0846a7e0f80efa23131e0eed695715df4c09/code/day11%20gradient%20descent.ipynb) | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | |
 | Day12 | Underfitting,Overfitting, Addressing overfitting, [**Plotting overfitting**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/82251c369534b9dd1fa500b5e7c39ac8baeb0015/code/day12%20overfitting%20example.ipynb),[**Regularization implementation**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/82bf8ece95114cc3d2b597749553a888514942da/code/day13%20regularization%20in%20linear%20regression%20and%20logistic%20regression.ipynb) | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day13 | Neural Network Introduction , Why neural network? | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day14 | Neural Network notation, forward propagation, [**Neuron Layer implementation**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/f355d3a41ea555a8183799abadabff766fab088f/code/day14%20neuron%20and%20layer.ipynb)| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
