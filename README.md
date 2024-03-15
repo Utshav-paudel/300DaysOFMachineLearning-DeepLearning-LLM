@@ -51,6 +51,8 @@
 | Day16 | Vectorization in Neural Network , [**Neural network of Handwritten Binary Digit Classification**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/13c7fdd68ca420478aedbffee1d1f3ee2dba9bdf/code/day16%20handwritten%20digit%20recognition%20neural%20network.ipynb)| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day17 | Model Training Steps, Activation Function , [**Implementation of ReLU**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/87630d03f23299852372e56f49b5c4f5be8789c9/code/day17%20ReLU%20activation.ipynb)  |[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day18 | Multi Class classification, soft max regression, cost for softmax regression | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day19 | Improved Implementation of softmax/logistic regression in neural network,multilabel classification, Advanced optimization, Additional layer types | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day20 | Backpropagation[**Implementation of Backpropagation**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/32905b341938026ab9db9af034a4e664f664e5c5/code/day20%20backward%20propagation.ipynb), Debugging a learning algorithm, Model selection and Machine learning diagnostic | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
