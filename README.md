@@ -31,6 +31,8 @@
 | 17.[**Local LLM : DocBot**](https://github.com/Utshav-paudel/Company_recommender_LLM)|
 | 18.[**Fine Tuning Mistral7B on google colab**](https://github.com/Utshav-paudel/Finetuning-Mistral7B-on-google-colab) |
 
+
+# Topics Learned in each day
 | **Days** | **Topics Covered** | **Resources** |
 |--------- | ------------------ | ------------- |
 | Day1 | Superviesed learning, regression, classification | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
