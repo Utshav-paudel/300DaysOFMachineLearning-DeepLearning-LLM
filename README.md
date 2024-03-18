@@ -58,6 +58,7 @@
 | Day21 | Bias/Variance , choosing regularization parameter | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day22 | Diagonising Bias and Variance ,[**Labs on Diagonising Bias and Variance**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/123ae0650d91421c315b670aed72f4c7ec9c659b/code/Day22%20diagonising%20bias%20and%20variance.ipynb) , Choosing regularization parameter | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day23 | Iterative loop of ML Development, Error analysis, Transfer Learning | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day24 | Full cycle of Machine learning projects,Precison and Recall , Trading off precison and recall , [**Lab on Full Machine Learning Cycle**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/dfe65718b2b6c3b14e6fcf8c1e654b64afd4a713/code/day24%20summary%20of%20advanced%20learning%20algorithm.ipynb)| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
