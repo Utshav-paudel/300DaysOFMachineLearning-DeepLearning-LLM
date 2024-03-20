@@ -2,12 +2,12 @@
 ![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 | Books and Resources | Status of Completion |
 | ----- | -----|
-| 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✔️ |
-| 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| 🏊 |
-| 3.[**Intro to DeepLearning**](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✔️ |
-| 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)|  ✔️  |
-| 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✔️ |
-| 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✔️  |
+| 1. [**Machine Learning Specialization**](https://www.coursera.org/specializations/machine-learning-introduction?page=1) | ✅ |
+| 2.[**Hands-On Machine Learning with Scikit-Learn and TensorFlow**](https://github.com/ageron/handson-ml3)| ✅ |
+| 3.[**Intro to DeepLearning**](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI) | ✅ |
+| 4.[**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)|  ✅  |
+| 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✅ |
+| 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✅  |
 | 7.[**LLM course**](https://github.com/mlabonne/llm-course/tree/main)| 🏊 |
 
 | Projects Completed |
