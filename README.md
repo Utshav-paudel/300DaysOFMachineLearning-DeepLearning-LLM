@@ -62,6 +62,9 @@
 | Day25 | Decision Tree, Decision Tree Learning| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day26 | Measuring Impurity, Information Gain, Decision Tree Learning, Recursive Splitting| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day27 | One hot encoding, Splitting for continous variable, [**Regression Tree**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/61a61fb8b16300dbe9cd84a5196a99f0def98ce3/code/day27%20decision%20tree.ipynb)| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day28 | Tree ensemble , Random Forest Algorithm, XG boost, when to use decision tree | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day29 | Unsupervised Learning, K means clustering Algorithm, cost function for k means clustering,[**Labs on K means Clustering**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning/blob/4957fca69c2b4e65b1964620f40eacf8895fb293/code/day29%20k%20means%20clustering.ipynb)| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| Day30 | Anamoly detection, Anamoly detection vs supervised Learning use case| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1)|
 
 
 # Day1 
