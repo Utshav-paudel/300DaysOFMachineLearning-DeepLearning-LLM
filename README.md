@@ -75,6 +75,12 @@
 | Day38 | Building a Book Recommender System using Collaborative Filtering | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day39 | **California Housing Price Prediction** : Batch learning vs online learning, Cost for Linear regression (RMSE and MAE) usecase,fetching and loading of data with EDA  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day40 | **California Housing Price Prediction** (Continued) : Created test data , and splitted data on the basis of train-test-split and also with stratifcation split to remove imbalance in data and create same proportion. | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day41 | **California Housing Price Prediction** (Continued) : data visualization, EDA | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day42 | **California Housing Price Prediction** (Continued) : feature engineering, using simple imputer, handling categorical data by encoding | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
+| Day43 | **California Housing Price Prediction** (Continued) : Data preprocessing pipeling development | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day44 | **California Housing Price Prediction** (Continued) : Selection, training and evaluation of model | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 # Day1 
 ### 1. Supervised learning
