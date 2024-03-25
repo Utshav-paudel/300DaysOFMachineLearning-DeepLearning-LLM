@@ -80,7 +80,7 @@
 | Day43 | **California Housing Price Prediction** (Continued) : Data preprocessing pipeling development | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day44 | **California Housing Price Prediction** (Continued) : Selection, training and evaluation of model | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day45 | Binary Classification, measuring accuracy using Confusion matrix and ROC curve | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-
+| Day46 | Multiclass classification, Multilablel classification, Multioutput classification implementation | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 
 # Day1 
 ### 1. Supervised learning
