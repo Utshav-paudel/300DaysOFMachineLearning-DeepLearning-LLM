@@ -77,10 +77,12 @@
 | Day40 | **California Housing Price Prediction** (Continued) : Created test data , and splitted data on the basis of train-test-split and also with stratifcation split to remove imbalance in data and create same proportion. | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day41 | **California Housing Price Prediction** (Continued) : data visualization, EDA | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3)|
 | Day42 | **California Housing Price Prediction** (Continued) : feature engineering, using simple imputer, handling categorical data by encoding | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| Day43 | **California Housing Price Prediction** (Continued) : Data preprocessing pipeling development | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| Day44 | **California Housing Price Prediction** (Continued) : Selection, training and evaluation of model | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| Day45 | Binary Classification, measuring accuracy using Confusion matrix and ROC curve | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| Day46 | Multiclass classification, Multilablel classification, Multioutput classification implementation | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day43 | **California Housing Price Prediction** (Continued) :Feature Scaling and Bucket Binning | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day44 | **California Housing Price Prediction** (Continued) : Data preprocessing pipeling development | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day45 | **California Housing Price Prediction** (Continued) : Selection, training and evaluation of model | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day46 | Binary Classification, measuring accuracy using Confusion matrix and ROC curve | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day47 | Multiclass classification, Multilablel classification, Multioutput classification [**Classification Implementation**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/3e9027fd4ecb963912e9abcf29ae75487f8b4d06/code/Day47%20Classification%20day2.ipynb) | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day48 | Linear Regression, Gradient descent, Stochastic Gradient descent and SGD regressor, [**Implementation**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ad991fc189ea0625418925e8ec5285d3157e4461/code/day48%20training%20models.ipynb) | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 
 # Day1 
 ### 1. Supervised learning
