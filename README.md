@@ -85,6 +85,8 @@
 | Day48 | Linear Regression, Gradient descent, Stochastic Gradient descent and SGD regressor, [**Implementation**](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ad991fc189ea0625418925e8ec5285d3157e4461/code/day48%20training%20models.ipynb) | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day49 | Polynomial Regression, Learning curve, overfitting , underfitting and its solution| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day50 | Ridge Regression and its Implementation with SGD Regressor| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| Day51 | Lasso Regression, elastic net regression and early stopping | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
