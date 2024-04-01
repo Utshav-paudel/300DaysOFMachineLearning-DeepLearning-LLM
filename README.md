@@ -2066,3 +2066,12 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * Today I wrapped up my finetuning session of Mistral 7B on google colab by merging Lora wieghts with base models and final model was published to hugging face.
 * Check out all details of models and notebooks on this repository - > [Finetuning Mistral7B](https://github.com/Utshav-paudel/Finetuning-Mistral7B-on-google-colab/blob/1e62325b44ed89c63b0e219d32bd1eabebaaa3a4/Merging_model_weights.ipynb)
 * 📚Resources: [LLM course]( https://github.com/mlabonne/llm-course/tree/main)
+
+# Day206
+* Today I learned about the KV cache techniques in detail with implementation which is one of the ways for reducing inference time in LLM by reducing subsequent token generation time.
+* In simple words during token generation past key values is also returned with token id then the token id with past key values is passed to model as input which reduced redundant calculation of key values and include some concatenations only.
+
+* **Code** :
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ddd7476e2afab602ea45f2150c88a2512203b45e/images/day206_kvcache_codesnippet.png)
+* 😁 Check out the decrease in subsequent token generation time represented by yellow for KV cache.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ddd7476e2afab602ea45f2150c88a2512203b45e/images/day206_kvcache.png)
