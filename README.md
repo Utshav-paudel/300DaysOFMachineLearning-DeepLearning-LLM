@@ -9,6 +9,7 @@
 | 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✅ |
 | 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✅  |
 | 7.[**LLM course**](https://github.com/mlabonne/llm-course/tree/main)| 🏊 |
+| 8.[**Efficiently Serving LLMs**](https://learn.deeplearning.ai/courses/efficiently-serving-llms)) | 🏊 | 
 
 | Projects Completed |
 | ----------------- |
@@ -2075,3 +2076,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ddd7476e2afab602ea45f2150c88a2512203b45e/images/day206_kvcache_codesnippet.png)
 * 😁 Check out the decrease in subsequent token generation time represented by yellow for KV cache.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ddd7476e2afab602ea45f2150c88a2512203b45e/images/day206_kvcache.png)
+* 📚Resources : [Efficiently Serving LLMs](https://learn.deeplearning.ai/courses/efficiently-serving-llms)
