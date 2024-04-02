@@ -2077,3 +2077,9 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * 😁 Check out the decrease in subsequent token generation time represented by yellow for KV cache.
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/ddd7476e2afab602ea45f2150c88a2512203b45e/images/day206_kvcache.png)
 * 📚Resources : [Efficiently Serving LLMs](https://learn.deeplearning.ai/courses/efficiently-serving-llms)
+# Day207
+* Today I learned about Batching tokens in LLM for higher throughput in LLM inference.
+* **Batching** : Batching tokens result in higher throughput but also increase latency so a good tradeoff latency and throughput can be maintained by selecting optimal batch size.
+* 🥳Checkout the Plot of tradeoff between throughput and latency with respect to batch size and which batch size would you select ?
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/b021323f2fdb0029f715182ce158550453a04d3b/images/day207%20batching.png)
+* 📚Resources : [Efficiently Serving LLMs](https://learn.deeplearning.ai/courses/efficiently-serving-llms)
