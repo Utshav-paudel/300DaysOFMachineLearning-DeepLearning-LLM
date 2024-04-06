@@ -10,7 +10,7 @@
 | 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✅  |
 | 7.[**LLM course**](https://github.com/mlabonne/llm-course/tree/main)| 🏊 |
 | 8.[**Efficiently Serving LLMs**](https://learn.deeplearning.ai/courses/efficiently-serving-llms)) | 🏊 | 
-
+| 9.[**Langchain docs**](https://python.langchain.com/docs/get_started/introduction) | 🏊 |
 | Projects Completed |
 | ----------------- |
 | 1. [**Medical Insurance Price Prediction**](https://github.com/Utshav-paudel/Medical_Insurance_cost-Predictor) |
@@ -2084,6 +2084,8 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/b021323f2fdb0029f715182ce158550453a04d3b/images/day207%20batching.png)
 * 📚Resources : [Efficiently Serving LLMs](https://learn.deeplearning.ai/courses/efficiently-serving-llms)
 # Day208 
-* Today I learned about Continuous Batching which one of the method that has minimal latency and higher througput also spended some time reading about the composition in langchain like tool, toolkit and defining custom tools.
+* Today I learned about Continuous Batching which one of the method that has minimal latency and higher througput also spended some time reading about the composition in langchain like tool and customizing default tools.
 * **Continous Batching** : The core idea behind it is that continuous batching swap out requests from the batch that have completed generation for requests in the queue that are waiting to be processed.
 * Below is the implementation of my learning about tool, toolkit and defining custom tools.
+![](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/6dc6a193a7d49426d7a025f6b2ad2971eb996d0c/images/day208%20langchain_tools_customizing_tools.png)
+* 📚Resources : [Efficiently Serving LLMs](https://learn.deeplearning.ai/courses/efficiently-serving-llms)
