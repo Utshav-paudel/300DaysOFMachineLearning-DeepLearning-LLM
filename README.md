@@ -87,7 +87,7 @@
 | Day49 | Polynomial Regression, Learning curve, overfitting , underfitting and its solution| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day50 | Ridge Regression and its Implementation with SGD Regressor| [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | Day51 | Lasso Regression, elastic net regression and early stopping | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-
+| Day52 | Revision on logistic regression and softmax regression, logloss, Implementing logistic regression  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
