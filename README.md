@@ -11,6 +11,8 @@
 | 7.[**LLM course**](https://github.com/mlabonne/llm-course/tree/main)| 🏊 |
 | 8.[**Efficiently Serving LLMs**](https://learn.deeplearning.ai/courses/efficiently-serving-llms)) | 🏊 | 
 | 9.[**Langchain docs**](https://python.langchain.com/docs/get_started/introduction) | 🏊 |
+
+
 | Projects Completed |
 | ----------------- |
 | 1. [**Medical Insurance Price Prediction**](https://github.com/Utshav-paudel/Medical_Insurance_cost-Predictor) |
