@@ -40,9 +40,9 @@
 |--------- | ------------------ | ------------- |
 | [Day1](#Day1) | Superviesed learning, regression, classification | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | [Day2](#Day2) | Univariate Linear regression, Cost function | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
-| Day3 | Gradient descent | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
-| Day4 | Learning rate | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
-| Day5 | Multiple linear regression, Vectorization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day3](#Day3) | Gradient descent | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day4](#Day4) | Learning rate | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day5](#Day5) | Multiple linear regression, Vectorization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day6 | Feature scaling, Choosing correct learning rate | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day7 | Feature engineering, Polynomial regression | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day8 | Classification, Logistic regression | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
