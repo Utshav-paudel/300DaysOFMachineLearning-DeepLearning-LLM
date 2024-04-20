@@ -38,8 +38,8 @@
 # Topics Learned in each day
 | **Days** | **Topics Covered** | **Resources** |
 |--------- | ------------------ | ------------- |
-| (Day1)[#Day1] | Superviesed learning, regression, classification | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
-| Day2 | Univariate Linear regression, Cost function | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day1](#Day1) | Superviesed learning, regression, classification | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
+| [Day2](#Day2) | Univariate Linear regression, Cost function | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day3 | Gradient descent | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day4 | Learning rate | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
 | Day5 | Multiple linear regression, Vectorization | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction?page=1) |
