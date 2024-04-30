@@ -91,6 +91,8 @@
 | [Day51](#Day51) | Lasso Regression, elastic net regression and early stopping | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day52](#Day52) | Revision on logistic regression and softmax regression, logloss, Implementing logistic regression  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day53](#Day53) | SVM, kernel function and kernel trick | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day54](#Day53) | Polynomial kernel and RBF kernel | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 # Day1 
 ### 1. Supervised learning
 Learns from being given `right answers`.  
