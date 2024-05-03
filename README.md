@@ -33,6 +33,7 @@
 | 16.[**Company_recommender_LLM**](https://github.com/Utshav-paudel/Company_recommender_LLM)|
 | 17.[**Local LLM : DocBot**](https://github.com/Utshav-paudel/Docbot)|
 | 18.[**Fine Tuning Mistral7B on google colab**](https://github.com/Utshav-paudel/Finetuning-Mistral7B-on-google-colab) |
+| 19.[**Multiclass Image Classification: Inception V3**](https://github.com/Utshav-paudel/Multiclass-Image-Classification)|
 
 
 # Topics Learned in each day
