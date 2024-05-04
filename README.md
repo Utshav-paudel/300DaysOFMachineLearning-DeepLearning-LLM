@@ -93,6 +93,8 @@
 | [Day52](#Day52) | Revision on logistic regression and softmax regression, logloss, Implementing logistic regression  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day53](#Day53) | SVM, kernel function and kernel trick | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day54](#Day53) | Polynomial kernel and RBF kernel | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day55](#Day55) | Support Vector Machine and It classes | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 # Day1 
 ### 1. Supervised learning
