@@ -94,6 +94,8 @@
 | [Day53](#Day53) | SVM, kernel function and kernel trick | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day54](#Day53) | Polynomial kernel and RBF kernel | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day55](#Day55) | Support Vector Machine and It classes | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day56](#Day56) | Decision Tree and regularization in decision tree | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 
 # Day1 
