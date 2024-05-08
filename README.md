@@ -96,6 +96,9 @@
 | [Day55](#Day55) | Support Vector Machine and It classes | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day56](#Day56) | Decision Tree and regularization in decision tree | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day57](#Day57) | Implementation of Decision Tree  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day58](#Day58) | Decision Tree for regression | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day59](#Day59) | Ensemble Learning and Voting classifier  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 
 
