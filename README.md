@@ -99,6 +99,8 @@
 | [Day58](#Day58) | Decision Tree for regression | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day59](#Day59) | Ensemble Learning and Voting classifier  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day60](#Day60) | Bootstrap Aggregation  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day60](#Day60) | Random patches and random subspaces  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 
 
