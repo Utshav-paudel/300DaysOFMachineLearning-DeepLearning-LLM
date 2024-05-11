@@ -94,12 +94,12 @@
 | [Day53](#Day53) | SVM, kernel function and kernel trick | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day54](#Day53) | Polynomial kernel and RBF kernel | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day55](#Day55) | Support Vector Machine and It classes | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| [Day56](#Day56) | Decision Tree and regularization in decision tree | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| [Day57](#Day57) | Implementation of Decision Tree  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| [Day58](#Day58) | Decision Tree for regression | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| [Day59](#Day59) | Ensemble Learning and Voting classifier  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-| [Day60](#Day60) | Bootstrap Aggregation  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day56](#Day56) | Decision Tree and regularization in decision tree and its implementation | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day57](#Day57) | Decision Tree for regression , hyperparameter tuning and its implementation.  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day58](#Day58) | Ensemble Learning and Voting classifier | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day59](#Day59) | Bootstrap Aggregation  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day60](#Day60) | Random patches and random subspaces  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day61](#Day61) | Random Forest  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 
 
 
