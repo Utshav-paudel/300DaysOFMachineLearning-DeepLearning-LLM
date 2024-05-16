@@ -104,7 +104,7 @@
 | [Day63](#Day63) | History based gradient boosting and stacking  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day64](#Day64) | Dimensionality Reduction and PCA  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day65](#Day65) | Local Linear embeddings and K means  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-
+| [Day66](#Day66) | Supervised Learning in Neural Network | [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) |
 
 
 
