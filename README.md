@@ -106,6 +106,9 @@
 | [Day65](#Day65) | Local Linear embeddings and K means  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day66](#Day66) | Supervised Learning in Neural Network | [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) |
 | [Day67](#Day67) | Image Classifier using sequential API  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day67](#Day67) | Image Classifier using sequential API  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day68](#Day68) | Vectorization and Broadcasting in python  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 
 
