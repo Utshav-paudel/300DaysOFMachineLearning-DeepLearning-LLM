@@ -108,6 +108,8 @@
 | [Day67](#Day67) | Image Classifier using sequential API  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day68](#Day68) | Vectorization and Broadcasting in python  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day69](#Day69) | Deep Learning Api to create complex model  | [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day70](#Day70) | Perceptron as a binary classifier  | [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) |
+
 
 
 
