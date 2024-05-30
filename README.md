@@ -113,6 +113,8 @@
 | [Day72](#Day72) | RNNS, Encoding, Embeddings, Implementing simple RNN  | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)|
 | [Day73](#Day73) | Backpropagation through time, Gradient issues  | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s)|
 | [Day74](#Day74) | LSTM, self attention  | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+| [Day74](#Day74) | Convolution Neural Network(CNN)  | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+
 
 
 
