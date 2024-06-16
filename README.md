@@ -117,6 +117,8 @@
 | [Day76](#Day76) | Convolution Neural Network(CNN) Implementation and deeper understanding | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day77](#Day77) | Steps of CNN and deeper intuition | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day78](#Day78) | R-CNN | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+| [Day79](#Day79) | Bird species classification using CNN | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+
 
 
 
