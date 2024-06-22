@@ -120,6 +120,8 @@
 | [Day79](#Day79) | Bird species classification using CNN | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day80](#Day80) |  Generative Modeling, Auto encoder and Variational Auto encoders | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day81](#Day81) |  prior on latent distribution , Regualrization and normal prior , Reparametrization, Latent peturbation and entanglement | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+| [Day82](#Day82) |  Generative Adversarial Networsk (GANS)| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+
 
 
 
