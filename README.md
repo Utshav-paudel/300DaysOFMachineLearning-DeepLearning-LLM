@@ -123,6 +123,8 @@
 | [Day82](#Day82) |  Generative Adversarial Networsk (GANS)| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day83](#Day83) |  Challenges for robust deep learning, algorithmic bias,Class Imbalance, Class Imbalance solution| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day84](#Day84) |  Debiasing VAES and uncertainity| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+| [Day86](#Day86) |  Auto encoders| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
+
 
 
 
