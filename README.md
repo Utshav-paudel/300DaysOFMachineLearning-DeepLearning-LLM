@@ -125,7 +125,7 @@
 | [Day84](#Day84) |  Debiasing VAES and uncertainity| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day85](#Day85) | Auto encoders | [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day86](#Day86) |   Unsupervised retraining using stacked autoencoders and Tying Weights| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
-
+| [Day87](#Day87) |   Training autoencoders at a time,convolutional autoencoders, denoising autoencoder |  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 
 
 
