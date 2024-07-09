@@ -127,7 +127,7 @@
 | [Day86](#Day86) |   Unsupervised retraining using stacked autoencoders and Tying Weights| [Introduction to Deeplearning](https://youtu.be/QDX-1M5Nj7s))|
 | [Day87](#Day87) |   Training autoencoders at a time,convolutional autoencoders, denoising autoencoder |  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day88](#Day88) |   Sparsity autoencoders |  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
-
+| [Day89](#Day89) |    variable autoencoders and its implementation|  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 
 
 
