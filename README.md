@@ -128,6 +128,8 @@
 | [Day87](#Day87) |   Training autoencoders at a time,convolutional autoencoders, denoising autoencoder |  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day88](#Day88) |   Sparsity autoencoders |  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day89](#Day89) |    variable autoencoders and its implementation|  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+| [Day90](#Day90) |    GAN implementation|  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
+
 
 
 
