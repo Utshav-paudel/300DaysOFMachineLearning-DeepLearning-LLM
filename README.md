@@ -130,6 +130,7 @@
 | [Day89](#Day89) |    variable autoencoders and its implementation|  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day90](#Day90) |    GAN implementation|  [Hands-On Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml3) |
 | [Day91](#Day91) |     sigmoid function,sigmoid derivative, image to vector conversion, normalizing rows, softmax function, vectorization, L1 loss, L2 loss| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
+| [Day92](#Day92) |     shallow neural network and implemented logistic regression on neural network| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
 
 
 
