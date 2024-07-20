@@ -133,6 +133,7 @@
 | [Day92](#Day92) |     shallow neural network and implemented logistic regression on neural network| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
 | [Day93](#Day93) |   Optimization ,EWMA| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
 | [Day94](#Day94) |   SGD momentum,Nesterov Accelerated Gradient (NAG),Adaptive Gradient(ADaGrad)| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
+| [Day95](#Day95) |   Adam optimizer,RMSProp optimizer| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
 
 
 
