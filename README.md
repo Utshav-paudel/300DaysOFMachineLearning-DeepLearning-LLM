@@ -134,6 +134,9 @@
 | [Day93](#Day93) |   Optimization ,EWMA| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
 | [Day94](#Day94) |   SGD momentum,Nesterov Accelerated Gradient (NAG),Adaptive Gradient(ADaGrad)| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
 | [Day95](#Day95) |   Adam optimizer,RMSProp optimizer| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
+| [Day96](#Day96) |   Regularization of neural network ,L1 and L2 regularization , Dropout regularzation, data augementation , early stopping for reducing overfitting and orthogonalization| [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)|
+
+
 
 
 
