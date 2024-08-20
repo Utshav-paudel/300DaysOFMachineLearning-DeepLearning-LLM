@@ -1339,7 +1339,7 @@ Implementation of random and he initialization:
 * 📚Resources
 [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning?)
 # Day98
-* Today I learned about batch gradient descent,mini-batch gradient descnet and way of choosing mini batch size , bias correction , Hyperparameters and Hyperparamters tuning to find better result from the course Deeplearning initialization and also spended some time implementing regularization from assignment.
+* Today I learned about batch gradient descent,mini-batch gradient descent and way of choosing mini batch size , bias correction , Hyperparameters and Hyperparamters tuning to find better result from the course Deeplearning initialization and also spended some time implementing regularization from assignment.
 * **Mini-batch size** : When training set are too large to be train on one epochs mini batch gradient descent can be used and selecting batch-size depends upon the computational capcity of gpu/cpu. It should not be too large and too small , It is choosen as :
    * If small training set use Batch gd.
    * Typical mini-batch size are in 2^n depending on cpu and gpu size.
