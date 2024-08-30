@@ -1,4 +1,4 @@
-# 300 DAYS OF MACHINE LEARNING , DEEP LEARNING, NLP & Genrative AI
+# 300 DAYS OF MACHINE LEARNING , DEEP LEARNING, NLP & Genrative AI.
 ![machine learning image](https://github.com/Utshav-paudel/MachineLearning-DeepLearning/blob/5b5aa0e37fc4f1f2904987b7cd6bd018398c9f16/images/ml%20and%20dl.avif)
 
 | Books and Resources | Status of Completion |
