@@ -2182,3 +2182,4 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 #### 14 bytes per trainable parameter where trainable parameter is reduced with QLora
 ![Image of peft method](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/fd7069e6157383ef298a3bcd071a574fd20a45f0/images/day209%20lora.png)
 * 📚[Finetuning LLM on consumer hardware]( https://lnkd.in/dvUqaMHu)
+# Day210
