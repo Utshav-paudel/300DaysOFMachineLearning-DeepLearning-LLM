@@ -14,6 +14,7 @@
 | 9.[**Langchain docs**](https://python.langchain.com/docs/get_started/introduction) | 🏊 |
 
 
+
 | Projects Completed |
 | ----------------- |
 | 1. [**Medical Insurance Price Prediction**](https://github.com/Utshav-paudel/Medical_Insurance_cost-Predictor) |
