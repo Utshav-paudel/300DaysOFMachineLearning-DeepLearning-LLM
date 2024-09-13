@@ -2177,11 +2177,11 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 #### i.e 7b * 16 = 112 GB(excluding intermediate hidden states) which makes finetuning less accesible so here comes PEFT methods.
  * PEFT methods reduces the trainable parameters of models without degrading performance.
 ### While using QLORA with adam optimizer using a base model and mixed precision method mode, we need to allocate per parameter as :
-* ~0.5 bytes for the weight
-* 2 bytes for the gradient
+* ~0.5 bytes for the weights
+* 2 bytes for the gradients
 * 4 + 8 bytes for the Adam optimizer states
 #### 14 bytes per trainable parameter where trainable parameter is reduced with QLora
 ![Image of peft method](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/fd7069e6157383ef298a3bcd071a574fd20a45f0/images/day209%20lora.png)
 * 📚[Finetuning LLM on consumer hardware]( https://lnkd.in/dvUqaMHu)
 # Day210
-# Exam BREAK Coming soon
+# Exam BREAK will be back soon
