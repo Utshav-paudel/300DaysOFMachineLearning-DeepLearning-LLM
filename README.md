@@ -10,8 +10,8 @@
 | 5.[**LLM from Scratch**](https://youtu.be/UU1WVnMk4E8?si=2r58NpTIn-Z0Y_Z2)| ✅ |
 | 6.[**Hugging face Nlp course**](https://huggingface.co/learn/nlp-course)|  ✅  |
 | 7.[**LLM course**](https://github.com/mlabonne/llm-course/tree/main)| 🏊 |
-| 8.[**Efficiently Serving LLMs**](https://learn.deeplearning.ai/courses/efficiently-serving-llms) | 🏊 | 
-| 9.[**Langchain docs**](https://python.langchain.com/docs/get_started/introduction) | 🏊 |
+| 8.[**Efficiently Serving LLMs**](https://learn.deeplearning.ai/courses/efficiently-serving-llms) | ✅ | 
+| 9.[**Langchain docs**](https://python.langchain.com/docs/get_started/introduction) | ✅ |
 
 
 
