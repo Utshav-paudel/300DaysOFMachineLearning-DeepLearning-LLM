@@ -2184,7 +2184,7 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 ![Image of peft method](https://github.com/Utshav-paudel/300DaysOFMachineLearning-DeepLearning-LLM/blob/fd7069e6157383ef298a3bcd071a574fd20a45f0/images/day209%20lora.png)
 * 📚[Finetuning LLM on consumer hardware]( https://lnkd.in/dvUqaMHu)
 # Day210
-Today I dive deep into an interesting paper which I will be reading and implementing in coming days , the paper in general discuss about how machine learning model is used for stock prediction i.e using only quantitative side of stocks( number data) but in actual the stock price is heavily influenced by the recent trends events and different qualitative data (i.e non number data)
-The paper talked about introducing a new LLM agent architecture to analyze business news for discretionary investment insights(i.e judgement made for better investment) as pricing signals.
-This propose framework combines qualitative discretionary analysis and quantitative manual factors.
+* Today I dive deep into an interesting paper which I will be reading and implementing in coming days , the paper in general discuss about how machine learning model is used for stock prediction i.e using only quantitative side of stocks( number data) but in actual the stock price is heavily influenced by the recent trends events and different qualitative data (i.e non number data)
+* The paper talked about introducing a new LLM agent architecture to analyze business news for discretionary investment insights(i.e judgement made for better investment) as pricing signals.
+* This propose framework combines qualitative discretionary analysis and quantitative manual factors.
 * 📚[AAPM: Large Language Model Agent-based Asset Pricing Models](https://arxiv.org/pdf/2409.17266)
