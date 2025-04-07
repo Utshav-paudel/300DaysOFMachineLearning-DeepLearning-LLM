@@ -2188,3 +2188,6 @@ Alsoe learned about Macro precision , macro recall and F1 score which is calcula
 * The paper talked about introducing a new LLM agent architecture to analyze business news for discretionary investment insights(i.e judgement made for better investment) as pricing signals.
 * This propose framework combines qualitative discretionary analysis and quantitative manual factors.
 * 📚[AAPM: Large Language Model Agent-based Asset Pricing Models](https://arxiv.org/pdf/2409.17266)
+# Day211
+* Today I started learning about multiagents in this phase I would be focusing more on practical I approaches where I will be building,experementing,reading paper a lot and will be documenting it , I learned about the working of REact, how agent works and how we can use different levels of agents in hugging face like tool like simple processor, router, tool caller, Multistep agent.
+* 📚[Agetns Course](https://huggingface.co/learn/agents-course/unit1/what-are-agents)
