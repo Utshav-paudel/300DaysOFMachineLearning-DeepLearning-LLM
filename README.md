@@ -141,6 +141,13 @@
 
 
 
+# Phase II : Expermenting Learning and funnn
+# Topics Learned in each day
+| **Days** | **Topics Covered** | **Resources** |
+|--------- | ------------------ | ------------- |
+| [Day211](#Day211) | Multiagent soft start | [Agent Course](https://huggingface.co/learn/agents-course/unit1/what-are-agents)) |
+
+
 
 
 
