@@ -141,7 +141,7 @@
 
 
 
-# Phase II : Expermenting Learning and funnn
+# Phase II : Exprementing Learning and funnn
 # Topics Learned in each day
 | **Days** | **Topics Covered** | **Resources** |
 |--------- | ------------------ | ------------- |
